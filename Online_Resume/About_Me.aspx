@@ -63,20 +63,21 @@
             <h2>Competencies</h2>
             
             
-                <ul class="skills">
-                    <li class="skill_bar" style="width:60%; background-color:#FF5353">MICROSOFT EXCEL
+                 <ul class="skills">
+                    <li class="skill_bar1" style="width:60%; background-color:#FF5353">MICROSOFT EXCEL
                         <span class="skill_level">PRO </span>
                     </li>
-                    <li class="skill_bar" style="width:50%; background-color:#1CDCFF">HTML
+                    <li class="skill_bar2" style="width:50%; background-color:#1CDCFF">HTML
                         <span class="skill_level">SEMI-PRO</span>
                     </li>
-                    <li class="skill_bar" style="width:50%; background-color:#C799FF">CSS
+                    <li class="skill_bar3" style="width:50%; background-color:#C799FF">CSS
                         <span class="skill_level">SEMI-PRO</span>
                     </li>
-                    <li class="skill_bar" style="width:35%; background-color:#7CD14E">ASP.NET
+                    <li class="skill_bar4" style="width:35%; background-color:#7CD14E">ASP.NET
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                 </ul>
+           
            
             
            

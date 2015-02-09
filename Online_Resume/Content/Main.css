@@ -132,12 +132,13 @@ textarea {
 
  }
 
-li.skill_bar {
+.skills li {
     color: #F7F7F7;
     font: bold 12px/23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     margin-bottom: 2px;
     padding: 2px 10px;
     border-radius: 10px;
+
 }
 
 p{

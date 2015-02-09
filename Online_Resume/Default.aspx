@@ -65,7 +65,7 @@
 
 		  <div class="col-md-4">
               <a href="http://ilstu.edu"><img src="Pictures/Graduation.jpg" class="img-circle"/></a>
-			<h3>Graphic Designer</h3>
+			<h3>Logo Designer</h3>
 			<p>Expressing my creativity graphically</p>
 			<p><a href="#">See some of my designs</a></p>
 		  </div>
