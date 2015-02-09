@@ -157,7 +157,7 @@ ul.skills{
      height: 146px;
      width: 135px;
      margin-left: 40px;
-     border: solid 3px;
+     border: solid 3px lightgray;
 }
 
 .About_Me_Links {
@@ -165,7 +165,7 @@ ul.skills{
 }
 
 .About_Me_Links img:hover{
-    border-color: lightgray;
+    border-color: #00b0ff;
  
 }
 
@@ -210,3 +210,7 @@ img#grad_pic {
     padding-left:0px;
 }
 
+li a.active{
+    color: #00b0ff;
+    text-decoration: underline;
+}
