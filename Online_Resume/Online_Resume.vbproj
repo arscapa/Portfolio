@@ -283,6 +283,7 @@
     <Content Include="Content\Main.css" />
     <Content Include="Interests.aspx" />
     <Content Include="Pictures\2012_Champs.JPG" />
+    <Content Include="Pictures\Banner_Image6.png" />
     <Content Include="Pictures\check_mark2.png" />
     <Content Include="Pictures\DownTick1.png" />
     <Content Include="Pictures\Graduation.jpg" />
