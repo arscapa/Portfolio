@@ -1,4 +1,6 @@
-﻿var activelink = function () {
+﻿
+//programmatically adds active class to Active navigation page
+var activelink = function () {
     $('div.nav ul>li').click(function () {
       
 
@@ -7,6 +9,7 @@
 };
 
 
+// Zoom animation for about me image links on default page
 var AboutMeIMGAnimate = function () {
     $('div.About_Me_Links a img').mouseover(function () {
 
@@ -25,6 +28,9 @@ var AboutMeIMGAnimate = function () {
         })
     });
 }
+
+
+
 
 $(document).ready(activelink)
 $(document).ready(AboutMeIMGAnimate)

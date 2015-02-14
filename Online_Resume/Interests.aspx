@@ -22,7 +22,7 @@
 
          <div class="container">
 
-   
+   <div class="stocktwits">
    <div id="stocktwits-widget-news"></div>
 <div class="col-md-4">
 <script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
@@ -54,24 +54,99 @@
 
          </div>
              </div>
+             </div>
 
     <br />
              <br />
              <br />
+          
+
+
+
+            
+  
+     <h2>Automotive Restoration</h2>
+                  <!-- Image Carousel -->
+<div class="AutoResto">
+    
+                  <br />
+                  <br />
+
+                  <div id="AutoRestoCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#AutoRestoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#AutoRestoCarousel" data-slide-to="1"></li>
+    <li data-target="#AutoRestoCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <img src="Pictures/AutomotiveResto/1.JPG" />
+      <div class="carousel-caption">
+        <h3></h3>
+      </div>
+    </div>
+
+    <div class="item">
+        <img src="Pictures/AutomotiveResto/2.JPG" />
+      <div class="carousel-caption">
+        <h3></h3>
+      </div>
+    </div>
+
+       <div class="item">
+           <img src="Pictures/AutomotiveResto/3.JPG" />
+      <div class="carousel-caption">
+       <h3> </h3>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#AutoRestoCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#AutoRestoCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <br />
+             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day.</p>
+
+    </div>
+
+
+               
+        
+
+
+                
+
+
+<br />
+<br />
+
+
+
 
 
  <div class ="row">
      <div class="col-md-4">
          <img src="Pictures/2012_Champs.JPG" alt="2012 Champs- Pepsi Ice Center" class="img-thumbnail"/>
      <h3>Hockey</h3>
-         <p>I am an avid hockey fan and enjoy watching NHL and AHL games. I currently play on a number of Men's League Hockey Teams and I also referree games as well as coach </p>
+         <p>Avid hockey fan who enjoys watching NHL and AHL games. I currently play on a number of Men's League Hockey Teams and I also referree games as well as coach </p>
              </div>
      <div class="col-md-4">
          <img src="Pictures/JolietMX.jpg" alt="Motocross Picture" class="img-thumbnail" />
          <br />
          <br />
          <h3>Motocross</h3>
-<p>I have been riding motorcycles since the age of 14 and you can often find me riding at <a href="http://jolietmx.com" target="_blank">Joliet MX</a> in the summer. My father and I also take an annual trip to <a href="http://haspinacres.com" target="_blank">Haspin Acres</a> in Laurel, IN, which I highly recommend to anyone who's never been. Over 750 acres of wooded hills and trails!  </p>
+<p>I've been riding motorcycles since the age of 14 and you can often find me riding at <a href="http://jolietmx.com" target="_blank">Joliet MX</a> in the summer. I also take an annual trip to <a href="http://haspinacres.com" target="_blank">Haspin Acres</a> in Laurel, IN, which I highly recommend to anyone who's never been. Over 750 acres of wooded hills and trails!  </p>
      </div>
 
 
@@ -89,10 +164,21 @@
 
 
 
-</div>
 
 
-             </div>
+
+
+
+
+
+
+
+         </div>
+         </div>
+
+
+
+         
 
 
              

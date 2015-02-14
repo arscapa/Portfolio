@@ -232,3 +232,11 @@ li a.active{
     font-style: italic;
 }
 
+.AutoResto {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.stocktwits {
+    padding-left: 80px;
+}

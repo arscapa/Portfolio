@@ -14,7 +14,7 @@
     
     <div class="neighborhood-guides">
       <div class="container">
-        <h2> About this Website</h2>
+        <h1> About this Website</h1>
           
          <p>     
           I developed this website to have one central location where I can direct people to go in order to learn more about me and to showcase my web development skills. Building this website has been a blast
@@ -24,37 +24,7 @@
              <br />
           <br />
 
-          <div class = "container">
-              <div class = "col-md-4">
-                <div class = "thumbnail">
-                  <img src="http://goo.gl/0sX3jq"/>
-                    </div>
-                <div class = "thumbnail">
-                  <img src = "http://goo.gl/an2HXY"/>
-                    </div>     
-              </div>
-              <div class = "col-md-4">
-                <div class = "thumbnail">
-                  <img src="http://goo.gl/Av1pac"/>
-                    </div>
-                <div class = "thumbnail">
-                  <img src = "http://goo.gl/vw43v1"/>
-                    </div> 
-              </div>
-              <div class = "col-md-4">
-               <div class = "thumbnail">
-                  <img src = "http://goo.gl/0Kd7UO"/>
-                    </div> 
-              </div>
-
-          </div>
-            </div>
-        </div>
-   
-    
-    <div class="learn-more">
-	<div class="container">
-    <div class="About_Me_Links">
+ <div class="About_Me_Links">
 		<div class="row">
 	      <div class="col-md-4">
              <a href="http://ilstu.edu"><img src="Pictures/html_code.png" class="img-circle"/></a>
@@ -77,8 +47,16 @@
 			<p><a href="About_Me.aspx">Learn more about my Business background</a></p>
 		  </div>
 	    </div>
+            </div>
+        </div>
+        </div>
+   
+    
+    <div class="learn-more">
+	<div class="container">
+    
 	  </div>
-	</div>
+	
         </div>
         
 

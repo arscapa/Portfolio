@@ -283,6 +283,9 @@
     <Content Include="Content\Main.css" />
     <Content Include="Interests.aspx" />
     <Content Include="Pictures\2012_Champs.JPG" />
+    <Content Include="Pictures\AutomotiveResto\2.JPG" />
+    <Content Include="Pictures\AutomotiveResto\3.JPG" />
+    <Content Include="Pictures\AutomotiveResto\1.JPG" />
     <Content Include="Pictures\band.jpg" />
     <Content Include="Pictures\Banner_Image6.png" />
     <Content Include="Pictures\check_mark2.png" />
