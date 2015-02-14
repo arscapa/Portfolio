@@ -223,3 +223,12 @@ li a.active{
     color: #00b0ff;
     text-decoration: underline;
 }
+
+.img-thumbnail {
+    max-width: 80%;
+}
+
+.quote {
+    font-style: italic;
+}
+
