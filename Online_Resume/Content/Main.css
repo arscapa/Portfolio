@@ -89,7 +89,7 @@ textarea {
 
 .neighborhood-guides h2 {
     color: #393c3d;
-    font-size: 24px;
+   
 }
 
 .neighborhood-guides p {
@@ -233,10 +233,18 @@ li a.active{
 }
 
 .AutoResto {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .stocktwits {
     padding-left: 80px;
+}
+
+#Charger_Main {
+
+    width: 85%;
+    padding-left: 50px;
+    padding-bottom: 10px;
+
 }

@@ -9,7 +9,7 @@
       <p class="quote">"There is no end. There is no beginning. There is only the passion of life"</p>
       </div>
   
-     <div class="learn-more">
+     <div class="neighborhood-guides">
          <div class="container">
   <br />
 
@@ -66,18 +66,33 @@
             
   
      <h2>Automotive Restoration</h2>
-                  <!-- Image Carousel -->
+                
 <div class="AutoResto">
     
                   <br />
                   <br />
+    <map name="map">
 
-                  <div id="AutoRestoCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
+    </map>
+
+    <img src="Pictures/AutomotiveResto/74dodge.JPG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
+
+
+
+
+ <br />   
+             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. Click on a section of the car in the picture above to see some restoration pictures.</p>
+
+    <br />
+    <br />
+
+      <!-- Image Carousel -->
+      <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#AutoRestoCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#AutoRestoCarousel" data-slide-to="1"></li>
-    <li data-target="#AutoRestoCarousel" data-slide-to="2"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="1"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -106,17 +121,21 @@
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#AutoRestoCarousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#PaintBodyCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#AutoRestoCarousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#PaintBodyCarousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
-    <br />
-             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day.</p>
+    <p>Working on restoring my car spawned another interest in custom paint and body work and I soon began a number of other projects. Flip through the gallery above to see some of my work.</p>
+
+
+
+
+
 
     </div>
 
@@ -124,8 +143,10 @@
                
         
 
-
-                
+</div>
+         </div>
+         <div class="learn-more">
+               <div class="container">
 
 
 <br />
@@ -133,6 +154,8 @@
 
 
 
+<h2>Hobbies</h2>
+                   <br />
 
 
  <div class ="row">
@@ -174,8 +197,8 @@
 
 
          </div>
-         </div>
-
+     </div>
+      
 
 
          

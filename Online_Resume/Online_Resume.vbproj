@@ -240,6 +240,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Porfolio.aspx.designer.vb">
+      <DependentUpon>Porfolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Porfolio.aspx.vb">
+      <DependentUpon>Porfolio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
@@ -248,6 +255,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Startup.vb" />
+    <Compile Include="WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -269,6 +283,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="Porfolio.aspx" />
+    <Content Include="WebForm1.aspx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -283,13 +299,10 @@
     <Content Include="Content\Main.css" />
     <Content Include="Interests.aspx" />
     <Content Include="Pictures\2012_Champs.JPG" />
-    <Content Include="Pictures\AutomotiveResto\2.JPG" />
-    <Content Include="Pictures\AutomotiveResto\3.JPG" />
-    <Content Include="Pictures\AutomotiveResto\1.JPG" />
+    <Content Include="Pictures\AutomotiveResto\74dodge_2.JPG" />
+    <Content Include="Pictures\AutomotiveResto\74dodge.JPG" />
     <Content Include="Pictures\band.jpg" />
     <Content Include="Pictures\Banner_Image6.png" />
-    <Content Include="Pictures\check_mark2.png" />
-    <Content Include="Pictures\DownTick1.png" />
     <Content Include="Pictures\Graduation.jpg" />
     <Content Include="Pictures\html_code.png" />
     <Content Include="Pictures\ISU_Bird.jpg" />
@@ -297,9 +310,6 @@
     <Content Include="Pictures\PDF-Icon.png" />
     <Content Include="Pictures\wedding_reception.jpg" />
     <Content Include="Pictures\WordLogo.png" />
-    <Content Include="Pictures\Stock_UpTick1.png" />
-    <Content Include="Pictures\Stock_UpTick2.png" />
-    <Content Include="Pictures\Stock_UpTick3.png" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -356,6 +366,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Pictures\PaintBody\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

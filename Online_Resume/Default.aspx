@@ -18,7 +18,7 @@
           
          <p>     
           I developed this website to have one central location where I can direct people to go in order to learn more about me and to showcase my web development skills. Building this website has been a blast
-          and I personally utilize it to practice new skills learned! Within this site you can find more information about me, my education, past projects I've worked on, and information to get ahold of me. 
+          and I personally utilize it to practice new skills learned. Within this site you can find more information about me, my education, past projects I've worked on, and information to get ahold of me. 
              Have a look around! 
           </p>
              <br />
