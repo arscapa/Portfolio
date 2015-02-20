@@ -283,6 +283,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="Pictures\PaintBody\BeforeHondaXL175.JPG" />
+    <Content Include="Pictures\PaintBody\CandyRedXL175.JPG" />
+    <Content Include="Pictures\PaintBody\GhostFlame.JPG" />
+    <Content Include="Pictures\PaintBody\XL175_After.JPG" />
     <Content Include="Porfolio.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="My Project\Application.myapp">
@@ -366,7 +370,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Pictures\PaintBody\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

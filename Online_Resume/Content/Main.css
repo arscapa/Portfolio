@@ -163,8 +163,8 @@ ul.skills{
 }
 
 .About_Me_Links img{
-     height: 146px;
-     width: 135px;
+     height: 156px;
+     width: 145px;
      margin-left: 40px;
      border: solid 3px lightgray;
 }
@@ -247,4 +247,12 @@ li a.active{
     padding-left: 50px;
     padding-bottom: 10px;
 
+}
+
+.PaintandBody  {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:20px;
+    padding-bottom:20px;
 }

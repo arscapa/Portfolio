@@ -77,7 +77,8 @@
 
     <img src="Pictures/AutomotiveResto/74dodge.JPG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
 
-
+</div>
+            
 
 
  <br />   
@@ -85,6 +86,7 @@
 
     <br />
     <br />
+              <div class="PaintandBody">
 
       <!-- Image Carousel -->
       <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
@@ -93,33 +95,44 @@
     <li data-target="#PaintBodyCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#PaintBodyCarousel" data-slide-to="1"></li>
     <li data-target="#PaintBodyCarousel" data-slide-to="2"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="3"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="Pictures/AutomotiveResto/1.JPG" />
+        <img src="Pictures/PaintBody/BeforeHondaXL175.JPG" />
       <div class="carousel-caption">
-        <h3></h3>
-      </div>
-    </div>
-
+        <h3>'73 Honda XL175 Project Bike Before Paint</h3>
+   </div>
+        </div>
+          
     <div class="item">
-        <img src="Pictures/AutomotiveResto/2.JPG" />
+        <img src="Pictures/PaintBody/XL175_After.JPG" />
       <div class="carousel-caption">
-        <h3></h3>
-      </div>
-    </div>
+        <h3>After Paint</h3>
+  </div>
+        </div>
 
        <div class="item">
-           <img src="Pictures/AutomotiveResto/3.JPG" />
+           <img src="Pictures/PaintBody/CandyRedXL175.JPG" />
       <div class="carousel-caption">
-       <h3> </h3>
+       <h3>Candy Apple Red w/t Pearl Ghost Flames </h3>
+   </div>
+           </div>
+  
+
+   <div class="item">
+       <img src="Pictures/PaintBody/GhostFlame.JPG" />   
+      <div class="carousel-caption">
+       <h3>Ghost Flames </h3>
       </div>
     </div>
-    ...
-  </div>
+       
 
+  </div>
+  
   <!-- Controls -->
   <a class="left carousel-control" href="#PaintBodyCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -130,7 +143,13 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-    <p>Working on restoring my car spawned another interest in custom paint and body work and I soon began a number of other projects. Flip through the gallery above to see some of my work.</p>
+    </div>
+
+
+
+
+          <br />
+    <p>Working on cars spawned another interest in custom paint and body work and I soon began a number of other projects. Flip through the gallery above to see some of my work.</p>
 
 
 
@@ -144,7 +163,8 @@
         
 
 </div>
-         </div>
+        
+
          <div class="learn-more">
                <div class="container">
 
