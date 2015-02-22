@@ -72,17 +72,30 @@
                   <br />
                   <br />
     <map name="map">
-
+          <area shape ="circle" coords="492, 448, 100" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"  />
     </map>
 
     <img src="Pictures/AutomotiveResto/74dodge.JPG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
+
+     <a href="Pictures/AutomotiveResto/Suspension/1.JPG" rel="lightbox[Suspension]" data-title=" "><span id="span1"></span></a>
+    <a href="Pictures/AutomotiveResto/Suspension/2.JPG" rel="lightbox[Suspension]" data-title=" "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/3.JPG" rel="lightbox[Suspension]" data-title=" "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/4.JPG" rel="lightbox[Suspension]" data-title=" "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/5.JPG" rel="lightbox[Suspension]" data-title=" "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/6.JPG" rel="lightbox[Suspension]" data-title="New Ball Joint, Bushing Bar and Joint "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/7.JPG" rel="lightbox[Suspension]" data-title=" "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/8.JPG" rel="lightbox[Suspension]" data-title="New Ball Joints, Tie Rod Ends, & Hardware "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/9.JPG" rel="lightbox[Suspension]" data-title="New Shocks, Tie Rods, & Dust Covers Repainted "></a>
+
+   
+
 
 </div>
             
 
 
  <br />   
-             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. Click on a section of the car in the picture above to see some restoration pictures.</p>
+             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. <b>Click on a section of the car in the picture above</b> to see some restoration pictures.</p>
 
     <br />
     <br />
@@ -97,39 +110,84 @@
     <li data-target="#PaintBodyCarousel" data-slide-to="2"></li>
     <li data-target="#PaintBodyCarousel" data-slide-to="3"></li>
     <li data-target="#PaintBodyCarousel" data-slide-to="4"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="5"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="6"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="7"></li>
+    <li data-target="#PaintBodyCarousel" data-slide-to="8"></li>
+  
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="Pictures/PaintBody/BeforeHondaXL175.JPG" />
+       <a href="Pictures/PaintBody/BeforeHondaXL175.JPG" target="_blank"><img src="Pictures/PaintBody/BeforeHondaXL175.JPG" /></a>
       <div class="carousel-caption">
         <h3>'73 Honda XL175 Project Bike Before Paint</h3>
    </div>
         </div>
           
     <div class="item">
-        <img src="Pictures/PaintBody/XL175_After.JPG" />
+        <a href="Pictures/PaintBody/XL175_After.JPG" target="_blank"><img src="Pictures/PaintBody/XL175_After.JPG" /></a>
       <div class="carousel-caption">
         <h3>After Paint</h3>
   </div>
         </div>
 
        <div class="item">
-           <img src="Pictures/PaintBody/CandyRedXL175.JPG" />
+          <a href="Pictures/PaintBody/CandyRedXL175.JPG" target="_blank"> <img src="Pictures/PaintBody/CandyRedXL175.JPG" /></a>
       <div class="carousel-caption">
        <h3>Candy Apple Red w/t Pearl Ghost Flames </h3>
    </div>
            </div>
   
-
-   <div class="item">
-       <img src="Pictures/PaintBody/GhostFlame.JPG" />   
+       <div class="item">
+         <a href="Pictures/PaintBody/GhostFlame.JPG" target="_blank"> <img src="Pictures/PaintBody/GhostFlame.JPG" /></a>
       <div class="carousel-caption">
        <h3>Ghost Flames </h3>
+   </div>
+           </div>
+
+   <div class="item">
+      <a href="Pictures/PaintBody/pinstripingdesign.JPG" target="_blank"> <img src="Pictures/PaintBody/pinstripingdesign.JPG" /></a>
+      <div class="carousel-caption">
+       <h3>Pinstripe Design </h3>
       </div>
     </div>
+
+          <div class="item">
+        <a href="Pictures/PaintBody/tape.JPG" target="_blank"><img src="Pictures/PaintBody/tape.JPG" /></a>
+      <div class="carousel-caption">
+       <h3>Hood taped off for paint</h3>
+      </div>
+    </div>
+
+
+       <div class="item">
+       <a href="Pictures/PaintBody/hood.JPG" target="_blank"><img src="Pictures/PaintBody/hood.JPG" /></a>
+      <div class="carousel-caption">
+       <h3> </h3>
+      </div>
+    </div>
+
+
        
+       <div class="item">
+     <a href="Pictures/PaintBody/outline2.JPG" target="_blank"> <img src="Pictures/PaintBody/outline2.JPG" /></a>
+      <div class="carousel-caption">
+       <h3> </h3>
+      </div>
+    </div>
+
+
+        <div class="item">
+      <a href="Pictures/PaintBody/painting.JPG" target="_blank"><img src="Pictures/PaintBody/painting.JPG" /></a>
+      <div class="carousel-caption">
+       <h3> </h3>
+      </div>
+    </div>
+    
+
+
 
   </div>
   
