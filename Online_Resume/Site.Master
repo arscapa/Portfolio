@@ -44,7 +44,7 @@
 
         <ul class="pull-right">
           <li class="menu"><a href="About_Me.aspx">About </a></li>
-          <li class="menu"><a href="Porfolio.aspx">Porfolio</a></li>
+          <li class="menu"><a href="Portfolio.aspx">Porfolio</a></li>
           <li class="menu"><a href="Interests.aspx">Interests</a></li>
           <li class="menu"><a href="Contact.aspx">Contact</a></li>
         </ul>

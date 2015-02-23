@@ -12,5 +12,5 @@ Option Explicit On
 
 
 
-Partial Public Class Porfolio
+Partial Public Class Portfolio
 End Class

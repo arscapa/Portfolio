@@ -240,13 +240,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
-    <Compile Include="Porfolio.aspx.designer.vb">
-      <DependentUpon>Porfolio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Porfolio.aspx.vb">
-      <DependentUpon>Porfolio.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
@@ -255,11 +248,11 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Startup.vb" />
-    <Compile Include="WebForm1.aspx.designer.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Portfolio.aspx.designer.vb">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.vb">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Portfolio.aspx.vb">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
@@ -305,7 +298,6 @@
     <Content Include="Pictures\PaintBody\GhostFlame.JPG" />
     <Content Include="Pictures\PaintBody\tape.JPG" />
     <Content Include="Pictures\PaintBody\XL175_After.JPG" />
-    <Content Include="Porfolio.aspx" />
     <Content Include="Scripts\lightbox\css\lightbox.css" />
     <Content Include="Scripts\lightbox\img\close.png" />
     <Content Include="Scripts\lightbox\img\loading.gif" />
@@ -314,7 +306,7 @@
     <Content Include="Scripts\lightbox\js\jquery-1.11.0.min.js" />
     <Content Include="Scripts\lightbox\js\lightbox.js" />
     <Content Include="Scripts\lightbox\js\lightbox.min.js" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Portfolio.aspx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

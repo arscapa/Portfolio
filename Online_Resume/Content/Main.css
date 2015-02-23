@@ -82,6 +82,11 @@ textarea {
   color: #00b0ff;
 }
 
+.neighborhood-guides a {
+    color: #00b0ff;
+}
+
+
 .neighborhood-guides {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
