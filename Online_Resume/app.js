@@ -33,11 +33,20 @@ var AboutMeIMGAnimate = function () {
 
 //loads lightbox when clicking corresponding image map hotspot on interests page
 
+
 $(document).ready(function () {
     $('area.SelectSuspension').click(function () {
         $("#span1").click();
     });
+
+    
+        $('area.SelectEngine').click(function () {
+            $("#span2").click();
+        });
+
 });
+
+
 
 
 $(document).ready(activelink)

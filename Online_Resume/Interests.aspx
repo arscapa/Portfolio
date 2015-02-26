@@ -71,23 +71,46 @@
     
                   <br />
                   <br />
+
+    <%--Image Maps for Charger Pic, (+50,-10) to account for padding --%>
     <map name="map">
-          <area shape ="circle" coords="492, 448, 100" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"  />
+          <area shape ="circle" coords="530, 475, 80" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"  />
+
+         <area shape ="circle" coords="250, 263, 95" href="#AutoResto" id="Engine" alt="Engine" class="SelectEngine"  />
+
+        <area shape ="poly" coords="518, 177, 347, 329, 292, 344, 247, 380, 250, 405, 271, 409, 253, 436, 333, 472, 346, 468, 362, 555, 396, 555, 461, 494, 509, 367, 551, 316, 542, 392, 589, 334, 582, 204, 565, 189, 536, 184, 518, 177" href="#AutoResto" id="Body" alt="Body" class="SelectBody"  />
+
+         <area shape ="poly" coords="559,180,625,140,638,105,629,82,613,65,575,76,559,86,414,74,504,185,559,180" href="#AutoResto" id="Interior" alt="Interior" class="SelectInterior"  />
     </map>
 
     <img src="Pictures/AutomotiveResto/74dodge.JPG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
+    
+   
+    <%--Image Links for Suspension Lightbox Group--%>
 
      <a href="Pictures/AutomotiveResto/Suspension/1.JPG" rel="lightbox[Suspension]" data-title=" "><span id="span1"></span></a>
     <a href="Pictures/AutomotiveResto/Suspension/2.JPG" rel="lightbox[Suspension]" data-title=" "></a>
       <a href="Pictures/AutomotiveResto/Suspension/3.JPG" rel="lightbox[Suspension]" data-title=" "></a>
-      <a href="Pictures/AutomotiveResto/Suspension/4.JPG" rel="lightbox[Suspension]" data-title=" "></a>
+      <a href="Pictures/AutomotiveResto/Suspension/4.JPG" rel="lightbox[Suspension]" data-title="Control Arm"></a>
       <a href="Pictures/AutomotiveResto/Suspension/5.JPG" rel="lightbox[Suspension]" data-title=" "></a>
       <a href="Pictures/AutomotiveResto/Suspension/6.JPG" rel="lightbox[Suspension]" data-title="New Ball Joint, Bushing Bar and Joint "></a>
       <a href="Pictures/AutomotiveResto/Suspension/7.JPG" rel="lightbox[Suspension]" data-title=" "></a>
       <a href="Pictures/AutomotiveResto/Suspension/8.JPG" rel="lightbox[Suspension]" data-title="New Ball Joints, Tie Rod Ends, & Hardware "></a>
       <a href="Pictures/AutomotiveResto/Suspension/9.JPG" rel="lightbox[Suspension]" data-title="New Shocks, Tie Rods, & Dust Covers Repainted "></a>
 
-   
+   <%--Image Links for Engine Group--%>
+    <a href="Pictures/AutomotiveResto/Engine/1.JPG" rel="lightbox[Engine]" data-title="5.2L, 318 V8"><span id="span2"></span></a>
+    <a href="Pictures/AutomotiveResto/Engine/2.JPG" rel="lightbox[Engine]" data-title="New Plug Wires, Blaster Coil, & Battery Cables"></a>
+    <a href="Pictures/AutomotiveResto/Engine/3.JPG" rel="lightbox[Engine]" data-title="Hack Wiring Job"></a>
+    <a href="Pictures/AutomotiveResto/Engine/4.JPG" rel="lightbox[Engine]" data-title="New Wiring & Voltage Regulator"></a>
+    <a href="Pictures/AutomotiveResto/Engine/5.JPG" rel="lightbox[Engine]" data-title="New Starter"></a>
+    <a href="Pictures/AutomotiveResto/Engine/6.JPG" rel="lightbox[Engine]" data-title="New Brake Master Cylinder & Battery Cables"></a>
+    <a href="Pictures/AutomotiveResto/Engine/7.JPG" rel="lightbox[Engine]" data-title="New Motor Mounts"></a>
+     <a href="Pictures/AutomotiveResto/Engine/8.JPG" rel="lightbox[Engine]" data-title="New Alternator"></a>
+    <a href="Pictures/AutomotiveResto/Engine/header1.JPG" rel="lightbox[Engine]" data-title="Hooker Competition Headers"></a>
+     <a href="Pictures/AutomotiveResto/Engine/9.JPG" rel="lightbox[Engine]" data-title="Purple Hornies Glasspack <q>Mufflers</q>"></a>
+
+     <%--Image Links for Bodywork Group--%>
 
 
 </div>

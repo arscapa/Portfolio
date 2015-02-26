@@ -276,6 +276,18 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="Pictures\AutomotiveResto\74dodgeFender.png" />
+    <Content Include="Pictures\AutomotiveResto\74dodge.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\1.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\2.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\3.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\4.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\6.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\7.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\5.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\8.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\header1.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Engine\9.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\2.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\4.JPG" />
@@ -321,8 +333,6 @@
     <Content Include="Content\Main.css" />
     <Content Include="Interests.aspx" />
     <Content Include="Pictures\2012_Champs.JPG" />
-    <Content Include="Pictures\AutomotiveResto\74dodge_2.JPG" />
-    <Content Include="Pictures\AutomotiveResto\74dodge.JPG" />
     <Content Include="Pictures\band.jpg" />
     <Content Include="Pictures\Banner_Image6.png" />
     <Content Include="Pictures\Graduation.jpg" />
@@ -388,6 +398,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Pictures\AutomotiveResto\Bodywork\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
