@@ -278,6 +278,28 @@
     <Content Include="Anthony_Scapardine_RESUME.docx" />
     <Content Include="Pictures\AutomotiveResto\74dodgeFender.png" />
     <Content Include="Pictures\AutomotiveResto\74dodge.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\1.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\2.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\5.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\3.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\6.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\7.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\4.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\8.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\9.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\10.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\11.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\12.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\13.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\14.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\buff2.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\comparison.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\fenderwell.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\hood.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\redfender.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\paintedfender.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\paint_color.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Bodywork\primer.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\2.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\3.JPG" />
@@ -288,6 +310,15 @@
     <Content Include="Pictures\AutomotiveResto\Engine\8.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\header1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\9.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\1.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\2.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\3.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\4.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\5.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\7.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\8.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\9.JPG" />
+    <Content Include="Pictures\AutomotiveResto\Interior\6.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\2.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\4.JPG" />
@@ -398,7 +429,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Pictures\AutomotiveResto\Bodywork\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -78,7 +78,8 @@
 
          <area shape ="circle" coords="250, 263, 95" href="#AutoResto" id="Engine" alt="Engine" class="SelectEngine"  />
 
-        <area shape ="poly" coords="518, 177, 347, 329, 292, 344, 247, 380, 250, 405, 271, 409, 253, 436, 333, 472, 346, 468, 362, 555, 396, 555, 461, 494, 509, 367, 551, 316, 542, 392, 589, 334, 582, 204, 565, 189, 536, 184, 518, 177" href="#AutoResto" id="Body" alt="Body" class="SelectBody"  />
+        <area shape ="poly" coords="518, 177, 347, 329, 292, 344, 247, 380, 250, 405, 271, 409, 253, 436, 333, 472, 346, 468, 362, 555, 396, 555, 461, 
+            494, 509, 367, 551, 316, 542, 392, 589, 334, 582, 204, 565, 189, 536, 184, 518, 177" href="#AutoResto" id="Body" alt="Body" class="SelectBody"  />
 
          <area shape ="poly" coords="559,180,625,140,638,105,629,82,613,65,575,76,559,86,414,74,504,185,559,180" href="#AutoResto" id="Interior" alt="Interior" class="SelectInterior"  />
     </map>
@@ -111,7 +112,40 @@
      <a href="Pictures/AutomotiveResto/Engine/9.JPG" rel="lightbox[Engine]" data-title="Purple Hornies Glasspack <q>Mufflers</q>"></a>
 
      <%--Image Links for Bodywork Group--%>
+    <a href="Pictures/AutomotiveResto/Bodywork/1.JPG" rel="lightbox[Body]" data-title="Rusted out section"><span id="span3"></span></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/2.JPG" rel="lightbox[Body]" data-title="Before"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/3.JPG" rel="lightbox[Body]" data-title="New Metal Cut and Welded in"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/4.JPG" rel="lightbox[Body]" data-title="Smoothed out with body filler"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/5.JPG" rel="lightbox[Body]" data-title="More Rust"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/6.JPG" rel="lightbox[Body]" data-title="Not the best welding work but it'll do "></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/7.JPG" rel="lightbox[Body]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/8.JPG" rel="lightbox[Body]" data-title="Lower fender section was getting pretty bad"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/9.JPG" rel="lightbox[Body]" data-title="Rust was present above main body line so I decided to cut and replace the entire section"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/10.JPG" rel="lightbox[Body]" data-title="Again, pretty crummy welds but only had a harbor freight 90amp welder to work with"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/11.JPG" rel="lightbox[Body]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/12.JPG" rel="lightbox[Body]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/13.JPG" rel="lightbox[Body]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/14.JPG" rel="lightbox[Body]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/fenderwell.JPG" rel="lightbox[Body]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/primer.JPG" rel="lightbox[Body]" data-title="Did some work to the drivers side fender as well and sprayed a coat of primer"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/paint_color.JPG" rel="lightbox[Body]" data-title="Ordered some new candy apple red paint & decided to paint a fender to get an idea how it might look on car"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/redfender.JPG" rel="lightbox[Body]" data-title="After a few coats of clear and some buffing, not too bad"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/paintedfender.JPG" rel="lightbox[Body]" data-title="Might have to consider this color, it really pops in the sun"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/comparison.JPG" rel="lightbox[Body]" data-title="Decided to freshen up the paint and buff it out. Here's a comparison, left side has been buffed, right side not so much"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/hood.JPG" rel="lightbox[Body]" data-title="Hood finished"></a>
+    <a href="Pictures/AutomotiveResto/Bodywork/buff2.JPG" rel="lightbox[Body]" data-title="After buffing the entire car"></a>
 
+
+    <%--Image Links for Interior Group--%>
+    <a href="Pictures/AutomotiveResto/Interior/1.JPG" rel="lightbox[Interior]" data-title="Mostly original interior when I purchased the car"><span id="span4"></span></a>
+    <a href="Pictures/AutomotiveResto/Interior/2.JPG" rel="lightbox[Interior]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Interior/3.JPG" rel="lightbox[Interior]" data-title="Fabricated a mounting rail for a new radio"></a>
+    <a href="Pictures/AutomotiveResto/Interior/4.JPG" rel="lightbox[Interior]" data-title="New Kenwood radio installed"></a>
+    <a href="Pictures/AutomotiveResto/Interior/5.JPG" rel="lightbox[Interior]" data-title=""></a>
+    <a href="Pictures/AutomotiveResto/Interior/6.JPG" rel="lightbox[Interior]" data-title="Fabricated switch panel to put in place of old radio at least for now, repainted trim"></a>
+    <a href="Pictures/AutomotiveResto/Interior/7.JPG" rel="lightbox[Interior]" data-title="B&M Z-Gate Lockout Shifter with Fabricated Mount"></a>
+    <a href="Pictures/AutomotiveResto/Interior/8.JPG" rel="lightbox[Interior]" data-title="Z-Gate Shifter with Trim"></a>
+    <a href="Pictures/AutomotiveResto/Interior/9.JPG" rel="lightbox[Interior]" data-title="New Grant Steering Wheel, Autometer Tachometer & Voltmeter"></a>
 
 </div>
             

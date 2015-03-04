@@ -6,7 +6,7 @@
       <div class="jumbotron">
      
         <h1>About Me</h1>
-        <p class="quote">"The best predictor of future behavior is past behavior"</p>
+        <p class="quote">"The day you stop learning is the day you stop living"</p>
       </div>
 
     <div class="learn-more">

@@ -44,6 +44,15 @@ $(document).ready(function () {
             $("#span2").click();
         });
 
+
+        $('area.SelectBody').click(function () {
+            $("#span3").click();
+        });
+
+
+        $('area.SelectInterior').click(function () {
+            $("#span4").click();
+        });
 });
 
 
