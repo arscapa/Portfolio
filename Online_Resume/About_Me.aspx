@@ -73,9 +73,14 @@
                     <li class="skill_bar3" style="width:50%; background-color:#C799FF">CSS
                         <span class="skill_level">SEMI-PRO</span>
                     </li>
-                    <li class="skill_bar4" style="width:35%; background-color:#7CD14E">ASP.NET
+                      <li class="skill_bar4" style="width:35%; background-color:#7CD14E">Javascript
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
+                      <li class="skill_bar4" style="width:35%; background-color:darkslateblue"">Photoshop
+                        <span class="skill_level">INTERMEDIATE</span>
+                    </li>
+                     
+                   
                 </ul>
            
            

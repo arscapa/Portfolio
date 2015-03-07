@@ -300,6 +300,9 @@
     <Content Include="Pictures\AutomotiveResto\Bodywork\paintedfender.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\paint_color.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\primer.JPG" />
+    <Content Include="Pictures\AutomotiveResto\74dodgeEngine.png" />
+    <Content Include="Pictures\AutomotiveResto\74dodgeSuspension.png" />
+    <Content Include="Pictures\AutomotiveResto\74dodgeInterior.png" />
     <Content Include="Pictures\AutomotiveResto\Engine\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\2.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\3.JPG" />
@@ -341,6 +344,7 @@
     <Content Include="Pictures\PaintBody\GhostFlame.JPG" />
     <Content Include="Pictures\PaintBody\tape.JPG" />
     <Content Include="Pictures\PaintBody\XL175_After.JPG" />
+    <Content Include="Pictures\tribal-design2.png" />
     <Content Include="Scripts\lightbox\css\lightbox.css" />
     <Content Include="Scripts\lightbox\img\close.png" />
     <Content Include="Scripts\lightbox\img\loading.gif" />

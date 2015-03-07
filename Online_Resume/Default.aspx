@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.vb" Inherits="Online_Resume._Default" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Default.aspx.vb" Inherits="Online_Resume.Default1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
- 
 
     <div class="jumbotron">
      
@@ -34,7 +33,7 @@
 	      </div>
 
 		  <div class="col-md-4">
-              <a href="http://ilstu.edu"><img src="Pictures/Graduation.jpg" class="img-circle"/></a>
+              <a href="http://ilstu.edu"><img src="Pictures/tribal-design2.png" class="img-circle"/></a>
 			<h3>Logo Designer</h3>
 			<p>Expressing my creativity graphically</p>
 			<p><a href="#">See some of my designs</a></p>
@@ -59,5 +58,4 @@
 	
         </div>
         
-
 </asp:Content>

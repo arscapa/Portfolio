@@ -57,6 +57,35 @@ $(document).ready(function () {
 
 
 
+//Changes Charger_Main picture on interests page to highlighted section of car when hovering over it
+
+$(document).ready(function () {
+    $('area.SelectEngine').hover(function () {
+        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/74dodgeEngine.png');
+   
+        })
+
+    $('area.SelectSuspension').hover(function () {
+        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/74dodgeSuspension.png');
+   
+           })
+
+    $('area.SelectBody').hover(function () {
+        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/74dodgeFender.png');
+   
+            })
+
+    $('area.SelectInterior').hover(function () {
+        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/74dodgeInterior.png');
+  
+
+        $('#Charger_Main').mouseout(function () {
+            $("#Charger_Main").attr('src','Pictures/AutomotiveResto/74dodge.JPG')
+        })
+            })
+
+});
+
 
 $(document).ready(activelink)
 $(document).ready(AboutMeIMGAnimate)
