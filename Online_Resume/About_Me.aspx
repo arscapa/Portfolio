@@ -31,7 +31,8 @@
                 I am ultimately looking to get back to what I am truly passionate about.
                  </p>
 
-              
+
+              <a name="Education"></a>
 
             <h1>My Education</h1> 
              <img id="grad_pic" src="Pictures/Graduation.jpg"/>

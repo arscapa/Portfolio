@@ -43,7 +43,7 @@
               <a href="About_Me.aspx"><img src="Pictures/wedding_reception.jpg" class="img-circle"/></a>
 			<h3>Business Professional</h3>
 			<p>I have a pretty unique blend of knowledge and experience spanning a large spectrum of areas</p>
-			<p><a href="About_Me.aspx">Learn more about my Business background</a></p>
+			<p><a href="About_Me.aspx#Education">Learn more about my Business background</a></p>
 		  </div>
 	    </div>
             </div>
