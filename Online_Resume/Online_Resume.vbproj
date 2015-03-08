@@ -331,6 +331,8 @@
     <Content Include="Pictures\AutomotiveResto\Suspension\7.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\8.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\9.JPG" />
+    <Content Include="Pictures\ERD.png" />
+    <Content Include="Pictures\github.png" />
     <Content Include="Pictures\LogoDesign\1.jpg" />
     <Content Include="Pictures\LogoDesign\LOGO.png" />
     <Content Include="Pictures\LogoDesign\Website Logo.jpg" />
@@ -364,6 +366,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="ProjectFiles.zip" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\Main.css" />
     <Content Include="Interests.aspx" />

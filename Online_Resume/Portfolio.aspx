@@ -26,26 +26,26 @@
              </div>
 
      <div class="col-md-4">
-         <img src="Pictures/JolietMX.jpg" alt="Motocross Picture" class="img-thumbnail" />
+         <img src="Pictures/ERD.png" alt="Ticketing System ERD's"  />
          <br />
          <br />
          <h3>Zendesk</h3>
-<p>For my capstone BIS class, I worked with the ISU State Farm Hall of Business to develop a solution for their support staff to more efficiently handle requests for assistance. We ultimately
-    recommended a software-as-a-service solution called Zendesk because of it's proven track record and scalability. For more information on this project click here to download some of our project files. 
+<p>For my capstone BIS class, I worked with ISU's College of Business to develop a solution for their support staff to more efficiently handle the technical needs and issues of the college. We ultimately
+    recommended a software-as-a-service solution called Zendesk because of it's proven track record and scalability. For more information on this project, including a feasibility analysis, prototype ERD's, success metrics, & a requirements document, click <a href="ProjectFiles.zip">here</a> to download some of our project files. 
 </p>
      </div>
 
 
      <div class="col-md-4">
- <img src="Pictures/band.jpg" class="img-thumbnail"/>
+ <img src="Pictures/github.png" />
 <h3>GitHub</h3>
-             <p>I have started a GitHub repository to store any programming projects and familiarize myself with Git. The entire code for this website can be found at the following link as well</p>
+             <p>I have started a GitHub repository to store any programming projects and familiarize myself with Git. The entire code for this website can be found at the following link as well; <a href=" https://github.com/arscapa" target="_blank">https://github.com/arscapa</a></p>
              </div>
      </div>
 </div>
          </div>
 
-
+   
 
     
       <div class="neighborhood-guides">
@@ -64,6 +64,7 @@
 
 </div>
           </div>
+
 
 
 </asp:Content>
