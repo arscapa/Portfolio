@@ -276,8 +276,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
-    <Content Include="Pictures\AutomotiveResto\74dodgeFender.png" />
-    <Content Include="Pictures\AutomotiveResto\74dodge.JPG" />
+    <Content Include="Pictures\AutomotiveResto\MainPics\74dodge.png" />
+    <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeEngine.png" />
+    <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeFender.png" />
+    <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeInterior.png" />
+    <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
+    <Content Include="Scripts\imageMapResizer.js" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\2.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\5.JPG" />
@@ -300,9 +304,6 @@
     <Content Include="Pictures\AutomotiveResto\Bodywork\paintedfender.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\paint_color.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\primer.JPG" />
-    <Content Include="Pictures\AutomotiveResto\74dodgeEngine.png" />
-    <Content Include="Pictures\AutomotiveResto\74dodgeSuspension.png" />
-    <Content Include="Pictures\AutomotiveResto\74dodgeInterior.png" />
     <Content Include="Pictures\AutomotiveResto\Engine\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\2.JPG" />
     <Content Include="Pictures\AutomotiveResto\Engine\3.JPG" />
@@ -347,6 +348,7 @@
     <Content Include="Pictures\PaintBody\tape.JPG" />
     <Content Include="Pictures\PaintBody\XL175_After.JPG" />
     <Content Include="Pictures\tribal-design2.png" />
+    <Content Include="Scripts\imageMapResizer.min.js" />
     <Content Include="Scripts\lightbox\css\lightbox.css" />
     <Content Include="Scripts\lightbox\img\close.png" />
     <Content Include="Scripts\lightbox\img\loading.gif" />

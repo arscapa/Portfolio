@@ -74,17 +74,16 @@
 
     <%--Image Maps for Charger Pic, (+50,-10) to account for padding --%>
     <map name="map">
-          <area shape ="circle" coords="530, 475, 80" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"  />
+          <area shape ="circle" coords="557, 485, 89" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"  />
 
-         <area shape ="circle" coords="250, 263, 95" href="#AutoResto" id="Engine" alt="Engine" class="SelectEngine"  />
+         <area shape ="circle" coords="263, 275, 95" href="#AutoResto" id="Engine" alt="Engine" class="SelectEngine"  />
 
-        <area shape ="poly" coords="518, 177, 347, 329, 292, 344, 247, 380, 250, 405, 271, 409, 253, 436, 333, 472, 346, 468, 362, 555, 396, 555, 461, 
-            494, 509, 367, 551, 316, 542, 392, 589, 334, 582, 204, 565, 189, 536, 184, 518, 177" href="#AutoResto" id="Body" alt="Body" class="SelectBody"  />
+        <area shape ="poly" coords="526, 207, 375, 337, 323, 351, 269, 387, 267, 420, 292, 424, 269, 457, 353, 488, 368, 491, 385, 584, 419, 584, 492, 508, 538, 371, 581, 332, 584, 385, 633, 330, 621, 224, 596, 203, 603, 192, 549, 191" href="#AutoResto" id="Body" alt="Body" class="SelectBody"  />
 
-         <area shape ="poly" coords="559,180,625,140,638,105,629,82,613,65,575,76,559,86,414,74,504,185,559,180" href="#AutoResto" id="Interior" alt="Interior" class="SelectInterior"  />
+         <area shape ="poly" coords="623, 174, 651, 147, 669, 112, 655, 89, 638, 68, 598, 78, 560, 82, 432, 76, 530, 192, 585, 187" href="#AutoResto" id="Interior" alt="Interior" class="SelectInterior"  />
     </map>
 
-    <img src="Pictures/AutomotiveResto/74dodge.JPG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
+    <img src="Pictures/AutomotiveResto/MainPics/74dodge.PNG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
     
    
     <%--Image Links for Suspension Lightbox Group--%>
@@ -159,7 +158,7 @@
               <div class="PaintandBody">
 
       <!-- Image Carousel -->
-      <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false" >
+      <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  >
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#PaintBodyCarousel" data-slide-to="0" class="active"></li>

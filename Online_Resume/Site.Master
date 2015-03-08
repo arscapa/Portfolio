@@ -85,8 +85,9 @@
 
 
    
- <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/imageMapResizer.js"></script>
     <script src="Scripts/lightbox/js/lightbox.min.js"></script>
      <script src="app.js"></script>
 </body>
