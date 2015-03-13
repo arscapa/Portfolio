@@ -281,6 +281,8 @@
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeFender.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeInterior.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
+    <Content Include="Scripts\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="Scripts\fancybox\jquery.fancybox-1.3.4.js" />
     <Content Include="Scripts\imageMapResizer.js" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\2.JPG" />
@@ -349,6 +351,7 @@
     <Content Include="Pictures\PaintBody\XL175_After.JPG" />
     <Content Include="Pictures\tribal-design2.png" />
     <Content Include="Scripts\imageMapResizer.min.js" />
+    <Content Include="Scripts\jwplayer\jwplayer.js" />
     <Content Include="Scripts\lightbox\css\lightbox.css" />
     <Content Include="Scripts\lightbox\img\close.png" />
     <Content Include="Scripts\lightbox\img\loading.gif" />
@@ -385,6 +388,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Videos\ExcelDEMO.mp4" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />

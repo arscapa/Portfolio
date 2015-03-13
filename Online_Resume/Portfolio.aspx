@@ -16,11 +16,12 @@
 <br />
 <br />
 
-
-
+                 
  <div class ="row">
      <div class="col-md-4">
-         <img src="Pictures/2012_Champs.JPG" alt="2012 Champs- Pepsi Ice Center" class="img-thumbnail"/>
+         <a href="Videos/ExcelDEMO.mp4" class="fancybox" data-width="250" data-height="250">
+             <img src="Pictures/2012_Champs.JPG" alt="2012 Champs- Pepsi Ice Center" class="img-thumbnail"/>
+         </a>
      <h3>Excel Spreadsheet Application</h3>
          <p>Using a combination of VLookup, Conditional Formatting, Macro's, & VBA coding, I was able to take an outstanding check reconciliation that was previously performed manually and decrease the lead time from several hours to mere minutes. Click the pic above for a quick demo of the application in action </p>
              </div>

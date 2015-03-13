@@ -87,6 +87,25 @@ $(document).ready(function () {
 });
 
 
+//load fancybox
+
+$(document).ready(function () {
+    $(".fancybox").fancybox({
+        fitToView: false, // to show videos in their own size
+        content: '<span></span>', // create temp content
+        scrolling: 'no', // don't show scrolling bars in fancybox
+        afterLoad: function () {
+            // get dimensions from data attributes
+            var $width = $(this.element).data('width'); 
+            var $height = $(this.element).data('height');
+            // replace temp content
+            this.content = "<embed src='Scripts/jwplayer/jwplayer.swf?file=" + this.href + "&autostart=true&amp;wmode=opaque' type='application/x-shockwave-flash' width='" + $width + "' height='" + $height + "'></embed>"; 
+        }
+    });
+     });
+
+
+
 $(document).ready(function () {
     $('map').imageMapResize();
 });
