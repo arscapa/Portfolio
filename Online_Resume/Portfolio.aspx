@@ -17,9 +17,10 @@
 <br />
 
                  
+
  <div class ="row">
      <div class="col-md-4">
-         <a href="Videos/ExcelDEMO.mp4" class="fancybox" data-width="250" data-height="250">
+         <a href="Videos/ExcelDEMO.mp4" class="fancybox" data-width="352" data-height="270">
              <img src="Pictures/2012_Champs.JPG" alt="2012 Champs- Pepsi Ice Center" class="img-thumbnail"/>
          </a>
      <h3>Excel Spreadsheet Application</h3>
