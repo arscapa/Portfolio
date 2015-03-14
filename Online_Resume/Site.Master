@@ -89,7 +89,7 @@
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/imageMapResizer.js"></script>
     <script src="Scripts/lightbox/js/lightbox.min.js"></script>
-    <script src="Scripts/jquery.fancybox-1.3.4.js"></script>
+    <script src="Scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
     <script src="http://jwpsrv.com/library/zUMd4MktEeSWaQp+lcGdIw.js"></script>
 
      <script src="app.js"></script>

@@ -302,7 +302,7 @@
     <Content Include="Scripts\fancybox\fancy_title_over.png" />
     <Content Include="Scripts\fancybox\fancy_title_right.png" />
     <Content Include="Scripts\fancybox\jquery.fancybox-1.3.4.css" />
-    <Content Include="Scripts\jquery.fancybox-1.3.4.js" />
+    <Content Include="Scripts\fancybox\jquery.fancybox-1.3.4.js" />
     <Content Include="Scripts\imageMapResizer.js" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\1.JPG" />
     <Content Include="Pictures\AutomotiveResto\Bodywork\2.JPG" />
