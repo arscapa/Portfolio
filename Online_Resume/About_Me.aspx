@@ -13,7 +13,7 @@
         <div class="container">
             <div class="Education">
           <br />
-                <h1>Preface</h1>
+                <h1>Intro</h1>
             <p>Throughout the years, I have developed a pretty wide range of knowledge and I have experience in a lot of different fields 
                 spanning the spectrum, however, I have always maintained a love for programming and developing websites and applications. My interest
                 in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 
@@ -50,11 +50,27 @@
                     <li>Ethics- Passed 12/14</li>
                 </ul>
                 <p>Certificate Number: 104266</p>
+              <br />
           </div> 
 
+            <h4>Notable Coursework</h4>
+            <b>Illinois State University</b>
+              <ul>
+                <li>Computer Programming for Business</li>
+                <li>Business Systems Analysis</li>
+                 <li>Advanced Business Systems Analysis</li>
+                <li>Accounting Information Systems</li>
+                <li>Developing Business Application Systems</li>
+               
+            </ul>
+
+          <b>Lyons Township Highschool</b>
+                   <ul>
+                       <li>Intro to HTML</li>
+                       <li>Intermediate HTML</li>
+                   </ul>
+           
           
-                   
-            
               
                 
 
