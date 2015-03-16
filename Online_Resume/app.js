@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="C:\Users\HawksFan\Documents\Visual Studio 2013\Projects\Online_Resume\Online_Resume\Scripts/jwplayer/jwplayer.js" />
+
 //programmatically adds active class to Active navigation page
 var activelink = function () {
     $('div.nav ul>li').click(function () {
@@ -88,23 +89,11 @@ $(document).ready(function () {
 
 
 //load fancybox
-
-$(document).ready(function () {
+$(".fancybox").click(function() {
     $(".fancybox").fancybox({
-        fitToView: false, // to show videos in their own size
-        content: '<span></span>', // create temp content
-        scrolling: 'no', // don't show scrolling bars in fancybox
-        afterLoad: function () {
-            // get dimensions from data attributes
-            var $width = $(this.element).data('width'); 
-            var $height = $(this.element).data('height');
-            // replace temp content
-            this.content = "<embed src='Scripts/jwplayer/jwplayer.swf?file=" + this.href + "&autostart=true&amp;wmode=opaque' type='application/x-shockwave-flash' width='" + $width + "' height='" + $height + "'></embed>"; 
-        }
+        type: "iframe",
     });
-     });
-
-
+});
 
 $(document).ready(function () {
     $('map').imageMapResize();
