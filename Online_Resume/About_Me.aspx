@@ -6,14 +6,14 @@
       <div class="jumbotron">
      
         <h1>About Me</h1>
-        <p class="quote">"The day you stop learning is the day you stop living"</p>
+        <p class="quote">"An investment in knowledge pays the best interest"</p>
       </div>
 
     <div class="learn-more">
         <div class="container">
             <div class="Education">
           <br />
-                <h1>Intro</h1>
+                <h1>Preface</h1>
             <p>Throughout the years, I have developed a pretty wide range of knowledge and I have experience in a lot of different fields 
                 spanning the spectrum, however, I have always maintained a love for programming and developing websites and applications. My interest
                 in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 

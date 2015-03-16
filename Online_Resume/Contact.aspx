@@ -4,8 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
            <div class="jumbotron">
-     
         <h1>Contact Me</h1>
+       <p class="quote">"Great moments are born from great opportunities"</p>
         
       </div>
     
