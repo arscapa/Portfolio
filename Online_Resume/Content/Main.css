@@ -264,6 +264,9 @@ li a.active{
 
 .vidIMG {
     opacity: 1;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    transition: opacity .5s;
 }
 
 .vidIMG:hover{
