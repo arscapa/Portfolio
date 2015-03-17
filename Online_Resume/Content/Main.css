@@ -255,3 +255,17 @@ li a.active{
     padding-top:20px;
     padding-bottom:20px;
 }
+
+
+.excel_vid {
+    background-color:green;
+    margin-right:77px;
+}
+
+.vidIMG {
+    opacity: 1;
+}
+
+.vidIMG:hover{
+    opacity: .5;
+}

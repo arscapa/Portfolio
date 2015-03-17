@@ -32,6 +32,8 @@ var AboutMeIMGAnimate = function () {
 
 
 
+
+
 //loads lightbox when clicking corresponding image map hotspot on interests page
 
 

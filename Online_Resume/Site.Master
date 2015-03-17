@@ -88,7 +88,7 @@
     <script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/imageMapResizer.js"></script>
-    <script src="Scripts/lightbox/js/lightbox.min.js"></script>
+    <script src="Scripts/lightbox/js/lightbox.js"></script>
     <script src="http://jwpsrv.com/library/zUMd4MktEeSWaQp+lcGdIw.js"></script>
     <script src="Scripts/fancybox/jquery.fancybox.js"></script>
     <script src="Scripts/fancybox/jquery.fancybox-buttons.js"></script>
