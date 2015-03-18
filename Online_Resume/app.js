@@ -97,6 +97,10 @@ $(".fancybox").click(function() {
     });
 });
 
+
+
+//image map resizer--> changes coordinates of image map when window is resized
+
 $(document).ready(function () {
     $('map').imageMapResize();
 });
