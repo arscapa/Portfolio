@@ -9,10 +9,10 @@
     </asp:ContentPlaceHolder>
 
     <link href="Content/bootstrap.css" rel="stylesheet" />
-    <link href="Scripts/lightbox/css/lightbox.css" rel="stylesheet" />
     <link href="Content/Main.css" rel="stylesheet" />
-
-
+    <link href="Scripts/lightbox/css/lightbox.css" rel="stylesheet" />
+    <link href="Scripts/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    <link href="Scripts/fancybox/jquery.fancybox-buttons.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -88,7 +88,11 @@
     <script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/imageMapResizer.js"></script>
-    <script src="Scripts/lightbox/js/lightbox.min.js"></script>
+    <script src="Scripts/lightbox/js/lightbox.js"></script>
+    <script src="http://jwpsrv.com/library/zUMd4MktEeSWaQp+lcGdIw.js"></script>
+    <script src="Scripts/fancybox/jquery.fancybox.js"></script>
+    <script src="Scripts/fancybox/jquery.fancybox-buttons.js"></script>
+
      <script src="app.js"></script>
 </body>
     

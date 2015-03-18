@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="C:\Users\HawksFan\Documents\Visual Studio 2013\Projects\Online_Resume\Online_Resume\Scripts/jwplayer/jwplayer.js" />
+
 //programmatically adds active class to Active navigation page
 var activelink = function () {
     $('div.nav ul>li').click(function () {
@@ -28,6 +29,8 @@ var AboutMeIMGAnimate = function () {
         })
     });
 }
+
+
 
 
 
@@ -86,6 +89,17 @@ $(document).ready(function () {
 
 });
 
+
+//load fancybox
+$(".fancybox").click(function() {
+    $(".fancybox").fancybox({
+        type: "iframe",
+    });
+});
+
+
+
+//image map resizer--> changes coordinates of image map when window is resized
 
 $(document).ready(function () {
     $('map').imageMapResize();
