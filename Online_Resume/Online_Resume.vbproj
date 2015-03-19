@@ -401,6 +401,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Videos\ExcelDEMO.mp4" />
+    <Content Include="Videos\Lodging_Website.mp4" />
+    <Content Include="Videos\MXTracker.mp4" />
+    <Content Include="Videos\VehicleDealerWebsite.mp4" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />

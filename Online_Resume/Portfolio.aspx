@@ -32,8 +32,7 @@
 
      <div class="col-md-4">
          <img src="Pictures/ERD.png" alt="Ticketing System ERD's"  />
-         <br />
-         <br />
+         
          <h3>Zendesk</h3>
 <p>For my capstone BIS class, I worked with ISU's College of Business to develop a solution for their support staff to more efficiently handle the technical needs and issues of the college. We ultimately
     recommended a software-as-a-service solution called Zendesk because of it's proven track record and scalability. For more information on this project, including a feasibility analysis, prototype ERD's, success metrics, & a requirements document, click <a href="ProjectFiles.zip">here</a> to download some of our project files. 
@@ -55,8 +54,66 @@
     
       <div class="neighborhood-guides">
         <div class="container">
+<h2>Websites I've Designed</h2>
+            <br />
+ <div class ="row">
+    <div class="col-md-4">
+         <a href="Videos/VehicleDealerWebsite.mp4"  class="fancybox"  >
+             <img src="Pictures/excel.png" alt="Vehicle Dealership Website" class="vidIMG"/>
+         </a>
+        <h3>Vehicle Dealership Website Template</h3>
+        <p>ASP.NET based site with vehicle detail page where visitors can view vehicles available for sale & research prices, financing page where users can choose financing options and calculate loan payments, and a payment page.  </p>
+        <p>Primary features:</p>
+        <ul>
+            <li>Session Variables</li>
+            <li>Creation and Retrieval of Querystring Values</li>
+            <li>Access Database</li>
+            <li>Input Validation</li>
+            <li>Loan Payment Calculator</li>
+        </ul>
+    </div>
 
-        <h2>Logo's</h2>
+    <div class="col-md-4">
+         <a href="Videos/Lodging_Website.mp4"  class="fancybox"  >
+             <img src="Pictures/excel.png" alt="Lodging Website" class="vidIMG"/>
+         </a>
+        <h3>Lodging Website</h3>
+        <p>Lodging company website wehre users can create an account, login, view hotels and rates, and make a reservation.</p>
+        <p>Primary features:</p>
+        <ul>
+            <li>User Authentication</li>
+            <li>Login Status</li>
+            <li>User Registration</li>
+            <li>Menu's & Security Trimming based on user status</li>
+            <li>Sitemap</li>
+            <li>Bread crumbs (SiteMapPath)</li>
+            <li>Data retrieval from a SQL Server Database</li>
+        </ul>
+       </div>  
+
+
+      <div class="col-md-4">
+         <a href="Videos/MXTracker.mp4"  class="fancybox"  >
+             <img src="Pictures/excel.png" alt="MXTimeTracker.com" class="vidIMG"/>
+         </a>
+       </div>  
+          </div>
+
+          <br />
+            <br />
+    
+        </div>
+
+    </div>
+
+
+
+
+
+     <div class="learn-more">
+               <div class="container">
+
+                       <h2>Logo's</h2>
 
          <a href="Pictures/LogoDesign/WebsiteLogo2.jpg" data-lightbox="Logos"> <img src="Pictures/LogoDesign/WebsiteLogo2.jpg" alt="Scapardine Automotive" class="img-rounded" /></a>
 
@@ -65,11 +122,12 @@
        <a href="Pictures/LogoDesign/LOGO.png" data-lightbox="Logos" data-title=" "></a>
      <br />
         <br />
-        <h4>Click above to take a closer look at some logos I've designed</h4>
+        <h4>Click above to take a closer look at the logo's I've designed</h4>
 
-</div>
-          </div>
 
+
+         </div>
+         </div>
 
 
 </asp:Content>

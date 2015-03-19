@@ -19,8 +19,8 @@
                 in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 
                 familiar web pages. Being somewhat of a prankster, I decided to put this new-found knowledge to use one particular April Fools Day.
                 By changing all the links on an email login screen, I was able to redirect the user (my parents in this case) to a page of my choosing
-                and trick them into thinking they had done irreperable damage to their computer. For some reason my parents didn't find this prank quite 
-                as amusing as I did! From here my interest in programming and web development really took off as I realized I could develop my own web
+                and trick them into thinking they had done irreperable damage to their computer. Sadly, my parents didn't find this prank quite 
+                as amusing as I did! But it was from here my interest in programming and web development really took off as I realized I could develop my own web
                 pages with just a little bit of HTML and CSS. 
                 </p>
                 
