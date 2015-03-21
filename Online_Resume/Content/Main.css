@@ -267,8 +267,15 @@ li a.active{
     -webkit-transition: opacity .5s;
     -moz-transition: opacity .5s;
     transition: opacity .5s;
+    border-radius: 5px;
 }
 
-.vidIMG:hover{
-    opacity: .5;
-}
+    .vidIMG:hover {
+        opacity: .5;
+    }
+
+    .playbtn:hover {
+        background-image: url('../Pictures/play_button2.png');
+         background-repeat : no-repeat;
+         background-position: 30% 50%;
+    }

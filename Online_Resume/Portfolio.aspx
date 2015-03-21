@@ -47,6 +47,9 @@
              </div>
      </div>
 </div>
+
+         <br />
+         <br />
          </div>
 
    
@@ -58,12 +61,14 @@
             <br />
  <div class ="row">
     <div class="col-md-4">
+        <div class="playbtn">
          <a href="Videos/VehicleDealerWebsite.mp4"  class="fancybox"  >
-             <img src="Pictures/excel.png" alt="Vehicle Dealership Website" class="vidIMG"/>
+             <img src="Pictures/scap_auto.png" alt="Vehicle Dealership Website" class="vidIMG"/>
          </a>
+            </div>
         <h3>Vehicle Dealership Website Template</h3>
         <p>ASP.NET based site with vehicle detail page where visitors can view vehicles available for sale & research prices, financing page where users can choose financing options and calculate loan payments, and a payment page.  </p>
-        <p>Primary features:</p>
+        <p><b>Primary features</b></p>
         <ul>
             <li>Session Variables</li>
             <li>Creation and Retrieval of Querystring Values</li>
@@ -74,12 +79,14 @@
     </div>
 
     <div class="col-md-4">
+        <div class="playbtn">
          <a href="Videos/Lodging_Website.mp4"  class="fancybox"  >
-             <img src="Pictures/excel.png" alt="Lodging Website" class="vidIMG"/>
+             <img src="Pictures/lofty_lodging.png" alt="Lodging Website" class="vidIMG"/>
          </a>
-        <h3>Lodging Website</h3>
-        <p>Lodging company website wehre users can create an account, login, view hotels and rates, and make a reservation.</p>
-        <p>Primary features:</p>
+            </div>
+        <h3>Lodging Website Template</h3>
+        <p>Lodging company website where users can create an account, login, view hotels and rates, and make a reservation.</p>
+        <p><b>Primary features</b></p>
         <ul>
             <li>User Authentication</li>
             <li>Login Status</li>
@@ -93,9 +100,23 @@
 
 
       <div class="col-md-4">
+          <div class="playbtn">
          <a href="Videos/MXTracker.mp4"  class="fancybox"  >
-             <img src="Pictures/excel.png" alt="MXTimeTracker.com" class="vidIMG"/>
+             <img src="Pictures/mxtracker.png" alt="MXTimeTracker.com" class="vidIMG"/>
          </a>
+              </div>
+          <h3>MX Time Tracker</h3>
+          <p>I built this website to be basically a bench racing website where motocross riders can go to post lap times from different tracks around the country
+              and include information like what model motorcyle they were riding and what the track conditions were like at the time so they can compare their times to other riders.
+          </p>
+          <p><b>Primary Features</b></p>
+          <ul>
+              <li>Dynamic Data with ability to add and view records based on user role</li>
+              <li>Drop-down menu with security trimming based on role</li>
+              <li>SQL Backed</li>
+              <li>User Authentication</li>
+              <li>JQuery Date Picker</li>
+          </ul>
        </div>  
           </div>
 
@@ -103,7 +124,8 @@
             <br />
     
         </div>
-
+          <br />
+          <br />
     </div>
 
 

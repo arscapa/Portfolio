@@ -276,12 +276,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="Pictures\lofty_lodging.png" />
+    <Content Include="Pictures\mxtracker.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodge.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeEngine.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeFender.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeInterior.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
     <Content Include="Pictures\excel.png" />
+    <Content Include="Pictures\play_button2.png" />
+    <Content Include="Pictures\scap_auto.png" />
     <Content Include="Scripts\fancybox\blank.gif" />
     <Content Include="Scripts\fancybox\fancybox_buttons.png" />
     <Content Include="Scripts\fancybox\fancybox_loading%402x.gif" />
