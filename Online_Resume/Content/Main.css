@@ -82,25 +82,43 @@ textarea {
   color: #00b0ff;
 }
 
-.neighborhood-guides a {
+.learn-more li {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.info li {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.info a {
     color: #00b0ff;
 }
 
 
-.neighborhood-guides {
+.info {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
 
-.neighborhood-guides h2 {
+.info h2 {
     color: #393c3d;
    
 }
 
-.neighborhood-guides p {
+.info p {
+    font-family: sans-serif;
     font-size: 17px;
     margin-bottom: 13px;
 }
+
+.info h3 {
+     font-size: 18px;
+  font-weight: bold;
+}
+
+
 
 .logo a {
     color: #00b0ff;

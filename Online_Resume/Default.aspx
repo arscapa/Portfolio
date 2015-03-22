@@ -11,7 +11,7 @@
       </div>
      
     
-    <div class="neighborhood-guides">
+    <div class="info">
       <div class="container">
         <h1> About this Website</h1>
           

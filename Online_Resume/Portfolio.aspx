@@ -43,7 +43,7 @@
      <div class="col-md-4">
  <img src="Pictures/github.png" />
 <h3>GitHub</h3>
-             <p>I have started a GitHub repository to store any programming projects and familiarize myself with Git. The entire code for this website can be found at the following link as well; <a href=" https://github.com/arscapa" target="_blank">https://github.com/arscapa</a></p>
+             <p>I started a GitHub repository to store any programming projects and familiarize myself with Git. The entire code for this website can be found at the following link as well; <a href=" https://github.com/arscapa" target="_blank">https://github.com/arscapa</a></p>
              </div>
      </div>
 </div>
@@ -55,7 +55,7 @@
    
 
     
-      <div class="neighborhood-guides">
+      <div class="info">
         <div class="container">
 <h2>Websites I've Designed</h2>
             <br />
@@ -68,7 +68,7 @@
             </div>
         <h3>Vehicle Dealership Website Template</h3>
         <p>ASP.NET based site with vehicle detail page where visitors can view vehicles available for sale & research prices, financing page where users can choose financing options and calculate loan payments, and a payment page.  </p>
-        <p><b>Primary features</b></p>
+        <p><b>Features:</b></p>
         <ul>
             <li>Session Variables</li>
             <li>Creation and Retrieval of Querystring Values</li>
@@ -86,7 +86,7 @@
             </div>
         <h3>Lodging Website Template</h3>
         <p>Lodging company website where users can create an account, login, view hotels and rates, and make a reservation.</p>
-        <p><b>Primary features</b></p>
+        <p><b>Features:</b></p>
         <ul>
             <li>User Authentication</li>
             <li>Login Status</li>
@@ -106,10 +106,10 @@
          </a>
               </div>
           <h3>MX Time Tracker</h3>
-          <p>I built this website to be basically a bench racing website where motocross riders can go to post lap times from different tracks around the country
+          <p>Being a big fan of motocross, I built this website to be an online leaderboard where motocross riders can go to post lap times from different tracks around the country
               and include information like what model motorcyle they were riding and what the track conditions were like at the time so they can compare their times to other riders.
           </p>
-          <p><b>Primary Features</b></p>
+          <p><b>Features:</b></p>
           <ul>
               <li>Dynamic Data with ability to add and view records based on user role</li>
               <li>Drop-down menu with security trimming based on role</li>

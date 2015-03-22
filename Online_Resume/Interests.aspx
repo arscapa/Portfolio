@@ -9,7 +9,7 @@
       <p class="quote">"There is no end. There is no beginning. There is only the passion of life"</p>
       </div>
   
-     <div class="neighborhood-guides">
+     <div class="info">
          <div class="container">
   <br />
 
