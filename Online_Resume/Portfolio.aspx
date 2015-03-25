@@ -12,7 +12,7 @@
      <div class="learn-more">
                <div class="container">
 
-<h1>Past Projects</h1>
+<h2>Past Projects</h2>
 <br />
 <br />
 
@@ -144,7 +144,7 @@
        <a href="Pictures/LogoDesign/LOGO.png" data-lightbox="Logos" data-title=" "></a>
      <br />
         <br />
-        <h4>Click above to take a closer look at the logo's I've designed</h4>
+        <h3>Click image above to take a closer look at the logo's I've designed</h3>
 
 
 

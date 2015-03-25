@@ -72,6 +72,11 @@ textarea {
   padding-top: 10px;
 }
 
+.learn-more h4{
+    text-decoration:underline;
+    font-size:19px;
+}
+
 .learn-more h3 {
  
   font-size: 18px;
@@ -80,6 +85,10 @@ textarea {
 
 .learn-more a {
   color: #00b0ff;
+}
+
+.learn-more a:hover{
+    font-style:oblique;
 }
 
 .learn-more li {
@@ -103,8 +112,19 @@ textarea {
 }
 
 .info h2 {
-    color: #393c3d;
-   
+     color: #0033CC;
+    font-family:serif;
+   font-size: 35px;
+   font-style: oblique;
+   font-weight: bold;
+}
+
+.learn-more h2 {
+    color: #0033CC;
+    font-family:serif;
+   font-size: 35px;
+    font-style: oblique;
+   font-weight: bold;
 }
 
 .info p {
@@ -297,3 +317,4 @@ li a.active{
          background-repeat : no-repeat;
          background-position: 30% 50%;
     }
+

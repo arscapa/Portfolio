@@ -14,14 +14,14 @@
         <div class="row">
              <div class="col-md-6">
                   <h2>Linkedin</h2>    
-                 <p>Check out my Linkedin profile and add me</p>
+                 <p>Check out my Linkedin profile and add me as a contact</p>
             <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/anthony-scapardine/66/535/896" data-format="inline"></script>
                  </div>
 
              <div class="col-md-6">
                  <h2>Contact Me</h2>
-                 <p>If you have questions or comments about me or this page, or if you would like to discuss any possible opportunities, please feel free to contact me.</p>
+                 <p>If you have questions or comments about me or this page, or if you would like to discuss any possible opportunities, please feel free to contact me below.</p>
 <!-- Do not change the code! -->
 <a id="foxyform_embed_link_649822" href="http://www.foxyform.com/">foxyform</a>
 <script type="text/javascript">

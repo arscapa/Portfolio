@@ -54,7 +54,7 @@
           </div> 
 
             <h4>Notable Coursework</h4>
-            <b>Illinois State University</b>
+            <p>Illinois State University</p>
               <ul>
                 <li>Computer Programming for Business</li>
                 <li>Business Systems Analysis</li>
@@ -64,7 +64,7 @@
                
             </ul>
 
-          <b>Lyons Township Highschool</b>
+          <p>Lyons Township Highschool</p>
                    <ul>
                        <li>Intro to HTML</li>
                        <li>Intermediate HTML</li>
@@ -77,7 +77,7 @@
             <br />
            
 
-            <h2>Competencies</h2>
+            <h4>Competencies</h4>
             
             
                  <ul class="skills">
