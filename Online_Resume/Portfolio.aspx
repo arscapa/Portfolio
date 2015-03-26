@@ -59,6 +59,7 @@
         <div class="container">
 <h2>Websites I've Designed</h2>
             <br />
+            <br />
  <div class ="row">
     <div class="col-md-4">
         <div class="playbtn">
@@ -136,6 +137,8 @@
                <div class="container">
 
                        <h2>Logo's</h2>
+                   <br />
+                   <br />
 
          <a href="Pictures/LogoDesign/WebsiteLogo2.jpg" data-lightbox="Logos"> <img src="Pictures/LogoDesign/WebsiteLogo2.jpg" alt="Scapardine Automotive" class="img-rounded" /></a>
 

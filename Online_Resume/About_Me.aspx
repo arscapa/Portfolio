@@ -27,8 +27,7 @@
                 <p>I carried this interest in web development through to high school taking all the web development classes that were available to me. However, after moving
                  on to college I began to pursue an education in Business and Accounting and web development took a back seat until my last few
                  years of college when I decided to add Business Information Systems as a second major. It was through this decision that I once again 
-                realized the passion I have for web development and although I currently work as a Operations Specialist and am pursuing my CPA,
-                I am ultimately looking to get back to what I am truly passionate about.
+                realized the passion I have for web development and I created this website to bolster my skills and showcase this passion.
                  </p>
 
 
