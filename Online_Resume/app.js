@@ -1,13 +1,19 @@
 ﻿/// <reference path="C:\Users\HawksFan\Documents\Visual Studio 2013\Projects\Online_Resume\Online_Resume\Scripts/jwplayer/jwplayer.js" />
 
 //programmatically adds active class to Active navigation page
-var activelink = function () {
-    $('div.nav ul>li').click(function () {
-      
+var str = location.href.toLowerCase();
+$("#nav li a").each(function () {
+    if (str.indexOf($(this).attr("href").toLowerCase()) > -1) {
+        $("li.current-menu-item").removeClass("current-menu-item");
+        $(this).parent().addClass("current-menu-item");
+    }
+});
+$("li.current-menu-item").parents().each(function () {
+    if ($(this).is("li")) {
+        $(this).addClass("current-menu-item");
+    }
+});
 
-        $(this).children('a').addClass('active');
-    });
-};
 
 
 // Zoom animation for about me image links on default page
@@ -29,7 +35,7 @@ var AboutMeIMGAnimate = function () {
         })
     });
 }
-
+$(document).ready(AboutMeIMGAnimate)
 
 
 
@@ -108,8 +114,8 @@ $(document).ready(function () {
 
 
 
-$(document).ready(activelink)
-$(document).ready(AboutMeIMGAnimate)
+
+
 
 
 
