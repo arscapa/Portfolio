@@ -54,7 +54,7 @@
 
    
 
-     <a name="Websites"></a>
+    
       <div class="info">
         <div class="container">
 <h2>Websites I've Designed</h2>
@@ -131,7 +131,7 @@
 
 
 
-    <a name="Logos"></a>
+
 
      <div class="learn-more">
                <div class="container">
