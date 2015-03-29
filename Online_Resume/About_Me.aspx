@@ -50,7 +50,45 @@
                 <p>Certificate Number: 104266</p>
               <br />
           </div> 
+            <br />
+            
 
+            <div class="row">
+
+                <div class="col-md-6">
+      <h4>Competencies</h4>
+            
+            
+                 <ul class="skills">
+                    <li class="skill_bar1" style="width:90%; background-color:#FF5353">MICROSOFT EXCEL
+                        <span class="skill_level">PRO </span>
+                    </li>
+                    <li class="skill_bar2" style="width:80%; background-color:#1CDCFF">HTML
+                        <span class="skill_level">SEMI-PRO</span>
+                    </li>
+                    <li class="skill_bar3" style="width:80%; background-color:#C799FF">CSS
+                        <span class="skill_level">SEMI-PRO</span>
+                    </li>
+                      <li class="skill_bar4" style="width:65%; background-color:#7CD14E">Javascript
+                        <span class="skill_level">INTERMEDIATE</span>
+                    </li>
+                      <li class="skill_bar4" style="width:65%; background-color:darkslateblue"">Photoshop
+                        <span class="skill_level">INTERMEDIATE</span>
+                    </li>
+                     
+                   
+                </ul>
+
+                             <br />
+           <br />
+            
+                <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
+                <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
+                <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
+           
+                </div>
+
+                <div class ="col-md-6">
             <h4>Notable Coursework</h4>
             <p>Illinois State University</p>
               <ul>
@@ -67,48 +105,19 @@
                        <li>Intro to HTML</li>
                        <li>Intermediate HTML</li>
                    </ul>
-           
+            <br />
+          </div>
+
+
           
-              
-                
-
-            <br />
-           
-
-            <h4>Competencies</h4>
-            
-            
-                 <ul class="skills">
-                    <li class="skill_bar1" style="width:60%; background-color:#FF5353">MICROSOFT EXCEL
-                        <span class="skill_level">PRO </span>
-                    </li>
-                    <li class="skill_bar2" style="width:50%; background-color:#1CDCFF">HTML
-                        <span class="skill_level">SEMI-PRO</span>
-                    </li>
-                    <li class="skill_bar3" style="width:50%; background-color:#C799FF">CSS
-                        <span class="skill_level">SEMI-PRO</span>
-                    </li>
-                      <li class="skill_bar4" style="width:35%; background-color:#7CD14E">Javascript
-                        <span class="skill_level">INTERMEDIATE</span>
-                    </li>
-                      <li class="skill_bar4" style="width:35%; background-color:darkslateblue"">Photoshop
-                        <span class="skill_level">INTERMEDIATE</span>
-                    </li>
-                     
-                   
-                </ul>
+           </div>
            
            
             
            
            
 
-            <br />
-           <br />
-            <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
-                <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
-                <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
-           
+         
            
         </div>
 </div>
