@@ -26,17 +26,17 @@
  <div class="About_Me_Links">
 		<div class="row">
 	      <div class="col-md-4">
-             <a href="http://ilstu.edu"><img src="Pictures/html_code.png" class="img-circle"/></a>
+             <a href="Portfolio.aspx"><img src="Pictures/html_code.png" class="img-circle"/></a>
 			<h3>Web Developer</h3>
-			<p>Designing the websites you always wanted</p>
-			<p><a href="#">See some past projects I have worked on</a></p>
+			<p>Turning your visions into a reality</p>
+			<p><a href="Portfolio.aspx#Websites">See some past projects I have worked on</a></p>
 	      </div>
 
 		  <div class="col-md-4">
-              <a href="http://ilstu.edu"><img src="Pictures/tribal-design2.png" class="img-circle"/></a>
+              <a href="Portfolio.aspx"><img src="Pictures/tribal-design2.png" class="img-circle"/></a>
 			<h3>Logo Designer</h3>
 			<p>Expressing my creativity graphically</p>
-			<p><a href="#">See some of my designs</a></p>
+			<p><a href="Portfolio.aspx#Logos">See some of my designs</a></p>
 		  </div>
 
 		  <div class="col-md-4">
