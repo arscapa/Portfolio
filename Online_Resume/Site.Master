@@ -35,12 +35,12 @@
       <div class="container">
        <div class="logo">
            <ul class="pull-left">
-          <li><a href="Default.aspx"> Tony Scapardine</a> </li>
+          <li class="current-menu-item"><a href="Default.aspx"> Tony Scapardine</a> </li>
         </ul>
          </div>
 
         <ul class="pull-right">
-          <li class="current-menu-item"><a href="About_Me.aspx">About </a></li>
+          <li ><a href="About_Me.aspx">About </a></li>
           <li><a href="Portfolio.aspx">Porfolio</a></li>
           <li><a href="Interests.aspx">Interests</a></li>
           <li><a href="Contact.aspx">Contact</a></li>
