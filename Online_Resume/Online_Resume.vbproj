@@ -190,11 +190,6 @@
       <DependentUpon>About_Me.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="App_Start\BundleConfig.vb" />
-    <Compile Include="App_Start\FilterConfig.vb" />
-    <Compile Include="App_Start\IdentityConfig.vb" />
-    <Compile Include="App_Start\RouteConfig.vb" />
-    <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
@@ -202,17 +197,12 @@
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Controllers\AccountController.vb" />
-    <Compile Include="Controllers\ManageController.vb" />
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Global.asax.vb">
-      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interests.aspx.designer.vb">
       <DependentUpon>Interests.aspx</DependentUpon>
@@ -221,9 +211,6 @@
       <DependentUpon>Interests.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Models\AccountViewModels.vb" />
-    <Compile Include="Models\IdentityModels.vb" />
-    <Compile Include="Models\ManageViewModels.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -239,7 +226,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
@@ -247,7 +233,6 @@
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Startup.vb" />
     <Compile Include="Portfolio.aspx.designer.vb">
       <DependentUpon>Portfolio.aspx</DependentUpon>
     </Compile>
@@ -381,6 +366,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\TonyScap %283%29.pubxml" />
     <None Include="My Project\PublishProfiles\TonyScapardine.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -408,31 +394,17 @@
     <Content Include="Videos\Lodging_Website.mp4" />
     <Content Include="Videos\MXTracker.mp4" />
     <Content Include="Videos\VehicleDealerWebsite.mp4" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
-    <Content Include="Views\Account\ConfirmEmail.vbhtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.vbhtml" />
-    <Content Include="Views\Account\ForgotPassword.vbhtml" />
-    <Content Include="Views\Account\ForgotPasswordConfirmation.vbhtml" />
-    <Content Include="Views\Account\Login.vbhtml" />
-    <Content Include="Views\Account\Register.vbhtml" />
-    <Content Include="Views\Account\ResetPassword.vbhtml" />
-    <Content Include="Views\Account\ResetPasswordConfirmation.vbhtml" />
-    <Content Include="Views\Account\SendCode.vbhtml" />
-    <Content Include="Views\Account\VerifyCode.vbhtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.vbhtml" />
-    <Content Include="Views\Manage\ChangePassword.vbhtml" />
-    <Content Include="Views\Manage\Index.vbhtml" />
-    <Content Include="Views\Manage\ManageLogins.vbhtml" />
-    <Content Include="Views\Manage\SetPassword.vbhtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.vbhtml" />
-    <Content Include="Views\Shared\Lockout.vbhtml" />
-    <Content Include="Views\Shared\_LoginPartial.vbhtml" />
     <Content Include="Site.Master" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
-    <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -443,28 +415,10 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
-    <Content Include="Views\Home\Contact.vbhtml" />
-    <Content Include="Views\Home\Index.vbhtml" />
-    <Content Include="Views\Shared\Error.vbhtml" />
-    <Content Include="Views\Shared\_Layout.vbhtml" />
-    <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
