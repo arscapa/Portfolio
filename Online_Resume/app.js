@@ -120,7 +120,7 @@ $(document).ready(function () {
 
 $(function () {
     // Init Controller
-    var scrollMagicController = new ScrollMagic();
+    var scrollMagicController = new ScrollMagic.Controller();
 });
 
 
@@ -129,10 +129,10 @@ var tween = TweenMax.to('#chargerinfo', 0.5, {
     backgroundColor: 'black',
 });
 
-var scene = new ScrollScene({
+var scene = new ScrollMagic.Scene({
     triggerElement: '#scene',
     duration: 300 /* How many pixels to scroll / animate */
 })
 .setTween(tween)
-.addTo(scrollMagicController);
+.addTo(scrollMagic.Controller);
 
