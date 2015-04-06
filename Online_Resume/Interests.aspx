@@ -9,7 +9,7 @@
       <p class="quote">"There is no end. There is no beginning. There is only the passion of life"</p>
       </div>
   
-     <div class="info">
+     <div class="info" id="chargerinfo">
          <div class="container">
   <br />
 
@@ -67,7 +67,7 @@
   
      <h2>Automotive Restoration</h2>
                 
-<div class="AutoResto">
+<div class="AutoResto" id="scene">
     
                   <br />
                   <br />

@@ -390,6 +390,9 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Scripts\scrollmagic\ScrollMagic.js" />
+    <Content Include="Scripts\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="Scripts\scrollmagic\TweenMax.min.js" />
     <Content Include="Videos\ExcelDEMO.mp4" />
     <Content Include="Videos\Lodging_Website.mp4" />
     <Content Include="Videos\MXTracker.mp4" />

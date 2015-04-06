@@ -35,7 +35,7 @@
             <h1>My Education</h1> 
              <img id="grad_pic" src="Pictures/Graduation.jpg"/>
 
-            <h3>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/ISU_Bird.jpg" class="img-circle"/></a></h3>
+            <h3>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/ISU_Bird.jpg" class="img-circle" alt="ISU Redbird" id="ReggieRedbird"/></a></h3>
                 <p>Bachelor's of Science Accounting & Business Information Systems</p>
                 <p>GPA 3.48/4.0</p>
             
@@ -53,7 +53,7 @@
             <br />
             
 
-            <div class="row">
+            <div class="row" id="trigger">
 
                 <div class="col-md-6">
       <h4>Competencies</h4>

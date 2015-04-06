@@ -116,8 +116,23 @@ $(document).ready(function () {
 
 
 
+//scrollmagic functionality
+
+$(function () {
+    // Init Controller
+    var scrollMagicController = new ScrollMagic();
+});
 
 
+// Create Animation for 0.5s
+var tween = TweenMax.to('#chargerinfo', 0.5, {
+    backgroundColor: 'black',
+});
 
-
+var scene = new ScrollScene({
+    triggerElement: '#scene',
+    duration: 300 /* How many pixels to scroll / animate */
+})
+.setTween(tween)
+.addTo(scrollMagicController);
 
