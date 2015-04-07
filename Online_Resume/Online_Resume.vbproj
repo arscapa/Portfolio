@@ -261,6 +261,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="Pictures\2012-Champs.png" />
+    <Content Include="Pictures\band.png" />
+    <Content Include="Pictures\JolietMX.png" />
     <Content Include="Pictures\lofty_lodging.png" />
     <Content Include="Pictures\mxtracker.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodge.png" />
@@ -377,13 +380,10 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\Main.css" />
     <Content Include="Interests.aspx" />
-    <Content Include="Pictures\2012_Champs.JPG" />
-    <Content Include="Pictures\band.jpg" />
     <Content Include="Pictures\Banner_Image6.png" />
     <Content Include="Pictures\Graduation.jpg" />
     <Content Include="Pictures\html_code.png" />
     <Content Include="Pictures\ISU_Bird.jpg" />
-    <Content Include="Pictures\JolietMX.jpg" />
     <Content Include="Pictures\PDF-Icon.png" />
     <Content Include="Pictures\wedding_reception.jpg" />
     <Content Include="Pictures\WordLogo.png" />

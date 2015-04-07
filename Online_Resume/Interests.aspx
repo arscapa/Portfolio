@@ -294,12 +294,12 @@
 
  <div class ="row">
      <div class="col-md-4">
-         <img src="Pictures/2012_Champs.JPG" alt="2012 Champs- Pepsi Ice Center" class="img-thumbnail"/>
+         <img src="Pictures/2012-Champs.png" alt="2012 Champs- Pepsi Ice Center" class="img-thumbnail"/>
      <h3>Hockey</h3>
          <p>Avid hockey fan who enjoys watching NHL and AHL games. I currently play on a number of Men's League Hockey Teams and I also referree games as well as coach </p>
              </div>
      <div class="col-md-4">
-         <img src="Pictures/JolietMX.jpg" alt="Motocross Picture" class="img-thumbnail" />
+         <img src="Pictures/JolietMX.png" alt="Motocross Picture" class="img-thumbnail" />
          <br />
          <br />
          <h3>Motocross</h3>
@@ -308,7 +308,7 @@
 
 
      <div class="col-md-4">
- <img src="Pictures/band.jpg" class="img-thumbnail"/>
+ <img src="Pictures/band.png" class="img-thumbnail"/>
 <h3>Music</h3>
              <p>I got my first guitar when I was in gradeschool and I have been playing ever since. I am currently playing lead guitar for a band called <a href="https://www.facebook.com/lostandfoundryrocks">"Lost and Foundry",</a> follow us on Facebook and check out one of our shows.</p>
      <div class="fb-like" data-href="https://www.facebook.com/lostandfoundryrocks" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
