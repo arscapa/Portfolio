@@ -158,7 +158,7 @@
               <div class="PaintandBody">
 
       <!-- Image Carousel -->
-      <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  >
+      <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false" style="width:650px" >
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#PaintBodyCarousel" data-slide-to="0" class="active"></li>
@@ -176,42 +176,42 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-       <a href="Pictures/PaintBody/BeforeHondaXL175.JPG" target="_blank"><img src="Pictures/PaintBody/BeforeHondaXL175.JPG" /></a>
+       <a href="Pictures/PaintBody/BeforeHondaXL175.JPG" target="_blank"><img src="Pictures/PaintBody/BeforeHondaXL175min.png" /></a>
       <div class="carousel-caption">
         <h3>'73 Honda XL175 Project Bike Before Paint</h3>
    </div>
         </div>
           
     <div class="item">
-        <a href="Pictures/PaintBody/XL175_After.JPG" target="_blank"><img src="Pictures/PaintBody/XL175_After.JPG" /></a>
+        <a href="Pictures/PaintBody/XL175_After.JPG" target="_blank"><img src="Pictures/PaintBody/XL175_Aftermin.png" /></a>
       <div class="carousel-caption">
         <h3>After Paint</h3>
   </div>
         </div>
 
        <div class="item">
-          <a href="Pictures/PaintBody/CandyRedXL175.JPG" target="_blank"> <img src="Pictures/PaintBody/CandyRedXL175.JPG" /></a>
+          <a href="Pictures/PaintBody/CandyRedXL175.JPG" target="_blank"> <img src="Pictures/PaintBody/CandyRedXL175min.png" /></a>
       <div class="carousel-caption">
        <h3>Candy Apple Red w/t Pearl Ghost Flames </h3>
    </div>
            </div>
   
        <div class="item">
-         <a href="Pictures/PaintBody/GhostFlame.JPG" target="_blank"> <img src="Pictures/PaintBody/GhostFlame.JPG" /></a>
+         <a href="Pictures/PaintBody/GhostFlame.JPG" target="_blank"> <img src="Pictures/PaintBody/GhostFlamemin.png" /></a>
       <div class="carousel-caption">
        <h3>Ghost Flames </h3>
    </div>
            </div>
 
    <div class="item">
-      <a href="Pictures/PaintBody/pinstripingdesign.JPG" target="_blank"> <img src="Pictures/PaintBody/pinstripingdesign.JPG" /></a>
+      <a href="Pictures/PaintBody/pinstripingdesign.JPG" target="_blank"> <img src="Pictures/PaintBody/pinstripemin.png" /></a>
       <div class="carousel-caption">
        <h3>Pinstripe Design </h3>
       </div>
     </div>
 
           <div class="item">
-        <a href="Pictures/PaintBody/tape.JPG" target="_blank"><img src="Pictures/PaintBody/tape.JPG" /></a>
+        <a href="Pictures/PaintBody/tape.JPG" target="_blank"><img src="Pictures/PaintBody/tapemin.png" /></a>
       <div class="carousel-caption">
        <h3>Hood taped off for paint</h3>
       </div>
@@ -219,7 +219,7 @@
 
 
        <div class="item">
-       <a href="Pictures/PaintBody/hood.JPG" target="_blank"><img src="Pictures/PaintBody/hood.JPG" /></a>
+       <a href="Pictures/PaintBody/hood.JPG" target="_blank"><img src="Pictures/PaintBody/hoodmin.png" /></a>
       <div class="carousel-caption">
        <h3> </h3>
       </div>
@@ -228,7 +228,7 @@
 
        
        <div class="item">
-     <a href="Pictures/PaintBody/outline2.JPG" target="_blank"> <img src="Pictures/PaintBody/outline2.JPG" /></a>
+     <a href="Pictures/PaintBody/outline2.JPG" target="_blank"> <img src="Pictures/PaintBody/outline2min.png" /></a>
       <div class="carousel-caption">
        <h3> </h3>
       </div>
@@ -236,7 +236,7 @@
 
 
         <div class="item">
-      <a href="Pictures/PaintBody/painting.JPG" target="_blank"><img src="Pictures/PaintBody/painting.JPG" /></a>
+      <a href="Pictures/PaintBody/painting.JPG" target="_blank"><img src="Pictures/PaintBody/paintingmin.PNG" /></a>
       <div class="carousel-caption">
        <h3> </h3>
       </div>
@@ -268,7 +268,8 @@
 
 
 
-
+             <br />
+             <br />
 
     </div>
 

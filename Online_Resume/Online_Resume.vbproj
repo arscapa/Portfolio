@@ -272,6 +272,15 @@
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeInterior.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
     <Content Include="Pictures\excel.png" />
+    <Content Include="Pictures\PaintBody\BeforeHondaXL175min.png" />
+    <Content Include="Pictures\PaintBody\CandyRedXL175min.png" />
+    <Content Include="Pictures\PaintBody\GhostFlamemin.png" />
+    <Content Include="Pictures\PaintBody\hoodmin.png" />
+    <Content Include="Pictures\PaintBody\outline2min.png" />
+    <Content Include="Pictures\PaintBody\paintingmin.png" />
+    <Content Include="Pictures\PaintBody\pinstripemin.png" />
+    <Content Include="Pictures\PaintBody\tapemin.png" />
+    <Content Include="Pictures\PaintBody\XL175_Aftermin.png" />
     <Content Include="Pictures\play_button2.png" />
     <Content Include="Pictures\scap_auto.png" />
     <Content Include="Scripts\fancybox\blank.gif" />

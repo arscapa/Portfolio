@@ -277,8 +277,7 @@ img#grad_pic {
 }
 
 .AutoResto {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left:135px;
 }
 
 .stocktwits {
@@ -288,11 +287,7 @@ img#grad_pic {
 
 
 .PaintandBody  {
-
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top:20px;
-    padding-bottom:20px;
+    margin-left:200px;
 }
 
 
