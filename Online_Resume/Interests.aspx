@@ -66,8 +66,8 @@
             
   
      <h2>Automotive Restoration</h2>
-                
-<div class="AutoResto" id="scene">
+<div id="trigger1"></div>                
+<div class="AutoResto">
     
                   <br />
                   <br />
@@ -156,7 +156,7 @@
     <br />
     <br />
               <div class="PaintandBody">
-
+                  <div id="trigger2"></div>
       <!-- Image Carousel -->
       <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false" style="width:650px" >
   <!-- Indicators -->

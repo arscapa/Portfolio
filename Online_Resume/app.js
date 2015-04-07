@@ -118,21 +118,49 @@ $(document).ready(function () {
 
 //scrollmagic functionality
 
-$(function () {
+
     // Init Controller
-    var scrollMagicController = new ScrollMagic.Controller();
-});
+    var controller = new ScrollMagic.Controller();
+
+    // Create Animation for 0.5s
+    var tween = TweenMax.to('#chargerinfo', 1, {
+        backgroundColor: 'black',
+    });
 
 
-// Create Animation for 0.5s
-var tween = TweenMax.to('#chargerinfo', 0.5, {
-    backgroundColor: 'black',
-});
 
-var scene = new ScrollMagic.Scene({
-    triggerElement: '#scene',
-    duration: 300 /* How many pixels to scroll / animate */
-})
+    //Create Scene
+    var scene = new ScrollMagic.Scene({
+        triggerElement: '#trigger1', // starting scene, when reaching this element
+        offset: 200,
+    })
+
+
+// Add Scene to ScrollMagic Controller
 .setTween(tween)
-.addTo(scrollMagic.Controller);
+.addTo(controller)
+
+
+
+//scrollmagic--change background back to normal
+
+
+    // Init Controller
+    var controller2 = new ScrollMagic.Controller();
+
+    // Create Animation for 0.5s
+    var tween2 = TweenMax.to('#chargerinfo', 1, {
+        backgroundColor: '#efefef',
+    });
+
+    //Create Scene
+    var scene2 = new ScrollMagic.Scene({
+        triggerElement: '#trigger2', // starting scene, when reaching this element
+    })
+
+
+// Add Scene to ScrollMagic Controller
+.setTween(tween2)
+.addTo(controller2)
+
 
