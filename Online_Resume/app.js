@@ -122,13 +122,13 @@ $(document).ready(function () {
     // Init Controller
     var controller = new ScrollMagic.Controller();
 
-    // Create Animation for 0.5s
+    // Create Animation for 1s
     var tween = new TimelineMax()
 .add([
     
-        TweenMax.to('#chargerinfo', 1, { backgroundColor: 'black', }),
+        TweenMax.to('#chargerinfo', 1, { backgroundColor: '#121212', }),
         TweenMax.to('.bold', 1, { color: '#21a7ce'}),
-        TweenMax.to('h2', 1, { color: '#E6E6E6' }),
+        TweenMax.to('h2', 1, { color: '#2b2c2c' }),
         
 ]);
 
