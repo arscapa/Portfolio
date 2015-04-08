@@ -128,7 +128,7 @@ $(document).ready(function () {
     
         TweenMax.to('#chargerinfo', 1, { backgroundColor: 'black', }),
         TweenMax.to('.bold', 1, { color: '#21a7ce'}),
-        TweenMax.to('h2', 1, { color: '#48E2FD' }),
+        TweenMax.to('h2', 1, { color: '#E6E6E6' }),
         
 ]);
 
