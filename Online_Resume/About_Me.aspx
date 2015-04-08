@@ -13,7 +13,7 @@
         <div class="container">
             <div class="Education">
           <br />
-                <h1>Preface</h1>
+                <h2>Preface</h2>
             <p>Throughout the years, I have developed and pursued a wide variety of interests, however, I have always maintained a love for programming and developing websites and applications. My interest
                 in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 
                 familiar web pages. Being somewhat of a prankster, I decided to put this new-found knowledge to use one particular April Fools Day.
@@ -32,7 +32,7 @@
 
               <a name="Education"></a>
 
-            <h1>My Education</h1> 
+            <h2>My Education</h2> 
              <img id="grad_pic" src="Pictures/Graduation.jpg"/>
 
             <h3>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/ISU_Bird.jpg" class="img-circle"/></a></h3>
@@ -90,7 +90,7 @@
 
                 <div class ="col-md-6">
             <h4>Notable Coursework</h4>
-            <p>Illinois State University</p>
+            <p><b>Illinois State University</b></p>
               <ul>
                 <li>Computer Programming for Business</li>
                 <li>Business Systems Analysis</li>
@@ -100,7 +100,7 @@
                
             </ul>
 
-          <p>Lyons Township Highschool</p>
+          <p><b>Lyons Township Highschool</b></p>
                    <ul>
                        <li>Intro to HTML</li>
                        <li>Intermediate HTML</li>

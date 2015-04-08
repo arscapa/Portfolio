@@ -13,7 +13,7 @@
     
     <div class="info">
       <div class="container">
-        <h1> About this Website</h1>
+        <h2> About this Website</h2>
           
          <p>     
           I developed this website to have one central location where I can direct people to go in order to learn more about me and to showcase my web development skills. Building this website has been a blast
