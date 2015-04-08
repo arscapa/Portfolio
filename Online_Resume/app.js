@@ -116,17 +116,21 @@ $(document).ready(function () {
 
 
 
-//scrollmagic functionality
+//scrollmagic functionality--changes background color when scrolling over Charger image
 
 
     // Init Controller
     var controller = new ScrollMagic.Controller();
 
     // Create Animation for 0.5s
-    var tween = TweenMax.to('#chargerinfo', 1, {
-        backgroundColor: 'black',
-    });
-
+    var tween = new TimelineMax()
+.add([
+    
+        TweenMax.to('#chargerinfo', 1, { backgroundColor: 'black', }),
+        TweenMax.to('.bold', 1, { color: '#21a7ce'}),
+        TweenMax.to('h2', 1, { color: '#48E2FD' }),
+        
+]);
 
 
     //Create Scene
@@ -149,9 +153,14 @@ $(document).ready(function () {
     var controller2 = new ScrollMagic.Controller();
 
     // Create Animation for 0.5s
-    var tween2 = TweenMax.to('#chargerinfo', 1, {
-        backgroundColor: '#efefef',
-    });
+    var tween2 = new TimelineMax()
+.add([
+
+        TweenMax.to('#chargerinfo', 1, { backgroundColor: '#efefef', }),
+        TweenMax.to('.bold', 1, { color: 'black', }),
+        TweenMax.to('h2', 1, { color: '#0033CC' }),
+
+]);
 
     //Create Scene
     var scene2 = new ScrollMagic.Scene({

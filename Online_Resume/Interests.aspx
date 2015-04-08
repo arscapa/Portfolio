@@ -151,7 +151,7 @@
 
 
  <br />   
-             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. <b>Click on a section of the car in the picture above</b> to see some restoration pictures.</p>
+             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. <b><span class="bold">Click on a section of the car in the picture above</span></b> to see some restoration pictures.</p>
 
     <br />
     <br />
