@@ -9,7 +9,7 @@
       <p class="quote">"There is no end. There is no beginning. There is only the passion of life"</p>
       </div>
   
-     <div class="info">
+     <div class="info" id="chargerinfo">
          <div class="container">
   <br />
 
@@ -65,8 +65,8 @@
 
             
   
-     <h2>Automotive Restoration</h2>
-                
+     <h2 class="auto">Automotive Restoration</h2>
+<div id="trigger1"></div>                
 <div class="AutoResto">
     
                   <br />
@@ -151,12 +151,12 @@
 
 
  <br />   
-             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. <b>Click on a section of the car in the picture above</b> to see some restoration pictures.</p>
+             <p>I've been working on restoring a 1974 Dodge Charger since High School. The project has stalled lately due to other comittments but I hope to finish it one day. <b><span class="bold">Click on a section of the car in the picture above</span></b> to see some restoration pictures.</p>
 
     <br />
     <br />
               <div class="PaintandBody">
-
+                  <div id="trigger2"></div>
       <!-- Image Carousel -->
       <div id="PaintBodyCarousel" class="carousel slide" data-ride="carousel" data-interval="false" style="width:650px" >
   <!-- Indicators -->

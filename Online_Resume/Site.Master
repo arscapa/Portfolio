@@ -93,6 +93,12 @@
     <script src="Scripts/fancybox/jquery.fancybox.js"></script>
     <script src="Scripts/fancybox/jquery.fancybox-buttons.js"></script>
 
+
+    <script src="Scripts/scrollmagic/TweenMax.min.js"></script>
+    <script src="Scripts/scrollmagic/jquery.ScrollMagic.min.js"></script>
+    <script src="Scripts/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="Scripts/scrollmagic/debug.addIndicators.js"></script>
+    <script src="Scripts/scrollmagic/animation.gsap.js"></script>
      <script src="app.js"></script>
 </body>
     
