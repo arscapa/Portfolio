@@ -128,8 +128,7 @@ $(document).ready(function () {
     
         TweenMax.to('#chargerinfo', 1, { backgroundColor: '#121212', }),
         TweenMax.to('.bold', 1, { color: '#21a7ce'}),
-        TweenMax.to('h2', 1, { color: '#2b2c2c' }),
-        
+        TweenMax.to('h2', 1, { color: '#464747' }),
 ]);
 
 
@@ -137,12 +136,16 @@ $(document).ready(function () {
     var scene = new ScrollMagic.Scene({
         triggerElement: '#trigger1', // starting scene, when reaching this element
         offset: 200,
+        
     })
 
+    
 
 // Add Scene to ScrollMagic Controller
 .setTween(tween)
 .addTo(controller)
+scene.reverse(false)  //change reverse option to false after adding to controller
+.addIndicators()
 
 
 
@@ -156,7 +159,7 @@ $(document).ready(function () {
     var tween2 = new TimelineMax()
 .add([
 
-        TweenMax.to('#chargerinfo', 1, { backgroundColor: '#efefef', }),
+        TweenMax.to('#chargerinfo', 1.2, { backgroundColor: '#efefef', }),
         TweenMax.to('.bold', 1, { color: 'black', }),
         TweenMax.to('h2', 1, { color: '#0033CC' }),
 
@@ -171,5 +174,35 @@ $(document).ready(function () {
 // Add Scene to ScrollMagic Controller
 .setTween(tween2)
 .addTo(controller2)
+scene2.reverse(false)
 
+
+
+//scrollmagic functionality for skill bar
+
+
+    // Init Controller
+    var controller3 = new ScrollMagic.Controller();
+
+    // Create Animation for 0.5s
+    var tween3 = new TimelineMax()
+.add([
+
+        TweenMax.to('.skill_bar1', 1.25, { width: '90%', }),
+        TweenMax.to('.skill_bar2', 1.25, { width: '80%', }),
+        TweenMax.to('.skill_bar3', 1.25, { width: '80%', }),
+        TweenMax.to('.skill_bar4', 1.25, { width: '65%', }),
+        TweenMax.to('.skill_bar5', 1.25, { width: '65%', }),
+]);
+
+    //Create Scene
+    var scene3 = new ScrollMagic.Scene({
+        triggerElement: '#trigger3', // starting scene, when reaching this element
+        offset: -100,
+    })
+
+
+// Add Scene to ScrollMagic Controller
+.setTween(tween3)
+.addTo(controller3)
 

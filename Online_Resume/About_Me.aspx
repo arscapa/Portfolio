@@ -53,26 +53,27 @@
             <br />
             
 
-            <div class="row" id="trigger">
+            <div id="trigger3"></div>
+            <div class="row">
 
                 <div class="col-md-6">
       <h4>Competencies</h4>
             
             
                  <ul class="skills">
-                    <li class="skill_bar1" style="width:90%; background-color:#FF5353">MICROSOFT EXCEL
+                    <li class="skill_bar1" style="background-color:#FF5353">MICROSOFT EXCEL
                         <span class="skill_level">PRO </span>
                     </li>
-                    <li class="skill_bar2" style="width:80%; background-color:#1CDCFF">HTML
+                    <li class="skill_bar2" style="background-color:#1CDCFF">HTML
                         <span class="skill_level">SEMI-PRO</span>
                     </li>
-                    <li class="skill_bar3" style="width:80%; background-color:#C799FF">CSS
+                    <li class="skill_bar3" style="background-color:#C799FF">CSS
                         <span class="skill_level">SEMI-PRO</span>
                     </li>
-                      <li class="skill_bar4" style="width:65%; background-color:#7CD14E">Javascript
+                      <li class="skill_bar4" style="background-color:#7CD14E">Javascript
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
-                      <li class="skill_bar4" style="width:65%; background-color:darkslateblue"">Photoshop
+                      <li class="skill_bar5" style="background-color:darkslateblue"">Photoshop
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      

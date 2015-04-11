@@ -189,6 +189,7 @@ textarea {
     margin-bottom: 2px;
     padding: 2px 10px;
     border-radius: 10px;
+    width:100%;
 
 }
 
@@ -318,3 +319,5 @@ img#grad_pic {
     {
 
     }
+
+  
