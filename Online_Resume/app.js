@@ -160,7 +160,7 @@ scene.reverse(false)  //change reverse option to false after adding to controlle
 .add([
 
         TweenMax.to('#chargerinfo', 1.2, { backgroundColor: '#efefef', }),
-        TweenMax.to('.bold', .5, { color: 'black', fontSize: "17px" }),
+        TweenMax.to('.bold', .8, { color: 'black', fontSize: "17px" }),
         TweenMax.to('h2.auto', 1, { color: '#0033CC' }),
 
 ]);
