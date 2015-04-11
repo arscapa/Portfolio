@@ -402,6 +402,7 @@
     <Content Include="Scripts\scrollmagic\animation.gsap.js" />
     <Content Include="Scripts\scrollmagic\debug.addIndicators.js" />
     <Content Include="Scripts\scrollmagic\jquery.ScrollMagic.js" />
+    <Content Include="Scripts\scrollmagic\jquery.ScrollMagic.min.js" />
     <Content Include="Scripts\scrollmagic\ScrollMagic.js" />
     <Content Include="Scripts\scrollmagic\ScrollMagic.min.js" />
     <Content Include="Scripts\scrollmagic\TweenMax.min.js" />

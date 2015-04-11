@@ -65,7 +65,7 @@
 
             
   
-     <h2>Automotive Restoration</h2>
+     <h2 class="auto">Automotive Restoration</h2>
 <div id="trigger1"></div>                
 <div class="AutoResto">
     
