@@ -64,6 +64,40 @@ $(document).ready(function () {
         });
 });
 
+//preload charger_main images so that they're ready for hover event
+
+
+function preloader() 
+
+{
+
+
+    // counter
+    var i = 0;
+
+
+    // create object
+    imageObj = new Image();
+
+
+    // set image list
+    images = new Array();
+    images[0] = "Pictures/AutomotiveResto/MainPics/74dodgeEngine.png"
+    images[1] = "Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png"
+    images[2] = "Pictures/AutomotiveResto/MainPics/74dodgeFender.png"
+    images[3] = "Pictures/AutomotiveResto/MainPics/74dodgeInterior.png"
+
+
+    // start preloading
+    for(i=0; i<=3; i++) 
+    {
+        imageObj.src=images[i];
+    }
+
+} 
+
+
+
 
 
 //changes charger_main picture on interests page to highlighted section of car when hovering over it
