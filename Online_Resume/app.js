@@ -232,7 +232,7 @@ scene2.reverse(false)
     //Create Scene
     var scene3 = new ScrollMagic.Scene({
         triggerElement: '#trigger3', // starting scene, when reaching this element
-        offset: -100,
+        offset: -125,
     })
 
 

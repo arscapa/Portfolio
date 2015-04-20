@@ -11,7 +11,7 @@
   
      <div class="info" id="chargerinfo">
          <div class="container">
-  <br />
+ 
 
   <h2>Investing</h2>
      <p>I'm constantly researching new stocks and studying chart patters and technicals. My mindset is typically that of a long-term investor with a core-portfolio built around mutual funds and ETF's value-averaged on a quarterly basis with smaller positions invested in high-growth stocks.</p>

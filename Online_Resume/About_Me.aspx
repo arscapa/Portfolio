@@ -12,7 +12,7 @@
     <div class="learn-more">
         <div class="container">
             <div class="Education">
-          <br />
+          
                 <h2>Preface</h2>
             <p>Throughout the years, I have developed and pursued a wide variety of interests, however, I have always maintained a love for programming and developing websites and applications. My interest
                 in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 
