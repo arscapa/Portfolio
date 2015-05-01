@@ -160,9 +160,9 @@ $(document).ready(function () {
     var tween = new TimelineMax()
 .add([
     
-        TweenMax.to('#chargerinfo', 1, { backgroundColor: '#121212', }),
-        TweenMax.to('.bold', 1, { color: '#21a7ce', fontSize:"20px"}),
-        TweenMax.to('h2.auto', 1, { color: '#464747' }),
+     
+        TweenMax.to('.bold', 1, { color: '#3333FF', fontSize: "20px" }),
+
 ]);
 
 
@@ -178,7 +178,7 @@ $(document).ready(function () {
 // Add Scene to ScrollMagic Controller
 .setTween(tween)
 .addTo(controller)
-scene.reverse(false)  //change reverse option to false after adding to controller
+scene.reverse(true)  //change reverse option to false after adding to controller
 .addIndicators()
 
 
@@ -193,9 +193,9 @@ scene.reverse(false)  //change reverse option to false after adding to controlle
     var tween2 = new TimelineMax()
 .add([
 
-        TweenMax.to('#chargerinfo', 1.2, { backgroundColor: '#efefef', }),
+    
         TweenMax.to('.bold', .8, { color: 'black', fontSize: "17px" }),
-        TweenMax.to('h2.auto', 1, { color: '#0033CC' }),
+    
 
 ]);
 
@@ -208,7 +208,7 @@ scene.reverse(false)  //change reverse option to false after adding to controlle
 // Add Scene to ScrollMagic Controller
 .setTween(tween2)
 .addTo(controller2)
-scene2.reverse(false)
+scene2.reverse(true)
 
 
 
