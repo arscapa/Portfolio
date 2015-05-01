@@ -26,36 +26,36 @@
  <div class="About_Me_Links">
 		<div class="row">
 	      <div class="col-md-4">
-             <a href="Portfolio.aspx"><img src="Pictures/html_code.png" class="img-circle"/></a>
+             <a href="Portfolio.aspx#Websites"><img src="Pictures/html_code.png" class="img-circle"/></a>
 			<h3>Web Developer</h3>
 			<p>Turning your visions into a reality</p>
 		<p><a href="Portfolio.aspx#Websites">See some past projects I have worked on</a></p>
 	      </div>
 
 		  <div class="col-md-4">
-              <a href="Portfolio.aspx"><img src="Pictures/tribal-design2.png" class="img-circle"/></a>
+              <a href="Portfolio.aspx#Logos"><img src="Pictures/tribal-design2.png" class="img-circle"/></a>
 			<h3>Logo Designer</h3>
 			<p>Expressing my creativity graphically</p>
 			<p><a href="Portfolio.aspx#Logos">See some of my designs</a></p>
 		  </div>
 
 		  <div class="col-md-4">
-              <a href="About_Me.aspx"><img src="Pictures/wedding_reception.jpg" class="img-circle"/></a>
+              <a href="About_Me.aspx#Education"><img src="Pictures/wedding_reception.jpg" class="img-circle"/></a>
 			<h3>Business Professional</h3>
 			<p>Helping grow businesses with my unique blend of knowledge and experience </p>
 			<p><a href="About_Me.aspx#Education">Learn more about my Business background</a></p>
 		  </div>
+            
 	    </div>
             </div>
         </div>
         </div>
    
     
-   
-	<div class="container">
-    
-	  </div>
+
+
 	
-        </div>
+	
+     
         
 </asp:Content>
