@@ -51,7 +51,7 @@
         </div>
    
     
-    <div class="learn-more">
+   
 	<div class="container">
     
 	  </div>
