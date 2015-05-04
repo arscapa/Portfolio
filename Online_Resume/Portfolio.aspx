@@ -31,8 +31,9 @@
              </div>
 
      <div class="col-md-4">
+         <a href="ProjectFiles.zip">
          <img src="Pictures/ERD.png" alt="Ticketing System ERD's"  />
-         
+         </a>
          <h3>Zendesk</h3>
 <p>For my capstone BIS class, I worked with ISU's College of Business to develop a solution for their support staff to more efficiently handle the technical needs and issues of the college. We ultimately
     recommended a software-as-a-service solution called Zendesk because of it's proven track record and scalability. For more information on this project, including a feasibility analysis, prototype ERD's, success metrics, & a requirements document, click <a href="ProjectFiles.zip">here</a> to download some of our project files. 
@@ -41,7 +42,9 @@
 
 
      <div class="col-md-4">
+         <a href="https://github.com/arscapa">
  <img src="Pictures/github.png" />
+             </a>
 <h3>GitHub</h3>
              <p>I started a GitHub repository to store any programming projects and familiarize myself with Git. The entire code for this website can be found at the following link as well; <a href=" https://github.com/arscapa" target="_blank">https://github.com/arscapa</a></p>
              </div>
