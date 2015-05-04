@@ -15,22 +15,28 @@
 <h2>Past Projects</h2>
 <br />
 <br />
+              
+                   
 
-             
+<div class="media">
+    <div class="pull-left">
+        <a href="Videos/ExcelDEMO.mp4" class="fancybox">
+            <div class="excel_vid">
+                <img class="vidIMG" src="Pictures/excel.png" alt="Excel Outstanding Checks Reconciliation App"  />
+                </div>
+        </a>
+    </div>
+     <div class="media-body">
+    <h3 class="media-heading">Excel Spreadsheet Application</h3>
+          <p>Using a combination of VLookup, Conditional Formatting, Macro's, & VBA coding, I was able to take an outstanding check reconciliation that was previously performed manually and decrease the lead time from several hours to mere minutes. Click the pic above for a quick demo of the application in action </p>          
+</div>
+    </div>
+         
+   
 
+<br />
+<br />
 
- <div class ="row">
-     <div class="col-md-4">
-         <a href="Videos/ExcelDEMO.mp4"  class="fancybox"  >
-             <div class="excel_vid">
-             <img src="Pictures/excel.png" alt="Excel Outstanding Checks Reconciliation App" class="vidIMG"/>
-            </div>
-         </a>
-     <h3>Excel Spreadsheet Application</h3>
-         <p>Using a combination of VLookup, Conditional Formatting, Macro's, & VBA coding, I was able to take an outstanding check reconciliation that was previously performed manually and decrease the lead time from several hours to mere minutes. Click the pic above for a quick demo of the application in action </p>
-             </div>
-
-     <div class="col-md-4">
          <a href="ProjectFiles.zip">
          <img src="Pictures/ERD.png" alt="Ticketing System ERD's"  />
          </a>
@@ -38,18 +44,16 @@
 <p>For my capstone BIS class, I worked with ISU's College of Business to develop a solution for their support staff to more efficiently handle the technical needs and issues of the college. We ultimately
     recommended a software-as-a-service solution called Zendesk because of it's proven track record and scalability. For more information on this project, including a feasibility analysis, prototype ERD's, success metrics, & a requirements document, click <a href="ProjectFiles.zip">here</a> to download some of our project files. 
 </p>
-     </div>
+    
 
 
-     <div class="col-md-4">
          <a href="https://github.com/arscapa">
  <img src="Pictures/github.png" />
              </a>
 <h3>GitHub</h3>
              <p>I started a GitHub repository to store any programming projects and familiarize myself with Git. The entire code for this website can be found at the following link as well; <a href=" https://github.com/arscapa" target="_blank">https://github.com/arscapa</a></p>
-             </div>
-     </div>
-</div>
+        
+
 
          <br />
          <br />
@@ -151,10 +155,10 @@
         <br />
         <h3>Click image above to take a closer look at the logo's I've designed</h3>
 
-
+         </div>
 
          </div>
-         </div>
+    
 
 
 </asp:Content>
