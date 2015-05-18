@@ -324,4 +324,7 @@ img#grad_pic {
 
     }
 
-  
+  .media-body
+  {
+      padding-left:30px;
+  }
