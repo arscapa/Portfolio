@@ -23,10 +23,10 @@
       <div class="panel-body">
 
 <%--//start of collapsible content 1--%>
-     <div class="learn-more">
+     
                <div class="container">
 
-<h2>Past Projects</h2>
+
 <br />
 <br />
               
@@ -94,7 +94,7 @@
 
   
          </div>
-         </div>
+      
 
 
 
@@ -118,9 +118,9 @@
 
 <%--//start of collapsible content 2--%>
      <a name="Websites"></a>
-      <div class="info">
+    
         <div class="container">
-<h2>Websites I've Designed</h2>
+
             <br />
             <br />
  <div class ="row">
@@ -190,7 +190,7 @@
         </div>
           <br />
           <br />
-    </div>
+ 
 
 
 
@@ -218,10 +218,10 @@
 
       <a name="Logos"></a>
 
-     <div class="learn-more">
+     
                <div class="container">
 
-                       <h2>Logo's</h2>
+                
                    <br />
                    <br />
 
@@ -236,7 +236,7 @@
 
          </div>
 
-         </div>
+         
     
 
              </div>
