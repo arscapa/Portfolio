@@ -9,18 +9,16 @@
         <p class="quote">"Your work is to discover your work and then, with all your heart, to give yourself to it"</p>
       </div>
 
+  <div class="info">
+    <div class="container">
+      
+
 <%--    //start of collapsible section 1--%>
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Past Projects
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+  <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-1">Past Projects</a>
+         
+        <div id="accordion-1" class="accordion-section-content">
 
 <%--//start of collapsible content 1--%>
      
@@ -104,17 +102,12 @@
   </div>
 
 <%--//start of collapsible section 2--%>
-   <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Websites I've Designed
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-
+ <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-2">Websites I've Designed</a>
+         
+        <div id="accordion-2" class="accordion-section-content">
+ 
 
 <%--//start of collapsible content 2--%>
      <a name="Websites"></a>
@@ -201,16 +194,11 @@
 
        <%-- //start of collapsible content 3--%>
 
-          <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-         Logo's I've Designed
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
+   <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-3">Logo's I've Designed</a>
+         
+        <div id="accordion-3" class="accordion-section-content">
 
 
 <%--//start of content--%>
@@ -242,5 +230,11 @@
              </div>
     </div>
   </div>
+
+
 </div>
+</div>
+
+
+   
 </asp:Content>
