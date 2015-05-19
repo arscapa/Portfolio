@@ -66,7 +66,9 @@
             
   
      <h2 class="auto">Automotive Restoration</h2>
-<div id="trigger1"></div>                
+<div id="trigger1"></div>  
+                       
+
 <div class="AutoResto">
     
                   <br />
@@ -74,7 +76,7 @@
 
     <%--Image Maps for Charger Pic, (+50,-10) to account for padding --%>
     <map name="map">
-          <area shape ="circle" coords="557, 485, 89" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"  />
+          <area shape ="circle" coords="557, 485, 89" href="#AutoResto" id="Suspension" alt="Suspension" class="SelectSuspension"/>
 
          <area shape ="circle" coords="263, 275, 95" href="#AutoResto" id="Engine" alt="Engine" class="SelectEngine"  />
 
