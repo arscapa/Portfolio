@@ -16,7 +16,7 @@
 <%--    //start of collapsible section 1--%>
   <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" href="#accordion-1">Past Projects</a>
+        <a class="accordion-section-title" id="flag1" href="#accordion-1"> <h id="flagtext1">Past Projects</h></a>
          
         <div id="accordion-1" class="accordion-section-content">
 
@@ -104,7 +104,7 @@
 <%--//start of collapsible section 2--%>
  <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" href="#accordion-2">Websites I've Designed</a>
+        <a class="accordion-section-title" id="flag2" href="#accordion-2">Websites I've Designed</a>
          
         <div id="accordion-2" class="accordion-section-content">
  
@@ -196,7 +196,7 @@
 
    <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" href="#accordion-3">Logo's I've Designed</a>
+        <a class="accordion-section-title" id="flag3" href="#accordion-3"> Logo's I've Designed</a>
          
         <div id="accordion-3" class="accordion-section-content">
 

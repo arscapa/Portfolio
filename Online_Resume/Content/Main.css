@@ -346,24 +346,23 @@ img#grad_pic {
 
   /*----- Section Titles -----*/
 .accordion-section-title {
-    width:100%;
+    width: 1140px;
+    height:54px;
     padding:15px;
     display:inline-block;
-    border-bottom:1px solid #1a1a1a;
-    background:rgb(45,48,51);
     transition:all linear 0.15s;
     /* Type */
     font-size:1.200em;
-    text-shadow:0px 1px 0px #1a1a1a;
-    color:white;
+    text-shadow:0px .5px 0px #1a1a1a;
 }
  
 .accordion-section-title.active, .accordion-section-title:hover {
-    background:#4c4c4c;
+    opacity:.5;
     /* Type */
     text-decoration:none;
-    color: #00b0ff;
+    color:black;
 }
+
  
 .accordion-section:last-child .accordion-section-title {
     border-bottom:none;
@@ -373,4 +372,32 @@ img#grad_pic {
 .accordion-section-content {
     padding:15px;
     display:none;
+}
+
+
+#flag1 {
+    background-image: url('../Pictures/ChicagoFlag/flag-1.png');
+  
+}
+
+
+
+#flag2 {
+    background-image: url('../Pictures/ChicagoFlag/flag-2.png');
+}
+
+
+
+#flag3 {
+    background-image: url('../Pictures/ChicagoFlag/flag-3.png');
+}
+
+
+
+.accordion a {
+    color: rgb(202,0,0);
+}
+
+#flagtext1 {
+   
 }
