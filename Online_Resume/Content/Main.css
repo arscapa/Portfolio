@@ -356,7 +356,7 @@ img#grad_pic {
     text-shadow:0px .5px 0px #1a1a1a;
 }
  
-.accordion-section-title.active, .accordion-section-title:hover {
+.accordion-section-title:hover {
     opacity:.5;
     /* Type */
     text-decoration:none;
@@ -376,20 +376,20 @@ img#grad_pic {
 
 
 #flag1 {
-    background-image: url('../Pictures/ChicagoFlag/flag-1.png');
+    background-image: url('../Pictures/ChicagoFlag/flag1.png');
   
 }
 
 
 
 #flag2 {
-    background-image: url('../Pictures/ChicagoFlag/flag-2.png');
+    background-image: url('../Pictures/ChicagoFlag/flag2.png');
 }
 
 
 
 #flag3 {
-    background-image: url('../Pictures/ChicagoFlag/flag-3.png');
+    background-image: url('../Pictures/ChicagoFlag/flag3.png');
 }
 
 

@@ -263,9 +263,9 @@
     <Content Include="Anthony_Scapardine_RESUME.docx" />
     <Content Include="Pictures\2012-Champs.png" />
     <Content Include="Pictures\band.png" />
-    <Content Include="Pictures\ChicagoFlag\flag-1.png" />
-    <Content Include="Pictures\ChicagoFlag\flag-2.png" />
-    <Content Include="Pictures\ChicagoFlag\flag-3.png" />
+    <Content Include="Pictures\ChicagoFlag\flag1.png" />
+    <Content Include="Pictures\ChicagoFlag\flag2.png" />
+    <Content Include="Pictures\ChicagoFlag\flag3.png" />
     <Content Include="Pictures\JolietMX.png" />
     <Content Include="Pictures\lofty_lodging.png" />
     <Content Include="Pictures\mxtracker.png" />
