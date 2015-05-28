@@ -18,9 +18,9 @@
 <%--    //start of collapsible section 1--%>
   <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" id="flag1" href="#accordion-1"> </a>
+        <a class="accordion-section-title active" id="flag1" href="#accordion-1"> </a>
          
-        <div id="accordion-1" class="accordion-section-content">
+        <div id="accordion-1" class="accordion-section-content open" style="display:block">
 
 <%--//start of collapsible content 1--%>
      
