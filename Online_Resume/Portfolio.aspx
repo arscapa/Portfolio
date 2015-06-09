@@ -215,6 +215,7 @@
                    <br />
                    <br />
 
+<%--//start of logo Carousel Slideshow--%>
 
                          <div id="logoCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  >
   <!-- Indicators -->
@@ -229,16 +230,10 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-       <a href="Pictures/LogoDesign/WebsiteLogo2.jpg"  data-lightbox="Logos"><img src="Pictures/LogoDesign/WebsiteLogo2.jpg" /></a>
+       <a href="Pictures/LogoDesign/WebsiteLogo2.jpg"  data-lightbox="Logos"><img src="Pictures/LogoDesign/scapAuto.png" /></a>
         </div>
           
-    <div class="item">
-        <a href="Pictures/LogoDesign/Website%20Logo.jpg"  data-lightbox="Logos"><img src="Pictures/LogoDesign/Website%20Logo.jpg" /></a>
-      <div class="carousel-caption">
-    
-  </div>
-        </div>
-
+  
        <div class="item">
           <a href="Pictures/LogoDesign/1.jpg"  data-lightbox="Logos"> <img src="Pictures/LogoDesign/1.jpg" /></a>
       <div class="carousel-caption">
@@ -247,11 +242,18 @@
            </div>
   
        <div class="item">
-         <a href="Pictures/LogoDesign/LOGO.png"  data-lightbox="Logos"> <img src="Pictures/LogoDesign/LOGO.png" /></a>
+         <a href="Pictures/LogoDesign/LOGO.png"  data-lightbox="Logos"><img src="Pictures/LogoDesign/MXTT.png" /> </a>
       <div class="carousel-caption">
  
    </div>
            </div>
+
+        <div class="item">
+        <a href="Pictures/LogoDesign/Website%20Logo.jpg"  data-lightbox="Logos"> <img src="Pictures/LogoDesign/scapAuto2.png" />  </a>
+      <div class="carousel-caption">
+    
+  </div>
+        </div>
 
 
   </div>
@@ -266,37 +268,29 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+                   <br />
+                   <br />
+                   <br />
+
+
+
+
+
+
+
+
     </div>
-
-
-            <br />
-            <br />
-            <br />
-
-
-
-
-
-         <a href="Pictures/LogoDesign/WebsiteLogo2.jpg" data-lightbox="Logos"> <img src="Pictures/LogoDesign/WebsiteLogo2.jpg" alt="Scapardine Automotive" class="img-rounded" /></a>
-
-     <a href="Pictures/LogoDesign/Website%20Logo.jpg" data-lightbox="Logos" data-title=" "></a>
-    <a href="Pictures/LogoDesign/1.jpg" data-lightbox="Logos" data-title=" "></a>
-       <a href="Pictures/LogoDesign/LOGO.png" data-lightbox="Logos" data-title=" "></a>
-     <br />
-        <br />
-        <h3>Click image above to take a closer look at the logo's I've designed</h3>
 
          </div>
 
-         
-    
-
              </div>
     </div>
+
+
+
   </div>
 
-<br />
-        <br />
 
 </div>
 

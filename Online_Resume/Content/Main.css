@@ -397,3 +397,12 @@ img#grad_pic {
     height: 225px;
     max-height: 225px;
 }
+
+#logoCarousel .carousel-control.left {
+
+    background-image: none;
+}
+
+#logoCarousel .carousel-control.right {
+    background-image: none;
+}
