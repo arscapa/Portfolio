@@ -68,10 +68,6 @@
 
 
 
-	 <div id="footer">
-		<p><a href="Default.aspx">&copy 2015 Tony Scapardine </a></p>
-
-        </div>
 
 
 
@@ -100,11 +96,19 @@
     <script src="Scripts/scrollmagic/debug.addIndicators.js"></script>
     <script src="Scripts/scrollmagic/animation.gsap.js"></script>
      <script src="app.js"></script>
+
+
+
+    	
+		 <div id="footer">
+		<p><a href="Default.aspx">&copy 2015 Tony Scapardine </a></p>
+
+        </div>
+
 </body>
     
        
 		
-    	
-	
+    
 
 </html>

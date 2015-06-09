@@ -70,7 +70,6 @@ textarea {
 .learn-more {
   background-color: #f7f7f7;
   padding-bottom: 0px;
-  padding-top: 10px;
 }
 
 .learn-more h4{
@@ -218,6 +217,7 @@ ul.skills{
     padding-top: 10px;
     padding-bottom: 20px;
     margin-bottom:20px;
+    height: 400px;
    
 }
 
@@ -375,6 +375,7 @@ img#grad_pic {
 
 #flag1 {
     background-image: url('../Pictures/ChicagoFlag/flag1.png');
+    width: 100%;
   
 }
 
@@ -382,12 +383,14 @@ img#grad_pic {
 
 #flag2 {
     background-image: url('../Pictures/ChicagoFlag/flag2.png');
+    width: 100%;
 }
 
 
 
 #flag3 {
     background-image: url('../Pictures/ChicagoFlag/flag3.png');
+    width: 100%;
 }
 
 
@@ -405,4 +408,20 @@ img#grad_pic {
 
 #logoCarousel .carousel-control.right {
     background-image: none;
+}
+
+.learn-more .container {
+
+    background-color: white;
+}
+
+.info .container {
+
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.accordian .container {
+    padding-left: 5px;
 }

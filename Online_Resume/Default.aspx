@@ -11,7 +11,7 @@
       </div>
      
     
-    <div class="info">
+    <div class="learn-more">
       <div class="container">
        
           <br />
@@ -48,8 +48,11 @@
             
 	    </div>
             </div>
-        </div>
-        </div>
+      
+          </div>
+            </div>
+    
+      
    
     
 

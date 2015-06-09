@@ -218,13 +218,7 @@
 <%--//start of logo Carousel Slideshow--%>
 
                          <div id="logoCarousel" class="carousel slide" data-ride="carousel" data-interval="false"  >
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#logoCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#logoCarousel" data-slide-to="1"></li>
-    <li data-target="#logoCarousel" data-slide-to="2"></li>
-    <li data-target="#logoCarousel" data-slide-to="3"></li>
-  </ol>
+  <!-- Indicators----REMOVED -->
 
 
   <!-- Wrapper for slides -->
