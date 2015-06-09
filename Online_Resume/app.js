@@ -269,4 +269,12 @@ scene2.reverse(true)
     });
 
 
+// Set interval for logo Carousel
+
+    $('.accordion #flag3').slideDown(function () {
+        $('#logoCarousel').carousel({
+            interval: 2500
+        })
+    });
+   
   
