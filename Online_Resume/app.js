@@ -278,13 +278,13 @@ scene2.reverse(true)
     });
    
   
-//Open corresponding accordian section when link clicked from home page, (checks url for tag and opens corresponding section)
+//Open corresponding accordion section when link clicked from home page, (checks url for tag and opens corresponding section)
 
 var str = location.href.toLowerCase();
 $(".accordion-section-title").each(function () {
     if (str.indexOf($(this).attr("href").toLowerCase()) > -1) {
-        $('#flag1').removeClass("active");
-        $('#Projects').slideUp(800).removeClass('open');
+        $('.accordion .accordion-section-title').removeClass('active');
+        $('.accordion .accordion-section-content').slideUp(800).removeClass('open');
         $(this).addClass("active");
         $(this).next('.accordion-section-content').slideDown(800).addClass("open")
     }
