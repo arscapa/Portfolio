@@ -9,9 +9,22 @@
       <p class="quote">"There is no end. There is no beginning. There is only the passion of life"</p>
       </div>
   
-     <div class="info" id="chargerinfo">
+
+
+    <div class="info" id="chargerinfo">
          <div class="container">
- 
+
+<%--    //start of collapsible section 1--%>
+  <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title active" id="flag1" href="#Investing"> </a>
+         
+        <div id="Investing" class="accordion-section-content open" style="display:block">
+
+<%--//start of collapsible content 1--%>
+
+     
+
 
   <h2>Investing</h2>
      <p>I'm constantly researching new stocks and studying chart patters and technicals. My mindset is typically that of a long-term investor with a core-portfolio built around mutual funds and ETF's value-averaged on a quarterly basis with smaller positions invested in high-growth stocks.</p>
@@ -61,8 +74,16 @@
              <br />
           
 
+</div>
+         </div>
+            </div>
 
-
+        <%--//start of collapsible section 2--%>
+ <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" id="flag2" href="#AutomotiveRestoration"></a>
+        <div id="AutomotiveRestoration" class="accordion-section-content">
+            <%--//start of collapsible content 2--%>
             
   
      <h2 class="auto">Automotive Restoration</h2>
@@ -157,6 +178,24 @@
 
     <br />
     <br />
+
+
+            </div>
+        </div>
+     </div>
+
+
+  <%-- //start of collapsible content 3--%>
+
+   <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" id="flag3" href="#Painting"></a>
+         
+        <div id="Painting" class="accordion-section-content">
+
+
+<%--//start of content--%>
+
               <div class="PaintandBody">
                   <div id="trigger2"></div>
       <!-- Image Carousel -->
@@ -281,15 +320,28 @@
 
 </div>
         
+    </div>
+        
+  
+      
+        
+    
+      <%-- //start of collapsible content 4--%>
 
-         <div class="learn-more">
-               <div class="container">
+   <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" id="flag1" href="#Paint"></a>
+         
+        <div id="Paint" class="accordion-section-content">
+
+
+<%--//start of content--%>
+
+   
 
 
 <br />
 <br />
-
-
 
 <h2>Hobbies</h2>
                    <br />
@@ -335,6 +387,13 @@
 
          </div>
      </div>
+
+
+            </div>
+        </div>
+        </div>
+       </div>
+    </div>
       
 
 
