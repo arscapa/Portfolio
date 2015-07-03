@@ -17,8 +17,8 @@
 <%--    //start of collapsible section 1--%>
   <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title active" id="flag1" href="#Investing"> </a>
-         
+        <a class="accordion-section-title active" id="TickerBar" href="#Investing">Investing <span class="priceChange"> <span class="price"> 20.47</span>  &#x25B2;2.47</span> </a>
+       
         <div id="Investing" class="accordion-section-content open" style="display:block">
 
 <%--//start of collapsible content 1--%>
