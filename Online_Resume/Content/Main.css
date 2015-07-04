@@ -451,7 +451,6 @@ a:focus {
 
 .arrow{
     color:#080;
-    margin-left:900px;
     font-weight:bold;
 }
 
@@ -461,4 +460,5 @@ a:focus {
 
 .down-price{
     color:red;
+    background-color:black;
 }

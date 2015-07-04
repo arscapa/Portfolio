@@ -291,6 +291,14 @@ $(document).ready(function () {
 
 
 
+
+    $('#TickerBar').click(function () {
+        $(this).css('color', 'red');
+        $('.priceChange').css('color', 'red');
+        $('.arrow').html('&#x25BC').css('color','red');
+    });
+
+
  
 
 });
