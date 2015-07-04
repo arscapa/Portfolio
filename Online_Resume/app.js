@@ -296,16 +296,24 @@ $(document).ready(function () {
        //checks if the ticker bar accordion section is selected and changes the direction of the stock price arrow and color based on this test
         if ($(this).is(".active")) {
             $('.arrow').html('&#x25BC').css('color', 'red');
-            $('.priceChange').css('color', 'red');
+            $('.dollarChange').css('color', 'red');
         }
         else {
             $('.arrow').html('&#x25B2;').css('color', '#080')
-            $('.priceChange').css('color', '#080');
+            $('.dollarChange').css('color', '#080');
         }
     });
 
 
 
+    setInterval(function () {
+        var change = (Math.random() * 2 + 1);
+       var price = 18 + change
+
+      $('.dollarChange').text(change.toFixed(2));
+       $('.price').text(price.toFixed(2));
+    }, 
+  2500);
  
 
 });
