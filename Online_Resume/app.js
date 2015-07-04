@@ -297,21 +297,25 @@ $(document).ready(function () {
         if ($(this).is(".active")) {
             $('.arrow').html('&#x25BC').css('color', 'red');
             $('.dollarChange').css('color', 'red');
+            $('.percentChange').css('color', 'red');
         }
         else {
             $('.arrow').html('&#x25B2;').css('color', '#080')
             $('.dollarChange').css('color', '#080');
+            $('.percentChange').css('color', '#080');
         }
     });
 
 
 
     setInterval(function () {
-        var change = (Math.random() * 2 + 1);
-       var price = 18 + change
+        var change = (Math.random() + 1);
+        var price = 18 + change
+        var percentChange = (change / price) * 100
 
       $('.dollarChange').text(change.toFixed(2));
-       $('.price').text(price.toFixed(2));
+      $('.price').text(price.toFixed(2));
+      $('.percentChange').text('(' + percentChange.toFixed(2) + '%' + ')' );
     }, 
   2500);
  

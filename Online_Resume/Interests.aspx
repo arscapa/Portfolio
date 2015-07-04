@@ -123,7 +123,7 @@
 <%--    //start of collapsible section 2--%>
   <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" id="TickerBar" href="#Investing">Investing <span class="stockQuote"> <span class="price"> 20.50</span> <span class="arrow"> &#x25B2; </span><span class ="dollarChange"> 2.50 </span></span> </a>
+        <a class="accordion-section-title" id="TickerBar" href="#Investing">Investing <span class="stockQuote"> <span class="price"> 19.50</span> <span class="arrow"> &#x25B2; </span><span class ="dollarChange"> 1.50 </span> <span class ="percentChange"> (8.33%)</span></span> </a>
        
         <div id="Investing" class="accordion-section-content">
 
