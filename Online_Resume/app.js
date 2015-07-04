@@ -291,12 +291,19 @@ $(document).ready(function () {
 
 
 
-
+    //stock ticker accordion bar functionality
     $('#TickerBar').click(function () {
-        $(this).css('color', 'red');
-        $('.priceChange').css('color', 'red');
-        $('.arrow').html('&#x25BC').css('color','red');
+       //checks if the ticker bar accordion section is selected and changes the direction of the stock price arrow and color based on this test
+        if ($(this).is(".active")) {
+            $('.arrow').html('&#x25BC').css('color', 'red');
+            $('.priceChange').css('color', 'red');
+        }
+        else {
+            $('.arrow').html('&#x25B2;').css('color', '#080')
+            $('.priceChange').css('color', '#080');
+        }
     });
+
 
 
  

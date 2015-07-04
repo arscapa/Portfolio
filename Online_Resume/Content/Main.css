@@ -442,6 +442,20 @@ a:focus {
      font:bold 18px verdana
 }
 
+#TickerBar.accordion-section-title.active {
+    color: red;
+  
+}
+
+#TickerBar.accordion-section-title.active.arrow{
+    color: red;
+}
+
+#TickerBar.accordion-section-title.active.priceChange{
+    color: red;
+}
+
+
 
 .priceChange {
     color:#080;
@@ -458,7 +472,3 @@ a:focus {
     color: black;
 }
 
-.down-price{
-    color:red;
-    background-color:black;
-}

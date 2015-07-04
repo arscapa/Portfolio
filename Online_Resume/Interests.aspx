@@ -14,75 +14,11 @@
     <div class="info" id="chargerinfo">
          <div class="container">
 
-<%--    //start of collapsible section 1--%>
-  <div class="accordion">
-    <div class="accordion-section">
-        <a class="accordion-section-title active" id="TickerBar" href="#Investing">Investing <span class="priceChange"> <span class="price"> 20.47</span> <span class="arrow"> &#x25B2; </span> 2.47</span> </a>
-       
-        <div id="Investing" class="accordion-section-content open" style="display:block">
-
-<%--//start of collapsible content 1--%>
-
-     
-
-
-  <h2>Investing</h2>
-     <p>I'm constantly researching new stocks and studying chart patters and technicals. My mindset is typically that of a long-term investor with a core-portfolio built around mutual funds and ETF's value-averaged on a quarterly basis with smaller positions invested in high-growth stocks.</p>
-     <p>Here are some stocks I am currently following:</p>
-             <br />
-
-         <div class="row">
-
-         <div class="container">
-
-   <div class="stocktwits">
-   <div id="stocktwits-widget-news"></div>
-<div class="col-md-4">
-<script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
-<script type="text/javascript">
-    STWT.Widget({ container: 'stocktwits-widget-news', symbol: 'GPRO', width: '300', height: '300', limit: '10', scrollbars: 'true', streaming: 'true', title: 'GPRO', style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'cecece', divider_color: 'cecece', divider_color: 'cecece', divider_type: 'solid', box_color: 'f5f5f5', stream_color: 'ffffff', text_color: '000000', time_color: '999999' } });
-</script>
-       </div>
-         
-       
-                 <div id="stocktwits-widget-news"></div>
-  <div class="col-md-4">
-<script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
-<script type="text/javascript">
-    STWT.Widget({ container: 'stocktwits-widget-news', symbol: 'SSYS', width: '300', height: '300', limit: '10', scrollbars: 'true', streaming: 'true', title: 'SSYS', style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'cecece', divider_color: 'cecece', divider_color: 'cecece', divider_type: 'solid', box_color: 'f5f5f5', stream_color: 'ffffff', text_color: '000000', time_color: '999999' } });
-</script>
-
-         </div>
-
-         
-                 <div id="stocktwits-widget-news"></div>
-<div class="col-md-4">
-<script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
-<script type="text/javascript">
-    STWT.Widget({ container: 'stocktwits-widget-news', symbol: 'BABA', width: '300', height: '300', limit: '10', scrollbars: 'true', streaming: 'true', title: 'BABA', style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'cecece', divider_color: 'cecece', divider_color: 'cecece', divider_type: 'solid', box_color: 'f5f5f5', stream_color: 'ffffff', text_color: '000000', time_color: '999999' } });
-</script>
-
-         </div>
-
-
-         </div>
-             </div>
-             </div>
-
-    <br />
-             <br />
-             <br />
-          
-
-</div>
-         </div>
-            </div>
-
-        <%--//start of collapsible section 2--%>
+        <%--//start of collapsible section 1--%>
  <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" id="flag2" href="#AutomotiveRestoration"></a>
-        <div id="AutomotiveRestoration" class="accordion-section-content">
+        <a class="accordion-section-title active" id="flag2" href="#AutomotiveRestoration"></a>
+        <div id="AutomotiveRestoration" class="accordion-section-content open"  style="display:block">
             <%--//start of collapsible content 2--%>
             
   
@@ -183,6 +119,67 @@
             </div>
         </div>
      </div>
+
+<%--    //start of collapsible section 2--%>
+  <div class="accordion">
+    <div class="accordion-section">
+        <a class="accordion-section-title" id="TickerBar" href="#Investing">Investing <span class="priceChange"> <span class="price"> 20.47</span> <span class="arrow"> &#x25B2; </span> 2.47</span> </a>
+       
+        <div id="Investing" class="accordion-section-content">
+
+<%--//start of collapsible content 2--%>
+
+    
+     <p>I'm constantly researching new stocks and studying chart patters and technicals. My mindset is typically that of a long-term investor with a core-portfolio built around mutual funds and ETF's value-averaged on a quarterly basis with smaller positions invested in high-growth stocks.</p>
+     <p>Here are some stocks I am currently following:</p>
+             <br />
+
+         <div class="row">
+
+         <div class="container">
+
+   <div class="stocktwits">
+   <div id="stocktwits-widget-news"></div>
+<div class="col-md-4">
+<script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
+<script type="text/javascript">
+    STWT.Widget({ container: 'stocktwits-widget-news', symbol: 'GPRO', width: '300', height: '300', limit: '10', scrollbars: 'true', streaming: 'true', title: 'GPRO', style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'cecece', divider_color: 'cecece', divider_color: 'cecece', divider_type: 'solid', box_color: 'f5f5f5', stream_color: 'ffffff', text_color: '000000', time_color: '999999' } });
+</script>
+       </div>
+         
+       
+                 <div id="stocktwits-widget-news"></div>
+  <div class="col-md-4">
+<script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
+<script type="text/javascript">
+    STWT.Widget({ container: 'stocktwits-widget-news', symbol: 'SSYS', width: '300', height: '300', limit: '10', scrollbars: 'true', streaming: 'true', title: 'SSYS', style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'cecece', divider_color: 'cecece', divider_color: 'cecece', divider_type: 'solid', box_color: 'f5f5f5', stream_color: 'ffffff', text_color: '000000', time_color: '999999' } });
+</script>
+
+         </div>
+
+         
+                 <div id="stocktwits-widget-news"></div>
+<div class="col-md-4">
+<script type="text/javascript" src="http://stocktwits.com/addon/widget/2/widget-loader.min.js"></script>
+<script type="text/javascript">
+    STWT.Widget({ container: 'stocktwits-widget-news', symbol: 'BABA', width: '300', height: '300', limit: '10', scrollbars: 'true', streaming: 'true', title: 'BABA', style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'cecece', divider_color: 'cecece', divider_color: 'cecece', divider_type: 'solid', box_color: 'f5f5f5', stream_color: 'ffffff', text_color: '000000', time_color: '999999' } });
+</script>
+
+         </div>
+
+
+         </div>
+             </div>
+             </div>
+
+    <br />
+             <br />
+             <br />
+          
+
+</div>
+         </div>
+            </div>
 
 
   <%-- //start of collapsible content 3--%>
