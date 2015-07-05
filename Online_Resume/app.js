@@ -308,16 +308,28 @@ $(document).ready(function () {
 
 
 
+    //generates random stock quote number
     setInterval(function () {
-        var change = (Math.random() + 1);
+
+        //checks whether Investing section is selected (up or down arrow) and changes price change to positive or negative based on this test
+        if ($('#TickerBar').is('.active')) {
+            var change = (Math.random() + 1)*(-1);
+        }
+        else {
+            var change = (Math.random() + 1)
+        }
+
+        //calculates percentage change and current price
         var price = 18 + change
         var percentChange = (change / price) * 100
 
+        //displays all above info
       $('.dollarChange').text(change.toFixed(2));
       $('.price').text(price.toFixed(2));
       $('.percentChange').text('(' + percentChange.toFixed(2) + '%' + ')' );
     }, 
   2500);
  
+
 
 });
