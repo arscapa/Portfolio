@@ -309,11 +309,11 @@ $(document).ready(function () {
 
 
     //generates random stock quote number
-    setInterval(function () {
+    function stockQuote() {
 
         //checks whether Investing section is selected (up or down arrow) and changes price change to positive or negative based on this test
         if ($('#TickerBar').is('.active')) {
-            var change = (Math.random() + 1)*(-1);
+            var change = (Math.random() + 1) * (-1);
         }
         else {
             var change = (Math.random() + 1)
@@ -324,12 +324,14 @@ $(document).ready(function () {
         var percentChange = (change / price) * 100
 
         //displays all above info
-      $('.dollarChange').text(change.toFixed(2));
-      $('.price').text(price.toFixed(2));
-      $('.percentChange').text('(' + percentChange.toFixed(2) + '%' + ')' );
-    }, 
-  2500);
+        $('.dollarChange').text(change.toFixed(2));
+        $('.price').text(price.toFixed(2));
+        $('.percentChange').text('(' + percentChange.toFixed(2) + '%' + ')');
+    };
  
+    stockQuote();
+    setInterval(stockQuote, 2500);
+    $('#TickerBar').click(stockQuote);
 
 
 });
