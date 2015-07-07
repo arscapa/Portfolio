@@ -320,7 +320,7 @@ $(document).ready(function () {
         }
 
         //calculates percentage change and current price
-        var price = 18 + change
+        var price = 38 + change
         var percentChange = (change / price) * 100
 
         //displays all above info
