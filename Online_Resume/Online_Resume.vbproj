@@ -261,7 +261,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="images.jpg" />
     <Content Include="Pictures\2012-Champs.png" />
+    <Content Include="Pictures\Accordion\Auto.png" />
     <Content Include="Pictures\band.png" />
     <Content Include="Pictures\ChicagoFlag\flag1.png" />
     <Content Include="Pictures\ChicagoFlag\flag2.png" />

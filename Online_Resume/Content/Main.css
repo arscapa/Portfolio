@@ -68,8 +68,8 @@ textarea {
 }
 
 .learn-more {
-  background-color: #f7f7f7;
-  padding-bottom: 0px;
+    background-color: #f7f7f7;
+    padding-bottom: 0px;
 }
 
 .learn-more h4{
@@ -472,3 +472,8 @@ a:focus {
     color: black;
 }
 
+#Resto_accordion {
+    background-image: url('../Pictures/Accordion/Auto.png');
+    width:100%;
+    color:white;
+}

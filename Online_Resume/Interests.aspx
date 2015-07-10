@@ -17,12 +17,12 @@
         <%--//start of collapsible section 1--%>
  <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title active" id="flag2" href="#AutomotiveRestoration"></a>
+        <a class="accordion-section-title active" id="Resto_accordion" href="#AutomotiveRestoration"></a>
         <div id="AutomotiveRestoration" class="accordion-section-content open"  style="display:block">
             <%--//start of collapsible content 2--%>
             
   
-     <h2 class="auto">Automotive Restoration</h2>
+
 <div id="trigger1"></div>  
                        
 
