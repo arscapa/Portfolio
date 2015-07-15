@@ -86,8 +86,17 @@
                 <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
                 <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
                 <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
-           
-                </div>
+           <br />
+                    <a href="http://stackoverflow.com/users/5117533/tony-scap">
+<img src="http://stackoverflow.com/users/flair/5117533.png?theme=dark" width="208" height="58" alt="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" class="vidIMG"/>
+</a>
+                 
+                  <a href="https://github.com/arscapa"> <img src="Pictures/github.png" title="Github profile for Tony Scapardine" width="80" height="58" class="vidIMG"/></a>
+               
+                        
+                        <br />
+                
+                        </div>
 
                 <div class ="col-md-6">
             <h4>Notable Coursework</h4>
