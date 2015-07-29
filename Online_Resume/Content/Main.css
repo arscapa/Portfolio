@@ -477,3 +477,24 @@ a:focus {
     width:100%;
     color:white;
 }
+
+#paint_accordion {
+    width: 100%;
+    color: deepskyblue;
+    border-bottom:1px solid #1a1a1a;
+    font-size: 20px; 
+    font-weight: bold;
+    padding-top: 8px;
+    padding-left:80px;
+    
+}
+
+#paint_accordion img {
+     height: 48px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+    display:inline;
+}
+
+
+

@@ -186,7 +186,7 @@
 
    <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" id="flag3" href="#Painting"></a>
+        <a class="accordion-section-title" id="paint_accordion" href="#Painting">Paint & Body Work <img src="Pictures/Accordion/paint_gun.png" /></a>
          
         <div id="Painting" class="accordion-section-content">
 

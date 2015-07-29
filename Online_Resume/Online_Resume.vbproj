@@ -264,6 +264,7 @@
     <Content Include="images.jpg" />
     <Content Include="Pictures\2012-Champs.png" />
     <Content Include="Pictures\Accordion\Auto.png" />
+    <Content Include="Pictures\Accordion\paint_gun.png" />
     <Content Include="Pictures\band.png" />
     <Content Include="Pictures\ChicagoFlag\flag1.png" />
     <Content Include="Pictures\ChicagoFlag\flag2.png" />
@@ -419,7 +420,9 @@
     <Content Include="Videos\MXTracker.mp4" />
     <Content Include="Videos\VehicleDealerWebsite.mp4" />
     <Content Include="Site.Master" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
