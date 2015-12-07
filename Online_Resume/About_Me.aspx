@@ -64,11 +64,14 @@
                     <li class="skill_bar1" style="background-color:#FF5353">MICROSOFT EXCEL
                         <span class="skill_level">PRO </span>
                     </li>
-                    <li class="skill_bar2" style="background-color:#1CDCFF">HTML
-                        <span class="skill_level">SEMI-PRO</span>
+                    <li class="skill_bar1" style="background-color:#1CDCFF">HTML
+                        <span class="skill_level">PRO</span>
                     </li>
                     <li class="skill_bar3" style="background-color:#C799FF">CSS
                         <span class="skill_level">SEMI-PRO</span>
+                    </li>
+                     <li class="skill_bar4" style="background-color:#990033">Python
+                        <span class="skill_level">INTERMEDIATE</span>
                     </li>
                       <li class="skill_bar4" style="background-color:#7CD14E">Javascript
                         <span class="skill_level">INTERMEDIATE</span>

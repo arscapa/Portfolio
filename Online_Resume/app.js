@@ -96,7 +96,7 @@ $(document).ready(function () {
     }
 
 
-
+    preloader()
 
 
     //changes charger_main picture on interests page to highlighted section of car when hovering over it
@@ -332,6 +332,25 @@ $(document).ready(function () {
     stockQuote();
     setInterval(stockQuote, 2500);
     $('#TickerBar').click(stockQuote);
+
+
+
+    //Spray paint animation on paint and body section title when clicked
+
+    $('#paint_accordion').click(function () {
+
+        $('#paint_accordion').animate({
+            color: '#E4D8B8',
+            width: '+=10px',
+        });
+    });
+
+
+        //$(this).css('color', 'red');
+       
+
+
+
 
 
 });
