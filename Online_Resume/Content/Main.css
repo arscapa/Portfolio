@@ -473,7 +473,7 @@ a:focus {
 }
 
 #Resto_accordion {
-    background-image: url('../Pictures/Accordion/Auto.png');
+    background-image: url('../Pictures/Accordion/AutoResto_accordion-(5).png');
     width:100%;
     color:white;
 }
@@ -490,7 +490,8 @@ a:focus {
 }
 
 #paint_accordion img {
-     height: 48px;
+    height: 48px;
+    width: 35px;
     padding-bottom: 12px;
     margin-left: 20px;
     display:inline;

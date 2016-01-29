@@ -338,19 +338,29 @@ $(document).ready(function () {
     //Spray paint animation on paint and body section title when clicked
 
     $('#paint_accordion').click(function () {
+        //remove text title from accordion title section
+        $("#paint_accordion").contents().filter(function () {
+            return this.nodeType === 3; // Text nodes only
+        }).remove();
 
-        $('#paint_accordion').animate({
-            color: '#E4D8B8',
-            width: '+=10px',
-        });
+        //expand spray painted title
+        wipe_left($('.wipe-left'), '54px', '45px')
     });
+   
 
-
-        //$(this).css('color', 'red');
-       
-
-
+    //function to animate an element to wipe left
+    function wipe_left (elem, width, height) {
+        elem.css('width', '0px');
+        elem.css("left", width);
+        elem.animate({
+            width: width,
+            height: height,
+            left: '0px'
+        }, 2000);
+    }
 
 
 
 });
+
+
