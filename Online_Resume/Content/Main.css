@@ -436,15 +436,21 @@ a:focus {
 
 #TickerBar {
     width: 100%;
-    background-color: gainsboro;
+    background-image: url('../Pictures/Accordion/Wall_Street_accordion3.png');
     color: black;
-     border-bottom:1px solid #1a1a1a;
-     font:bold 18px verdana
+    border-bottom:1px solid #1a1a1a;
+    font:bold 20px verdana
 }
 
 #TickerBar.accordion-section-title.active {
     color: red;
+    padding-left:25px;
   
+}
+
+
+#TickerBar.accordion-section-title {
+    padding-left:25px;
 }
 
 #TickerBar.accordion-section-title.active.arrow{
@@ -460,7 +466,7 @@ a:focus {
 .stockQuote {
     color:#080;
     font-weight:bold;
-    margin-left:800px;
+    margin-left:750px;
 }
 
 .arrow{
