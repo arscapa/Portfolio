@@ -271,7 +271,7 @@ $(document).ready(function () {
 
     $('.accordion #flag3').slideDown(function () {
         $('#logoCarousel').carousel({
-            interval: 2500
+            interval: 2000
         })
     });
 
@@ -330,7 +330,7 @@ $(document).ready(function () {
     };
  
     stockQuote();
-    setInterval(stockQuote, 2500);
+    setInterval(stockQuote, 2000);
     $('#TickerBar').click(stockQuote);
 
 
