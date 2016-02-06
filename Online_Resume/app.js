@@ -338,13 +338,15 @@ $(document).ready(function () {
     //Spray paint animation on paint and body section title when clicked
 
     $('#paint_accordion').click(function () {
-        //remove text title from accordion title section
-        $("#paint_accordion").contents().filter(function () {
-            return this.nodeType === 3; // Text nodes only
-        }).remove();
+        if ($('#paint_accordion').is('.active')) {
+            //remove text title from accordion title section
+            $("#paint_accordion").contents().filter(function () {
+                return this.nodeType === 3; // Text nodes only
+            }).remove();
 
-        //expand spray painted title
-        wipe_left($('.wipe-left'), '275px', '35px')
+            //expand spray painted title
+            wipe_left($('.wipe-left'), '275px', '35px')
+        };
     });
    
 
