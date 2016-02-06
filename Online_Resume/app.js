@@ -344,7 +344,7 @@ $(document).ready(function () {
         }).remove();
 
         //expand spray painted title
-        wipe_left($('.wipe-left'), '54px', '45px')
+        wipe_left($('.wipe-left'), '275px', '35px')
     });
    
 
