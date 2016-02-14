@@ -344,8 +344,16 @@ $(document).ready(function () {
                 return this.nodeType === 3; // Text nodes only
             }).remove();
 
+
+
+            //expand spray pattern
+            wipe_left($('#spray_pattern'), '66px', '30px')
+
             //expand spray painted title
-            wipe_left($('.wipe-left'), '275px', '35px')
+            wipe_left($('.wipe-left'), '275px', '35px');
+
+            //remove spray pattern
+
         };
     });
    
