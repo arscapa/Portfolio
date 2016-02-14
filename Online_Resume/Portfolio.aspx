@@ -6,7 +6,7 @@
       <div class="jumbotron">
      
         <h1>My Portfolio</h1>
-        <p class="quote">"Your work is to discover your work and then, with all your heart, to give yourself to it"</p>
+        <p class="quote">"There is no talent here, this is hard work. This is an obsession"</p>
       </div>
 
   <div class="info">

@@ -264,6 +264,7 @@
     <Content Include="images.jpg" />
     <Content Include="Pictures\2012-Champs.png" />
     <Content Include="Pictures\Accordion\AutoResto_accordion-%285%29.png" />
+    <Content Include="Pictures\Accordion\paint_body%282%29.png" />
     <Content Include="Pictures\Accordion\paint_body.png" />
     <Content Include="Pictures\Accordion\paint_gun.png" />
     <Content Include="Pictures\Accordion\Wall_Street_accordion2.png" />
