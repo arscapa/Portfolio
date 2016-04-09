@@ -33,8 +33,7 @@
               <a name="Education"></a>
 
             <h2>My Education</h2> 
-             <img id="grad_pic" src="Pictures/Graduation.jpg"/>
-
+                <img id="grad_pic" src="Pictures/headshot.jpg" />
             <h3>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/ISU_Bird.jpg" class="img-circle" alt="ISU Redbird" id="ReggieRedbird"/></a></h3>
                 <p>Bachelor's of Science Accounting & Business Information Systems</p>
                 <p>GPA 3.48/4.0</p>
