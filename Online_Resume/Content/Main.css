@@ -504,5 +504,15 @@ a:focus {
     display:inline;
 }
 
+#code_samples_title {
+    padding-left: 35px;
+    color: #cd0606;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 
+.codeSampleContent {
+    display: none;
+
+}

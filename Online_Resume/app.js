@@ -264,7 +264,26 @@ $(document).ready(function () {
 
         e.preventDefault();
     });
+    
 
+    //Change active navigation pill based on which link clicked
+
+
+    $('.nav-pills a').click(function (e) {
+        var clickedTab = $(this).attr('href');
+        $('.nav-pills').children().removeClass('active');
+        $(this).parent('li').addClass('active');
+        
+
+
+        //Display navigation pill content
+        $('.codeSampleContent').hide();
+        $(clickedTab).show();
+        });
+
+    
+
+   
 
 
     // Set interval for logo Carousel
@@ -275,6 +294,7 @@ $(document).ready(function () {
         })
     });
 
+   
 
     //Open corresponding accordion section when link clicked from home page, (checks url for tag and opens corresponding section)
 
