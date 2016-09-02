@@ -487,15 +487,16 @@ a:focus {
 
 #paint_accordion {
     width: 100%;
-    color: deepskyblue;
-    border-bottom:1px solid #1a1a1a;
-    font-size: 20px; 
+    background-image: url('../Pictures/Accordion/garage_shelf.jpg');
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 8px;
-    padding-left:12px;
-    background-color:lightcyan
-    
+    padding-left: 24px;
+    background-color: lightcyan;
 }
+
+
 
 #paint_accordion img {
     height: 48px;
@@ -503,6 +504,12 @@ a:focus {
     padding-bottom: 12px;
     display:inline;
 }
+
+#paint_accordion:hover {
+    color: white;
+}
+
+
 
 #code_samples_title {
     padding-left: 35px;
