@@ -397,6 +397,10 @@ a:focus {
     width: 100%;
 }
 
+#hobbies {
+    background-image: url('../Pictures/Accordion/fretboard.png');
+    width: 100%;
+}
 
 
 #logoCarousel img {

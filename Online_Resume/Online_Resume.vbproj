@@ -262,6 +262,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
     <Content Include="images.jpg" />
+    <Content Include="Pictures\Accordion\fretboard.png" />
     <Content Include="Pictures\Accordion\garage_shelf.jpg" />
     <Content Include="Pictures\headshot.jpg" />
     <Content Include="Pictures\2012-Champs.png" />

@@ -329,9 +329,9 @@
 
    <div class="accordion">
     <div class="accordion-section">
-        <a class="accordion-section-title" id="flag1" href="#Paint"></a>
+        <a class="accordion-section-title" id="hobbies" href="#hobbies_div"></a>
          
-        <div id="Paint" class="accordion-section-content">
+        <div id="hobbies_div" class="accordion-section-content">
 
 
 <%--//start of content--%>
@@ -339,11 +339,8 @@
    
 
 
-<br />
-<br />
 
-<h2>Hobbies</h2>
-                   <br />
+ <br />
 
 
  <div class ="row">
@@ -391,8 +388,7 @@
             </div>
         </div>
         </div>
-       </div>
-    </div>
+      
       
 
 
