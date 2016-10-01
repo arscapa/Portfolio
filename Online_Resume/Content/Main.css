@@ -502,7 +502,7 @@ a:focus {
 
 
 
-#paint_accordion img {
+#paintGun {
     height: 48px;
     width: 35px;
     padding-bottom: 12px;
@@ -527,3 +527,11 @@ a:focus {
     display: none;
 
 }
+
+#sprayPaint {
+    height: 25px;
+    width: 250px;
+}
+
+
+

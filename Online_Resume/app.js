@@ -372,13 +372,13 @@ $(document).ready(function () {
             wipe_left($('#spray_pattern'), '66px', '30px')
 
             //expand spray painted title
-            wipe_left($('.wipe-left'), '275px', '35px');
+            wipe_left($('.wipe-left'), '250px', '25px');
 
             //remove spray pattern, when fadeOut complete ensure paint gun stays in same positioning 
             //by setting left margin equal to the width of the spray pattern image width
             $.when($('#spray_pattern').fadeOut(700)).done(function () {
 
-                $('#paintGun').css('margin-left', '66px');
+                $('#paintGun').css('margin-left', '8px');
             });
         };
     });
