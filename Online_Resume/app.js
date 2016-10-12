@@ -145,9 +145,6 @@ $(document).ready(function () {
 
 
 
-
-
-
     
 
     //collapse expand accordian
