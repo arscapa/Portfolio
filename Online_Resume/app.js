@@ -135,7 +135,7 @@ $(document).ready(function () {
         });
     });
 
-
+     
 
     //image map resizer--> changes coordinates of image map when window is resized
 
