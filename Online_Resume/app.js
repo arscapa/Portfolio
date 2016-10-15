@@ -142,7 +142,7 @@ $(document).ready(function () {
 
     $('map').imageMapResize();
 
-
+     
 
     //scrollmagic functionality for skill bar
     
