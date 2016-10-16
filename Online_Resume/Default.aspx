@@ -11,7 +11,8 @@
       </div>
      
     
-    <div class="learn-more">
+    <div class="page-width">
+        <div class ="page-background">
       <div class="container">
        
           <br />
@@ -51,6 +52,7 @@
       
           </div>
             </div>
+        </div>
     
       
    
