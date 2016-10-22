@@ -8,6 +8,15 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" href="Favicon/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="Favicon/favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="Favicon/manifest.json"/>
+    <link rel="mask-icon" href="Favicon/safari-pinned-tab.svg" color="#5bbad5"/>
+    <meta name="theme-color" content="#ffffff"/>
+
+
+
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Main.css" rel="stylesheet" />
     <link href="Scripts/lightbox/css/lightbox.css" rel="stylesheet" />
@@ -31,19 +40,10 @@
 
     
 
-      <div class="nav" id="nav">
-      <div class="container">
-       <div class="logo">
-           <ul class="pull-left">
+      <div class="header-bar">
+      <div class="container"> 
+           <ul class="pull-right">
           <li class="current-menu-item"><a href="Default.aspx"> Tony Scapardine</a> </li>
-        </ul>
-         </div>
-
-        <ul class="pull-right">
-          <li ><a href="About_Me.aspx">About </a></li>
-          <li><a href="Portfolio.aspx">Porfolio</a></li>
-          <li><a href="Interests.aspx">Interests</a></li>
-          <li><a href="Contact.aspx">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -101,7 +101,7 @@
 
     	
 		 <div id="footer">
-		<p><a href="Default.aspx">&copy 2015 Tony Scapardine </a></p>
+		<p><a href="Default.aspx">&copy 2016 Tony Scapardine </a></p>
 
         </div>
 
