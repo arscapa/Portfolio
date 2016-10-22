@@ -412,11 +412,8 @@ a:focus {
 
 .page-width .container {
 
-    background: rgba(217,224,234,0.88);
+    background: rgba(217,224,234,0.78);
     border-radius: 10px;
- 
-    margin-left:80px;
-    margin-right:80px;
 }
 
 .info .container {

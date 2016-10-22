@@ -274,6 +274,7 @@
     <Content Include="Pictures\Accordion\garage_shelf.jpg" />
     <Content Include="Pictures\Accordion\paint.png" />
     <Content Include="Pictures\Accordion\paint_body.png" />
+    <Content Include="Pictures\background.png" />
     <Content Include="Pictures\headshot.jpg" />
     <Content Include="Pictures\2012-Champs.png" />
     <Content Include="Pictures\Accordion\AutoResto_accordion-%285%29.png" />
