@@ -13,7 +13,7 @@
     
     <div class="page-width">
         <div class ="page-background">
-      <div class="container">
+      <div class="content">
        
           <br />
          <p>     

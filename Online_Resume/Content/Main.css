@@ -207,7 +207,6 @@ ul.skills{
 .About_Me_Links {
     padding-top: 10px;
     padding-bottom: 20px;
-    margin-bottom:20px;
     height: 400px;
    
 }
@@ -410,10 +409,12 @@ a:focus {
 }
 
 
-.page-width .container {
+.page-width .content {
 
     background: rgba(217,224,234,0.78);
     border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .info .container {
