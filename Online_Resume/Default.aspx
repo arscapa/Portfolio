@@ -12,6 +12,11 @@
      
     
     <div class="page-width">
+        <div class ="nav_menu">
+            fadfadfljadflajk
+          
+        </div>
+
         <div class ="page-background">
       <div class="content-container">
           <div class="content">
