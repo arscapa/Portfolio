@@ -13,7 +13,12 @@
     
     <div class="page-width">
         <div class ="nav_menu">
-            fadfadfljadflajk
+            <ul>
+                <li class="active"><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Websites</a></li>
+                <li><a href="#">Code Samples</a></li>
+            </ul>
           
         </div>
 

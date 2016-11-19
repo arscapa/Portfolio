@@ -331,6 +331,13 @@ $(document).ready(function () {
     }
 
 
+    //nav menu code
+    $('.nav_menu li').click(function () {
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+   
+    });
+     
 
 });
 
