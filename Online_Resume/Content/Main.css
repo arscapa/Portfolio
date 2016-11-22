@@ -557,12 +557,15 @@ a:focus {
     }
 
 
-.nav_menu li.active{
-    background-color: black;
-    border-radius: 10px;
-}
-
 .nav_menu li.active a {
     color: white;
 }
+
+.nav_menu li.active span.nav_span{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
        
