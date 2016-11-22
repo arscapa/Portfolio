@@ -331,13 +331,22 @@ $(document).ready(function () {
     }
 
 
+    //***NAVIGATION MENU CODE***
+
     //nav menu code
     $('.nav_menu li').click(function () {
         $(this).siblings().removeClass('active');
+        $('span.nav_span a.active').removeClass('active');
         $(this).addClass('active');
-   
+        $(this).find('a').addClass('active');
     });
-     
+    
+
+
+
+
+    //***END NAVIGATION MENU CODE***
+
 
 });
 

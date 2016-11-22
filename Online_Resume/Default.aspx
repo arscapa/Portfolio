@@ -14,7 +14,7 @@
     <div class="page-width">
         <div class ="nav_menu">
             <ul>
-                <li class="active"><span class="nav_span"><a href="#">About Me</a></span></li>
+                <li class="active"><span class="nav_span"><a href="#" class="active">About Me</a></span></li>
                 <li><span class="nav_span"> <a href="#"> Projects</a></span></li>
                 <li><span class ="nav_span"><a href="#">Websites</a></span></li>
                 <li><span class ="nav_span"><a href="#">Code Samples</a></span></li>
