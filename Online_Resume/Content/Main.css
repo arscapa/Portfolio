@@ -556,12 +556,13 @@ a:focus {
         color: black;
     }
 
-.nav_menu li:hover{
-     background-color: black;
-    }
 
 .nav_menu li.active{
-    color: white !important;
-    background-color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.nav_menu li.active a {
+    color: white;
 }
        
