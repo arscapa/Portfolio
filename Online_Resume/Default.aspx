@@ -7,7 +7,7 @@
     <div class="jumbotron">
      
         <h1>Welcome to my Site</h1>
-        <p>Navigate around to learn more about me.</p>
+        <p class="quote">"An investment in knowledge pays the best interest"</p>
       </div>
      
     
@@ -37,11 +37,9 @@
      <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
               <div id="About_Me">
     
-    <h2>Preface</h2>
-            <p>Throughout the years, I have developed and pursued a wide variety of interests, however, I have always maintained a love for programming and developing websites and applications. My interest
-                in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 
-                familiar web pages. From here my interest in programming and web development really took off as I realized I could develop my own web
-                pages with just a little bit of HTML and CSS. 
+ 
+            <p>Hello! I'm a Chicago based web developer and programmer and I've created this site to showcase the various projects I've worked on over the years. My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
+                familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Business Information Systems in college. I currently work in the accounting field however my knowledge of programming has allowed me to greatly increase my productivity and create programs and utilize technology in order to optimize my work. Take a look around at some of the projects I've worked on over the years!
                 </p>
 
             <h2>My Education</h2> 
