@@ -333,12 +333,17 @@ $(document).ready(function () {
 
     //***NAVIGATION MENU CODE***
 
-    //nav menu code
+    //nav menu code to add active class label to selected button
     $('.nav_menu li').click(function () {
         $(this).siblings().removeClass('active');
         $('span.nav_span a.active').removeClass('active');
         $(this).addClass('active');
         $(this).find('a').addClass('active');
+
+
+        //Update banner text to reflect current page
+        var txt = $('a[class=active]').text();
+        alert(txt);
     });
     
 

@@ -31,7 +31,12 @@
           <div class="content">
        
  <%--    //**Start of "ABOUT ME" Content***--%>
+
+
               <br />
+     <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
+              <div id="About_Me">
+    
     <h2>Preface</h2>
             <p>Throughout the years, I have developed and pursued a wide variety of interests, however, I have always maintained a love for programming and developing websites and applications. My interest
                 in web development all began back in grade school when I realized by copying all of the HTML code on a web page I could mirror 
@@ -123,22 +128,45 @@
                    </ul>
             <br />
               
+</div>
 
-
-<%--    //**End of "ABOUT ME" Page Content***--%>
-
-
-
-
+<%--    //**END "ABOUT ME" Page Content***--%>
 
 <%--    //**Start OF "PROJECTS" Page Content***--%>
 
+<div id="Projects">
 
 
 
 
-<%--    //**End Of "PROJECTS" Page Content***--%>
 
+</div>
+
+<%--    //**END "PROJECTS" Page Content***--%>
+
+<%--    //**Start OF "WEBSITES" Page Content***--%>
+
+<div id="Websites">
+
+
+
+
+
+</div>
+
+<%--    //**END "WEBSITES" Page Content***--%>
+
+<%--    //**Start OF "CODE SAMPLES" Page Content***--%>
+
+<div id="Code_Samples">
+
+
+
+
+
+</div>
+
+<%--    //**END "CODE SAMPLES" Page Content***--%>
 
           </div>
             </div>
