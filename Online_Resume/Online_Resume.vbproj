@@ -270,12 +270,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
     <Content Include="images.jpg" />
+    <Content Include="Pictures\AboutPage\headshot.jpg" />
+    <Content Include="Pictures\AboutPage\ISU_Bird.jpg" />
     <Content Include="Pictures\Accordion\fretboard.png" />
     <Content Include="Pictures\Accordion\garage_shelf.jpg" />
     <Content Include="Pictures\Accordion\paint.png" />
     <Content Include="Pictures\Accordion\paint_body.png" />
-    <Content Include="Pictures\background.png" />
-    <Content Include="Pictures\headshot.jpg" />
     <Content Include="Pictures\2012-Champs.png" />
     <Content Include="Pictures\Accordion\AutoResto_accordion-%285%29.png" />
     <Content Include="Pictures\Accordion\paint_body%282%29.png" />
@@ -423,7 +423,6 @@
     <Content Include="Pictures\html_code.png" />
     <Content Include="Pictures\ISU_Bird.jpg" />
     <Content Include="Pictures\PDF-Icon.png" />
-    <Content Include="Pictures\wedding_reception.jpg" />
     <Content Include="Pictures\WordLogo.png" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
