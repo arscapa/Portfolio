@@ -340,10 +340,10 @@ $(document).ready(function () {
         $(this).addClass('active');
         $(this).find('a').addClass('active');
 
-
         //Update banner text to reflect current page
         var txt = $('a[class=active]').text();
-        alert(txt);
+        document.getElementById('jumbotron_header').textContent = txt;
+
     });
     
 

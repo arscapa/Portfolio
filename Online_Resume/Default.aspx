@@ -6,7 +6,7 @@
 
     <div class="jumbotron">
      
-        <h1>Welcome to my Site</h1>
+        <h1 id="jumbotron_header">Welcome to my Site</h1>
         <p class="quote">"An investment in knowledge pays the best interest"</p>
       </div>
      
@@ -57,10 +57,8 @@
                     <li>Ethics- Passed 12/14</li>
                 </ul>
                 <p>Certificate Number: 104266</p>
-              <br />
-            <br />
+           
             
-
             <div id="trigger3"></div>
           
       <h3>Competencies</h3>
@@ -90,25 +88,7 @@
                 </ul>
 
                              <br />
-           <br />
-            
-                <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
-                <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
-                <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
-           <br />
-                    <a href="http://stackoverflow.com/users/5117533/tony-scap">
-<img src="http://stackoverflow.com/users/flair/5117533.png?theme=dark" width="208" height="58" alt="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" class="vidIMG"/>
-</a>
-                 
-                  <a href="https://github.com/arscapa"> <img src="Pictures/github.png" title="Github profile for Tony Scapardine" width="80" height="58" class="vidIMG"/></a>
-               
-                        
-                        <br />
-                
-                      
-
-             
-            <h3>Notable Coursework</h3>
+                     <h3>Notable Coursework</h3>
             <p><b>Illinois State University</b></p>
               <ul>
                 <li>Computer Programming for Business</li>
@@ -126,6 +106,25 @@
                    </ul>
             <br />
               
+           <br />
+            
+                <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
+                <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
+                <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
+           <br />
+                    <a href="http://stackoverflow.com/users/5117533/tony-scap">
+<img src="http://stackoverflow.com/users/flair/5117533.png?theme=dark" width="208" height="58" alt="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" class="vidIMG"/>
+</a>
+                 
+                  <a href="https://github.com/arscapa"> <img src="Pictures/github.png" title="Github profile for Tony Scapardine" width="80" height="58" class="vidIMG"/></a>
+               
+                        
+                        <br />
+                 <br />
+                      
+
+             
+         
 </div>
 
 <%--    //**END "ABOUT ME" Page Content***--%>
