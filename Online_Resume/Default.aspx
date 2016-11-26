@@ -5,8 +5,9 @@
     
 
     <div class="jumbotron">
-     
+            <div id="header_container">
         <h1 id="jumbotron_header">Welcome to my Site</h1>
+            </div>
         <p class="quote">"An investment in knowledge pays the best interest"</p>
       </div>
      
