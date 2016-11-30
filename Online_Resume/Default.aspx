@@ -90,20 +90,19 @@
 
                              <br />
                      <h3>Notable Coursework</h3>
-            <p><b>Illinois State University</b></p>
+        
               <ul>
+                <li>Intermediate HTML</li>
                 <li>Computer Programming for Business</li>
                 <li>Business Systems Analysis</li>
                  <li>Advanced Business Systems Analysis</li>
                 <li>Accounting Information Systems</li>
                 <li>Developing Business Application Systems</li>
-               
             </ul>
 
-          <p><b>Lyons Township Highschool</b></p>
+  
                    <ul>
-                       <li>Intro to HTML</li>
-                       <li>Intermediate HTML</li>
+                       
                    </ul>
             <br />
               
