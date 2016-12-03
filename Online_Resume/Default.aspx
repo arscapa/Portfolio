@@ -36,7 +36,7 @@
 
               <br />
      <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
-              <div id="About_Me">
+              <div id="About_Me" class="active">
     
  
             <p>Hello! I'm a Chicago based web developer and programmer and I've created this site to showcase the various projects I've worked on over the years. My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 

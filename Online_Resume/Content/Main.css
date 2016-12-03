@@ -423,6 +423,7 @@ a:focus {
 
 .content { 
     padding-left: 25px;
+    min-height:1000px;
 }
 
 

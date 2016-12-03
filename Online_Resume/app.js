@@ -350,14 +350,19 @@ $(document).ready(function () {
             document.getElementById('jumbotron_header').textContent = txt;
             $('#jumbotron_header').fadeIn(300)
         });
+    });
 
-       
-
-        
+    // Change DIV page content
+    
+    $('.nav_menu li').click(function () {
+        $('#About_Me.active').hide('slow',loadContent);
 
     });
-    
 
+
+    function loadContent() {
+        $('#About_Me.active').fadeIn('slow');
+    };
 
 
 
