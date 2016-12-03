@@ -66,22 +66,27 @@
             
             
                  <ul class="skills">
-                    <li class="skill_bar1" style="background-color:#FF5353">MICROSOFT EXCEL
+                    <li class="skill_barPRO" style="background-color:#FF5353">MICROSOFT EXCEL
                         <span class="skill_level">PRO </span>
                     </li>
-                    <li class="skill_bar1" style="background-color:#1CDCFF">HTML
+                    <li class="skill_barPRO" style="background-color:#1CDCFF">HTML
                         <span class="skill_level">PRO</span>
                     </li>
-                    <li class="skill_bar3" style="background-color:#C799FF">CSS
-                        <span class="skill_level">SEMI-PRO</span>
+                      <li class="skill_barPRO" style="background-color:#7CD14E">Javascript
+                        <span class="skill_level">PRO</span>
                     </li>
-                     <li class="skill_bar4" style="background-color:#990033">Python
+                      <li class="skill_barADVANCED" style="background-color:#00008B">JQUERY
+                        <span class="skill_level">ADVANCED</span>
+                    </li>
+
+                    <li class="skill_barADVANCED" style="background-color:#C799FF">CSS
+                        <span class="skill_level">ADVANCED</span>
+                    </li>
+                     <li class="skill_barINT" style="background-color:#990033">Python
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
-                      <li class="skill_bar4" style="background-color:#7CD14E">Javascript
-                        <span class="skill_level">INTERMEDIATE</span>
-                    </li>
-                      <li class="skill_bar5" style="background-color:darkslateblue"">Photoshop
+                     
+                      <li class="skill_barINT" style="background-color:darkslateblue"">Photoshop
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
