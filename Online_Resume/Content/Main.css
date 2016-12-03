@@ -421,7 +421,7 @@ a:focus {
     float: none;
 }
 
-.content { 
+#content { 
     padding-left: 25px;
     min-height:1000px;
 }

@@ -311,6 +311,7 @@
     <Content Include="Pictures\PaintBody\XL175_Aftermin.png" />
     <Content Include="Pictures\play_button2.png" />
     <Content Include="Pictures\scap_auto.png" />
+    <Content Include="Projects.html" />
     <Content Include="Scripts\fancybox\blank.gif" />
     <Content Include="Scripts\fancybox\fancybox_buttons.png" />
     <Content Include="Scripts\fancybox\fancybox_loading%402x.gif" />

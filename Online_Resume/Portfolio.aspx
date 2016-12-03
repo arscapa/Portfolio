@@ -24,7 +24,7 @@
 
 <%--//start of collapsible content 1--%>
      
-               <div class="container">
+               <div id="content">
 
 
 <br />

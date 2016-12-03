@@ -18,7 +18,7 @@
         <div class ="nav_menu">
             <ul>
                 <li class="active"><span class="nav_span"><a href="#" class="active">About Me</a></span></li>
-                <li><span class="nav_span"> <a href="#"> Projects</a></span></li>
+                <li><span class="nav_span"> <a href="Projects.html"> Projects</a></span></li>
                 <li><span class ="nav_span"><a href="#">Websites</a></span></li>
                 <li><span class ="nav_span"><a href="#">Code Samples</a></span></li>
             </ul>
@@ -29,7 +29,7 @@
 
         <div class ="page-background">
       <div class="content-container">
-          <div class="content">
+          <div id="content">
        
  <%--    //**Start of "ABOUT ME" Content***--%>
 

@@ -340,29 +340,32 @@ $(document).ready(function () {
         $(this).addClass('active');
         $(this).find('a').addClass('active');
 
-        //**Update banner text to reflect current page
+        //Change Page Content
+        var toLoad = $(this).find('a').attr('href') + ' #content';
+        alert(toLoad);
+        $('#content').hide('fast', loadContent);
+        function loadContent() {
+            $('#content').load(toLoad,'',showNewContent())
+        };
+        function showNewContent() {
+            $('#content').show('normal');
+        };
+
+      
 
         //get text of current selected nav link 
         var txt = $('a[class=active]').text();    
 
-        //fade out old header and fade in new page 
+        //Update banner text to reflect current page 
         $('#jumbotron_header').fadeOut(300, function () {
             document.getElementById('jumbotron_header').textContent = txt;
             $('#jumbotron_header').fadeIn(300)
         });
+
+
+        return false
     });
 
-    // Change DIV page content
-    
-    $('.nav_menu li').click(function () {
-        $('#About_Me.active').hide('slow',loadContent);
-
-    });
-
-
-    function loadContent() {
-        $('#About_Me.active').fadeIn('slow');
-    };
 
 
 
