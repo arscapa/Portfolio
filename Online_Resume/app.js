@@ -97,23 +97,23 @@ $(document).ready(function () {
      
 
     //skill bar animation
+    function skillBarAnimate() {
+        $('.skill_barPRO').animate({
+            width: '90%'
+        });
 
-        if ($('ul.skills')) {
-            $('.skill_barPRO').animate({
-                width: '90%'
-            });
+        $('.skill_barADVANCED').animate({
+            width: '80%'
+        });
 
-            $('.skill_barADVANCED').animate({
-                width: '80%'
-            });
+        $('.skill_barINT').animate({
+            width: '65%'
+        });
+    };
 
-            $('.skill_barINT').animate({
-                width: '65%'
-            });
-
-        };
- 
-
+    skillBarAnimate();
+    
+  
     //collapse expand accordian
 
 
@@ -165,6 +165,8 @@ $(document).ready(function () {
 
     //***NAVIGATION MENU CODE***
 
+   
+
     //nav menu code to add active class label to selected button
     $('.nav_menu li').click(function () {
         $(this).siblings().removeClass('active');
@@ -174,7 +176,6 @@ $(document).ready(function () {
 
         //Change Page Content
         var toLoad = $(this).find('a').attr('href') + ' #content';
-        alert(toLoad);
         $('#content').hide('fast', loadContent);
         function loadContent() {
             $('#content').load(toLoad,'',showNewContent())
@@ -183,10 +184,11 @@ $(document).ready(function () {
             $('#content').show('normal');
         };
 
-        //update URL to reflect current page
+        //update URL to reflect current page, reset scroll location so page doesn't jump
+        var yScroll = document.body.scrollTop;
         window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
-
-
+        document.body.scrollTop = yScroll;
+      
         //get text of current selected nav link 
         var txt = $('a[class=active]').text();    
 
