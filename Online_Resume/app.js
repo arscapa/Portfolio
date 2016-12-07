@@ -2,44 +2,6 @@
 
 $(document).ready(function () {
 
-    //programmatically adds active class to Active navigation page
-    var str = location.href.toLowerCase();
-    $("#nav li a").each(function () {
-        if (str.indexOf($(this).attr("href").toLowerCase()) > -1) {
-            $("li.current-menu-item").removeClass("current-menu-item");
-            $(this).parent().addClass("current-menu-item");
-        }
-    });
-    $("li.current-menu-item").parents().each(function () {
-        if ($(this).is("li")) {
-            $(this).addClass("current-menu-item");
-        }
-    });
-
-
-
-    // Zoom animation for about me image links on default page
-    var AboutMeIMGAnimate = function () {
-        $('div.About_Me_Links a img').mouseover(function () {
-
-            $(this).animate({
-                height: '+=10px',
-                width: '+=10px',
-            })
-        });
-
-
-        $('div.About_Me_Links a img').mouseout(function () {
-
-            $(this).animate({
-                height: '-=10px',
-                width: '-=10px',
-            })
-        });
-    }
-    $(document).ready(AboutMeIMGAnimate)
-
-
 
 
     //loads lightbox when clicking corresponding image map hotspot on interests page
@@ -71,32 +33,24 @@ $(document).ready(function () {
 
     function preloader() {
 
-
-        // counter
-        var i = 0;
-
-
         // create object
-        imageObj = new Image();
-
+        var imageObj = new Image();
 
         // set image list
-        images = new Array();
-        images[0] = "Pictures/AutomotiveResto/MainPics/74dodgeEngine.png"
-        images[1] = "Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png"
-        images[2] = "Pictures/AutomotiveResto/MainPics/74dodgeFender.png"
-        images[3] = "Pictures/AutomotiveResto/MainPics/74dodgeInterior.png"
-
+        var images = new Array();
+        images[0] = "Pictures/AutomotiveResto/MainPics/74dodgeEngine.png";
+        images[1] = "Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png";
+        images[2] = "Pictures/AutomotiveResto/MainPics/74dodgeFender.png";
+        images[3] = "Pictures/AutomotiveResto/MainPics/74dodgeInterior.png";
 
         // start preloading
-        for (i = 0; i <= 3; i++) {
+        for (var i = 0; i < images.length-1; i++) {
             imageObj.src = images[i];
         }
 
-    }
+    };
 
-
-    preloader()
+    preloader();
 
 
     //changes charger_main picture on interests page to highlighted section of car when hovering over it
@@ -138,8 +92,6 @@ $(document).ready(function () {
      
 
     //image map resizer--> changes coordinates of image map when window is resized
-
-
     $('map').imageMapResize();
 
      
@@ -188,26 +140,7 @@ $(document).ready(function () {
         e.preventDefault();
     });
     
-
-    //Change active navigation pill based on which link clicked
-
-
-    $('.nav-pills a').click(function (e) {
-        var clickedTab = $(this).attr('href');
-        $('.nav-pills').children().removeClass('active');
-        $(this).parent('li').addClass('active');
-        
-
-
-        //Display navigation pill content
-        $('.codeSampleContent').hide();
-        $(clickedTab).show();
-        });
-
-    
-
-   
-
+  
 
     // Set interval for logo Carousel
 
@@ -218,95 +151,6 @@ $(document).ready(function () {
     });
 
    
-
-    //Open corresponding accordion section when link clicked from home page, (checks url for tag and opens corresponding section)
-
-    var str = location.href.toLowerCase();
-    $(".accordion-section-title").each(function () {
-        if (str.indexOf($(this).attr("href").toLowerCase()) > -1) {
-            $('.accordion .accordion-section-title').removeClass('active');
-            $('.accordion .accordion-section-content').slideUp(800).removeClass('open');
-            $(this).addClass("active");
-            $(this).next('.accordion-section-content').slideDown(800).addClass("open")
-        }
-    });
-
-
-
-
-    //stock ticker accordion bar functionality
-    $('#TickerBar').click(function () {
-       //checks if the ticker bar accordion section is selected and changes the direction of the stock price arrow and color based on this test
-        if ($(this).is(".active")) {
-            $('.arrow').html('&#x25BC').css('color', 'red');
-            $('.dollarChange').css('color', 'red');
-            $('.percentChange').css('color', 'red');
-        }
-        else {
-            $('.arrow').html('&#x25B2;').css('color', '#080')
-            $('.dollarChange').css('color', '#080');
-            $('.percentChange').css('color', '#080');
-        }
-    });
-
-
-
-    //generates random stock quote number
-    function stockQuote() {
-
-        //checks whether Investing section is selected (up or down arrow) and changes price change to positive or negative based on this test
-        if ($('#TickerBar').is('.active')) {
-            var change = (Math.random() + 1) * (-1);
-        }
-        else {
-            var change = (Math.random() + 1)
-        }
-
-        //calculates percentage change and current price
-        var price = 38 + change
-        var percentChange = (change / price) * 100
-
-        //displays all above info
-        $('.dollarChange').text(change.toFixed(2));
-        $('.price').text(price.toFixed(2));
-        $('.percentChange').text('(' + percentChange.toFixed(2) + '%' + ')');
-    };
- 
-    stockQuote();
-    setInterval(stockQuote, 2000);
-    $('#TickerBar').click(stockQuote);
-
-
-
-    //Spray paint animation on paint and body section title when clicked
-
-    $('#paint_accordion').click(function () {
-        if ($('#paint_accordion').is('.active')) {
-            //remove text title from accordion title section
-            $("#paint_accordion").contents().filter(function () {
-                return this.nodeType === 3; // Text nodes only
-            }).remove();
-
-            $('#paintGun').css('margin-left', '0px');
-            $('#spray_pattern').show();
-           
-
-            //expand spray pattern
-            wipe_left($('#spray_pattern'), '66px', '30px')
-
-            //expand spray painted title
-            wipe_left($('.wipe-left'), '250px', '25px');
-
-            //remove spray pattern, when fadeOut complete ensure paint gun stays in same positioning 
-            //by setting left margin equal to the width of the spray pattern image width
-            $.when($('#spray_pattern').fadeOut(700)).done(function () {
-
-                $('#paintGun').css('margin-left', '8px');
-            });
-        };
-    });
-   
-
     //function to animate an element to wipe left
     function wipe_left (elem, width, height) {
         elem.css('width', '0px');
