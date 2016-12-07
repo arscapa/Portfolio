@@ -183,6 +183,9 @@ $(document).ready(function () {
             $('#content').show('normal');
         };
 
+        //update URL to reflect current page
+        window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
+
 
         //get text of current selected nav link 
         var txt = $('a[class=active]').text();    
