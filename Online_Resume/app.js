@@ -112,6 +112,14 @@ $(document).ready(function () {
     };
 
     skillBarAnimate();
+
+
+    // Run Jquery scipts on dynamically loaded AJAX content
+
+    $(document).ajaxComplete(function () {
+       skillBarAnimate();
+
+    });
     
   
     //collapse expand accordian
