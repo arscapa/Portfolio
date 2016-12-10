@@ -127,6 +127,13 @@ $(document).ready(function () {
       
 
 
+        //load fancybox
+        $(".fancybox").click(function () {
+            $(".fancybox").fancybox({
+                type: "iframe",
+            });
+        });
+
 
     });
     

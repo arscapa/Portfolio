@@ -19,8 +19,8 @@
             <ul>
                 <li class="active"><span class="nav_span"><a href="#" class="active">About Me</a></span></li>
                 <li><span class="nav_span"> <a href="Projects.html"> Projects</a></span></li>
-                <li><span class ="nav_span"><a href="#">Websites</a></span></li>
-                <li><span class ="nav_span"><a href="#">Code Samples</a></span></li>
+                <li><span class ="nav_span"><a href="Websites.html">Websites</a></span></li>
+                <li><span class ="nav_span"><a href="Code_Samples.html">Code Samples</a></span></li>
             </ul>
           
         </div>
@@ -31,7 +31,7 @@
       <div class="content-container">
           <div id="content">
        
- <%--    //**Start of "ABOUT ME" Content***--%>
+ <%--    //**Start of Content***--%>
 
 
               <br />
@@ -132,43 +132,9 @@
          
 </div>
 
-<%--    //**END "ABOUT ME" Page Content***--%>
-
-<%--    //**Start OF "PROJECTS" Page Content***--%>
-
-<div id="Projects">
+<%--    //**END Page Content***--%>
 
 
-
-
-
-</div>
-
-<%--    //**END "PROJECTS" Page Content***--%>
-
-<%--    //**Start OF "WEBSITES" Page Content***--%>
-
-<div id="Websites">
-
-
-
-
-
-</div>
-
-<%--    //**END "WEBSITES" Page Content***--%>
-
-<%--    //**Start OF "CODE SAMPLES" Page Content***--%>
-
-<div id="Code_Samples">
-
-
-
-
-
-</div>
-
-<%--    //**END "CODE SAMPLES" Page Content***--%>
 
           </div>
             </div>

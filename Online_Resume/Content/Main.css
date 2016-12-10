@@ -201,25 +201,6 @@ ul.skills{
     width: 65%;
 }
 
-.About_Me_Links img{
-     height: 156px;
-     width: 145px;
-     margin-left: 40px;
-     border: solid 3px lightgray;
-}
-
-.About_Me_Links {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    height: 400px;
-   
-}
-
-.About_Me_Links img:hover{
-    border-color: #00b0ff;
- 
-}
-
 img#grad_pic {
     float: right;
     margin-right: 250px;

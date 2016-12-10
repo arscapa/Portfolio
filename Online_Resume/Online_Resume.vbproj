@@ -183,32 +183,11 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About_Me.aspx.designer.vb">
-      <DependentUpon>About_Me.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="About_Me.aspx.vb">
-      <DependentUpon>About_Me.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.vb">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.vb">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Interests.aspx.designer.vb">
-      <DependentUpon>Interests.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Interests.aspx.vb">
-      <DependentUpon>Interests.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -250,9 +229,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About_Me.aspx" />
     <Content Include="app.js" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Code_Samples.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
@@ -269,7 +247,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
-    <Content Include="images.jpg" />
     <Content Include="Pictures\AboutPage\headshot.jpg" />
     <Content Include="Pictures\AboutPage\ISU_Bird.jpg" />
     <Content Include="Pictures\Accordion\fretboard.png" />
@@ -404,6 +381,7 @@
     <Content Include="Scripts\lightbox\js\lightbox.min.js" />
     <Content Include="Portfolio.aspx" />
     <Content Include="Favicon\manifest.json" />
+    <Content Include="Websites.html" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -418,7 +396,6 @@
     <Content Include="ProjectFiles.zip" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\Main.css" />
-    <Content Include="Interests.aspx" />
     <Content Include="Pictures\Banner_Image6.png" />
     <Content Include="Pictures\Graduation.jpg" />
     <Content Include="Pictures\html_code.png" />
