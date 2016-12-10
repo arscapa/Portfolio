@@ -114,6 +114,13 @@ $(document).ready(function () {
     skillBarAnimate();
 
 
+
+    // Disable caching of AJAX responses
+    $.ajaxSetup({
+        cache: false
+    });
+
+
     // Run Jquery scipts on dynamically loaded AJAX content
 
     $(document).ajaxComplete(function () {
