@@ -247,6 +247,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="Image_Gallery.html" />
     <Content Include="Pictures\AboutPage\headshot.jpg" />
     <Content Include="Pictures\AboutPage\ISU_Bird.jpg" />
     <Content Include="Pictures\Accordion\fretboard.png" />
