@@ -117,14 +117,22 @@ $(document).ready(function () {
     // Run Jquery scipts on dynamically loaded AJAX content
 
     $(document).ajaxComplete(function () {
-       skillBarAnimate();
+
+        // test if skill bar is on loaded page, if so, run animation
+        var element = document.querySelector('ul.skills');
+        var test = document.body.contains(element);
+        if (test) {
+            skillBarAnimate();
+        };
+      
+
+
 
     });
     
+
   
     //collapse expand accordian
-
-
     function close_accordion_section() {
         $('.accordion .accordion-section-title').removeClass('active');
         $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
