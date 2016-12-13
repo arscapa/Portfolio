@@ -4,29 +4,7 @@ $(document).ready(function () {
 
 
 
-    //loads lightbox when clicking corresponding image map hotspot on interests page
-
-
-
-    $('area.SelectSuspension').click(function () {
-        $("#span1").click();
-    });
-
-
-    $('area.SelectEngine').click(function () {
-        $("#span2").click();
-    });
-
-
-    $('area.SelectBody').click(function () {
-        $("#span3").click();
-    });
-
-
-    $('area.SelectInterior').click(function () {
-        $("#span4").click();
-    });
-
+  
 
     //preload charger_main images so that they're ready for hover event
 
@@ -52,47 +30,12 @@ $(document).ready(function () {
 
     preloader();
 
-
-    //changes charger_main picture on interests page to highlighted section of car when hovering over it
-
-    $('area.SelectEngine').hover(function () {
-        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeEngine.png');
-
-    })
-
-    $('area.SelectSuspension').hover(function () {
-        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png');
-
-    })
-
-    $('area.SelectBody').hover(function () {
-        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeFender.png');
-
-    })
-
-    $('area.SelectInterior').hover(function () {
-        $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeInterior.png');
-
-
-        $('#Charger_Main').mouseout(function () {
-            $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodge.png')
-        })
-    });
-
-
-
-
     //load fancybox
     $(".fancybox").click(function () {
         $(".fancybox").fancybox({
             type: "iframe",
         });
     });
-
-     
-
-    //image map resizer--> changes coordinates of image map when window is resized
-    $('map').imageMapResize();
 
      
 
@@ -131,15 +74,93 @@ $(document).ready(function () {
         if (test) {
             skillBarAnimate();
         };
+
+
+        //changes charger_main picture on interests page to highlighted section of car when hovering over it
+
+        $('area.SelectEngine').hover(function () {
+            $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeEngine.png');
+
+        })
+
+        $('area.SelectSuspension').hover(function () {
+            $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png');
+
+        })
+
+        $('area.SelectBody').hover(function () {
+            $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeFender.png');
+
+        })
+
+        $('area.SelectInterior').hover(function () {
+            $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeInterior.png');
+
+
+            $('#Charger_Main').mouseout(function () {
+                $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodge.png')
+            })
+        });
+
+        //image map resizer--> changes coordinates of image map when window is resized
+        $('map').imageMapResize();
+
+
+        //loads lightbox when clicking corresponding image map hotspot on interests page
+        $('area.SelectSuspension').click(function () {
+            $("#span1").click();
+        });
+
+
+        $('area.SelectEngine').click(function () {
+            $("#span2").click();
+        });
+
+
+        $('area.SelectBody').click(function () {
+            $("#span3").click();
+        });
+
+
+        $('area.SelectInterior').click(function () {
+            $("#span4").click();
+        });
+
       
-
-
         //load fancybox
         $(".fancybox").click(function () {
             $(".fancybox").fancybox({
                 type: "iframe",
             });
         });
+
+
+
+        // Automotive image gallery loader code
+        $('#image_gallery').click(function () {
+            //Change Page Content
+            var toLoad = $(this).find('a').attr('href') + ' #content';
+            $('#content').hide('fast', loadContent);
+            function loadContent() {
+                $('#content').load(toLoad, '', showNewContent())
+            };
+            function showNewContent() {
+                $('#content').show('normal');
+            };
+
+            //update URL to reflect current page, reset scroll location so page doesn't jump
+            var yScroll = document.body.scrollTop;
+            window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
+            document.body.scrollTop = yScroll;
+
+            return false
+        });
+
+
+
+
+
+
 
 
     });
@@ -236,6 +257,11 @@ $(document).ready(function () {
 
 
     //***END NAVIGATION MENU CODE***
+
+
+   
+
+
 
 
 });
