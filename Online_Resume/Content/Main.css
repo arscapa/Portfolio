@@ -74,68 +74,10 @@ textarea {
     padding-bottom: 0px;
 }
 
-.learn-more h3 {
- 
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}
-
-.learn-more a:hover{
-    font-style:oblique;
-}
-
-.learn-more li {
-    font-size: 17px;
-    font-family: sans-serif;
-}
-
 .info li {
     font-size: 17px;
     font-family: sans-serif;
 }
-
-.info a {
-    color: #00b0ff;
-}
-
-
-.info {
-    background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
-}
-
-.info h2 {
-     color: #0033CC;
-    font-family:serif;
-   font-size: 35px;
-   font-style: oblique;
-   font-weight: bold;
-}
-
-.learn-more h2 {
-    color: #0033CC;
-    font-family:serif;
-   font-size: 35px;
-    font-style: oblique;
-   font-weight: bold;
-}
-
-.info p {
-    font-family: sans-serif;
-    font-size: 17px;
-    margin-bottom: 13px;
-}
-
-.info h3 {
-     font-size: 18px;
-  font-weight: bold;
-}
-
-
 
 
 .pull-right {
@@ -252,17 +194,6 @@ img#headshot {
     margin-left:135px;
 }
 
-.stocktwits {
-    padding-left: 80px;
-}
-
-
-
-.PaintandBody  {
-    margin-left:200px;
-}
-
-
 .excel_vid {
     background-color:green;
    
@@ -276,9 +207,9 @@ img#headshot {
     border-radius: 5px;
 }
 
-    .vidIMG:hover {
+.vidIMG:hover {
         opacity: .5;
-    }
+}
 
     .playbtn:hover {
         background-image: url('../Pictures/play_button2.png');
@@ -286,10 +217,6 @@ img#headshot {
          background-position: 30% 50%;
     }
 
-    .bold
-    {
-
-    }
 
   .media-body
   {
@@ -302,25 +229,6 @@ img#headshot {
 a:focus {
     text-decoration: none;
 }
-
- 
-
-
-#logoCarousel img {
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-}
-
-#logoCarousel .carousel-control.left {
-
-    background-image: none;
-}
-
-#logoCarousel .carousel-control.right {
-    background-image: none;
-}
-
 
 .page-width .content-container {
     background-image: url('../Pictures/Lmap4.png');
@@ -346,35 +254,6 @@ a:focus {
 
 .accordian .container {
     padding-left: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#code_samples_title {
-    padding-left: 35px;
-    color: #cd0606;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-
-.codeSampleContent {
-    display: none;
-
-}
-
-#sprayPaint {
-    height: 25px;
-    width: 250px;
 }
 
 
