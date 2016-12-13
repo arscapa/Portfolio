@@ -34,7 +34,7 @@
  <%--    //**Start of Content***--%>
 
 
-              <br />
+           
      <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
               <div id="About_Me" class="active">
     
