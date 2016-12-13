@@ -140,12 +140,12 @@ $(document).ready(function () {
         $('#image_gallery').click(function () {
             //Change Page Content
             var toLoad = $(this).find('a').attr('href') + ' #content';
-            $('#content').hide('fast', loadContent);
-            function loadContent() {
-                $('#content').load(toLoad, '', showNewContent())
+            $('#content').hide('fast', loadContentFade);
+           function loadContentFade() {
+                $('#content').load(toLoad, '', showNewContentFade())
             };
-            function showNewContent() {
-                $('#content').show('normal');
+            function showNewContentFade() {
+                $('#content').fadeIn('normal');
             };
 
             //update URL to reflect current page, reset scroll location so page doesn't jump
