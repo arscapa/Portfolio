@@ -296,4 +296,8 @@ a:focus {
     font-weight:bold;
 }
 
-       
+#Charger_Main {
+    display:block;
+    margin:auto;
+}
+
