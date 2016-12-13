@@ -64,7 +64,6 @@ textarea {
 }
 
 
-
 .jumbotron p {
   font-size: 20px;
   color: #fff;
@@ -73,11 +72,6 @@ textarea {
 .page-width {
     background-color: #f7f7f7;
     padding-bottom: 0px;
-}
-
-.learn-more h4{
-    text-decoration:underline;
-    font-size:19px;
 }
 
 .learn-more h3 {
@@ -201,7 +195,7 @@ ul.skills{
     width: 65%;
 }
 
-img#grad_pic {
+img#headshot {
     float: right;
     margin-right: 250px;
     border-radius: 6px;
@@ -303,77 +297,13 @@ img#grad_pic {
   }
 
 
-  /*----- Accordion -----*/
-  .accordion{
-        -webkit-box-sizing:border-box; 
-    -moz-box-sizing:border-box; 
-      box-sizing:border-box;
-  }
 
-  .accordion {
-    overflow:hidden;
-    background:white;
-}
-
-  /*----- Section Titles -----*/
-.accordion-section-title {
-    width: 1140px;
-    height:54px;
-    padding:15px;
-    display:inline-block;
-    transition:all linear 0.15s;
-    /* Type */
-    font-size:1.200em;
-    text-shadow:0px .5px 0px #1a1a1a;
-}
- 
-.accordion-section-title:hover {
-    opacity:.5;
-    /* Type */
-    text-decoration:none;
-    color:black;
-}
 
 a:focus {
     text-decoration: none;
 }
 
  
-.accordion-section:last-child .accordion-section-title {
-    border-bottom:none;
-}
- 
-/*----- Section Content -----*/
-.accordion-section-content {
-    padding:15px;
-    display:none;
-}
-
-
-#flag1 {
-    background-image: url('../Pictures/ChicagoFlag/flag1.png');
-    width: 100%;
-  
-}
-
-
-
-#flag2 {
-    background-image: url('../Pictures/ChicagoFlag/flag2.png');
-    width: 100%;
-}
-
-
-
-#flag3 {
-    background-image: url('../Pictures/ChicagoFlag/flag3.png');
-    width: 100%;
-}
-
-#hobbies {
-    background-image: url('../Pictures/Accordion/fretboard.png');
-    width: 100%;
-}
 
 
 #logoCarousel img {
@@ -422,80 +352,10 @@ a:focus {
 
 
 
-#TickerBar {
-    width: 100%;
-    background-image: url('../Pictures/Accordion/Wall_Street_accordion2.png');
-    color: black;
-    border-bottom:1px solid #1a1a1a;
-    font:bold 20px verdana
-}
-
-#TickerBar.accordion-section-title.active {
-    color: red;
-    padding-left:25px;
-  
-}
-
-
-#TickerBar.accordion-section-title {
-    padding-left:25px;
-}
-
-#TickerBar.accordion-section-title.active.arrow{
-    color: red;
-}
-
-#TickerBar.accordion-section-title.active.priceChange{
-    color: red;
-}
 
 
 
-.stockQuote {
-    color:#080;
-    font-weight:bold;
-    margin-left:750px;
-}
 
-.arrow{
-    color:#080;
-    font-weight:bold;
-}
-
-.price{
-    color: black;
-}
-
-#Resto_accordion {
-    background-image: url('../Pictures/Accordion/AutoResto_accordion-(5).png');
-    width:100%;
-    color:white;
-    margin-bottom: -3px;
-}
-
-#paint_accordion {
-    width: 100%;
-    background-image: url('../Pictures/Accordion/garage_shelf.jpg');
-    border-bottom: 1px solid #1a1a1a;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 8px;
-    padding-left: 24px;
-    background-color: lightcyan;
-}
-
-
-
-#paintGun {
-    height: 48px;
-    width: 35px;
-    padding-bottom: 12px;
-    display:inline;
-}
-
-#paint_accordion:hover {
-    color: white;
-}
 
 
 
