@@ -227,13 +227,9 @@ $(document).ready(function () {
 
         //Change Page Content
         var toLoad = $(this).find('a').attr('href') + ' #content';
-        $('#content').hide('fast', loadContent);
-        function loadContent() {
-            $('#content').load(toLoad,'',showNewContent())
-        };
-        function showNewContent() {
-            $('#content').show('normal');
-        };
+
+        $('#content').hide('fast', function () { loadContent(toLoad); });
+        
 
         //update URL to reflect current page, reset scroll location so page doesn't jump
         var yScroll = document.body.scrollTop;
@@ -249,10 +245,16 @@ $(document).ready(function () {
             $('#jumbotron_header').fadeIn(300)
         });
 
-
         return false
     });
 
+    // Helper functions to load the new page content via AJAX call and then show new content
+    function loadContent(page) {
+        $('#content').load(page, '', showNewContent())
+    };
+    function showNewContent() {
+        $('#content').show('normal');
+    };
 
 
 
