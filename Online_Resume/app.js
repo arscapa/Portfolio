@@ -64,6 +64,12 @@ $(document).ready(function () {
 
     var MyApp = {};  // Define globally scoped object for use with back button
 
+    // Create function to store window location of previous page for use with back button
+    MyApp.updateHistory = function() {
+        MyApp.lastPage = (window.location.hash == "") ? ' #content' : window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+    };
+
+
     // Run Jquery scipts on dynamically loaded AJAX content
 
     $(document).ajaxComplete(function () {
@@ -148,7 +154,7 @@ $(document).ready(function () {
             };
             
             // Store window location of previous page for use with back button
-            MyApp.lastPage = window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+            MyApp.updateHistory();
           
        
             //update URL to reflect current page, reset scroll location so page doesn't jump
@@ -238,7 +244,7 @@ $(document).ready(function () {
         $('#content').hide('fast', function () { loadContent(toLoad); });
         
         // Store window location of previous page for use with back button
-        MyApp.lastPage = (window.location.hash == "")?' #content': window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+        MyApp.updateHistory();
         alert(MyApp.lastPage);
 
         //update URL to reflect current page, reset scroll location so page doesn't jump
