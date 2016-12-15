@@ -159,6 +159,8 @@ $(document).ready(function () {
             var toLoad = 'Projects.html #content';
 
             $('#content').hide('fast', function () { loadContent(toLoad); });
+            // Updates URL hash to current active navigation link href as back button is used on child pages of main navigation pages 
+            window.location.hash = $('.nav_menu li').find('a.active').attr('href').substr(0, $('.nav_menu li').find('a.active').attr('href').length - 5);
         });
 
 
