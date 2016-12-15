@@ -4,7 +4,6 @@ $(document).ready(function () {
 
 
 
-  
 
     //preload charger_main images so that they're ready for hover event
 
@@ -147,8 +146,7 @@ $(document).ready(function () {
             function showNewContentFade() {
                 $('#content').fadeIn('normal');
             };
-
-            //update URL to reflect current page, reset scroll location so page doesn't jump
+                //update URL to reflect current page, reset scroll location so page doesn't jump
             var yScroll = document.body.scrollTop;
             window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
             document.body.scrollTop = yScroll;
@@ -156,10 +154,12 @@ $(document).ready(function () {
             return false
         });
 
+        // Back button functionality
+        $('.back_button').click(function () {
+            var toLoad = 'Projects.html #content';
 
-
-
-
+            $('#content').hide('fast', function () { loadContent(toLoad); });
+        });
 
 
 
