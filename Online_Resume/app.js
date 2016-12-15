@@ -62,6 +62,7 @@ $(document).ready(function () {
         cache: false
     });
 
+    var MyApp = {};  // Define globally scoped object for use with back button
 
     // Run Jquery scipts on dynamically loaded AJAX content
 
@@ -134,7 +135,6 @@ $(document).ready(function () {
         });
 
 
-
         // Automotive image gallery loader code
         $('#image_gallery').click(function () {
             //Change Page Content
@@ -146,19 +146,24 @@ $(document).ready(function () {
             function showNewContentFade() {
                 $('#content').fadeIn('normal');
             };
-                //update URL to reflect current page, reset scroll location so page doesn't jump
+            
+            // Store window location of previous page for use with back button
+            MyApp.lastPage = window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+          
+       
+            //update URL to reflect current page, reset scroll location so page doesn't jump
             var yScroll = document.body.scrollTop;
             window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
             document.body.scrollTop = yScroll;
+            
 
             return false
         });
 
         // Back button functionality
         $('.back_button').click(function () {
-            var toLoad = 'Projects.html #content';
+            $('#content').hide('fast', function () { loadContent(MyApp.lastPage); });
 
-            $('#content').hide('fast', function () { loadContent(toLoad); });
             // Updates URL hash to current active navigation link href as back button is used on child pages of main navigation pages 
             window.location.hash = $('.nav_menu li').find('a.active').attr('href').substr(0, $('.nav_menu li').find('a.active').attr('href').length - 5);
         });
@@ -232,6 +237,9 @@ $(document).ready(function () {
 
         $('#content').hide('fast', function () { loadContent(toLoad); });
         
+        // Store window location of previous page for use with back button
+        MyApp.lastPage = window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+        alert(MyApp.lastPage);
 
         //update URL to reflect current page, reset scroll location so page doesn't jump
         var yScroll = document.body.scrollTop;
