@@ -165,6 +165,17 @@ $(document).ready(function () {
 
             return false
         });
+        
+        // Control browser back and forward button functionality
+        window.onpopstate = function () {
+            if (MyApp.lastPage.substr(0,MyApp.lastPage.search('.html')) == window.location.hash.substr(1)) {
+                $('#content').hide('fast', function () { loadContent(MyApp.lastPage); });
+            }
+            else {
+                return false
+            }
+            };
+
 
         // Back button functionality
         $('.back_button').click(function () {
@@ -245,7 +256,7 @@ $(document).ready(function () {
         
         // Store window location of previous page for use with back button
         MyApp.updateHistory();
-        alert(MyApp.lastPage);
+     
 
         //update URL to reflect current page, reset scroll location so page doesn't jump
         var yScroll = document.body.scrollTop;
