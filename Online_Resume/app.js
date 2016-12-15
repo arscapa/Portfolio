@@ -238,7 +238,7 @@ $(document).ready(function () {
         $('#content').hide('fast', function () { loadContent(toLoad); });
         
         // Store window location of previous page for use with back button
-        MyApp.lastPage = window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+        MyApp.lastPage = (window.location.hash == "")?' #content': window.location.hash.substr(1, window.location.hash.length) + '.html #content'
         alert(MyApp.lastPage);
 
         //update URL to reflect current page, reset scroll location so page doesn't jump
