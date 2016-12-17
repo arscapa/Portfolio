@@ -168,9 +168,23 @@ $(document).ready(function () {
         
         // Control browser back and forward button functionality
         window.onpopstate = function () {
-            if (MyApp.lastPage.substr(0,MyApp.lastPage.search('.html')) == window.location.hash.substr(1)) {
+            // Check if current URL is equal to current URL (indicates back button was hit) if so, load last page
+            if (MyApp.lastPage.substr(0, MyApp.lastPage.indexOf('.html')) == window.location.hash.substr(1)) {
                 $('#content').hide('fast', function () { loadContent(MyApp.lastPage); });
-            }
+
+                //update nav menu item on back button press
+                var navItem = (MyApp.lastPage == " #content") ? '#' : MyApp.lastPage.substr(0, MyApp.lastPage.indexOf(' '));
+                //remove active classes
+                $('li.active').removeClass('active');
+                $('span.nav_span a.active').removeClass('active');
+                // Find current nav li item and update to active
+                $('.nav_menu li').each(function () {
+                    if ($(this).find('a').attr('href') == navItem) {
+                        $(this).addClass('active');
+                        $(this).find('a').addClass('active');
+                    }
+                });
+             }
             else {
                 return false
             }
