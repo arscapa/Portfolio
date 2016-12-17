@@ -250,6 +250,7 @@
     <Content Include="Image_Gallery.html" />
     <Content Include="Pictures\AboutPage\headshot.jpg" />
     <Content Include="Pictures\AboutPage\ISU_Bird.jpg" />
+    <Content Include="Pictures\Code_Samples\jsfiddle.jpg" />
     <Content Include="Pictures\Projects\auto.jpg" />
     <Content Include="Pictures\Lmap4.png" />
     <Content Include="Pictures\lofty_lodging.png" />
@@ -332,7 +333,7 @@
     <Content Include="Pictures\AutomotiveResto\Suspension\8.JPG" />
     <Content Include="Pictures\AutomotiveResto\Suspension\9.JPG" />
     <Content Include="Pictures\Projects\ERD.png" />
-    <Content Include="Pictures\github.png" />
+    <Content Include="Pictures\Code_Samples\github.png" />
     <Content Include="Pictures\LogoDesign\1.jpg" />
     <Content Include="Pictures\LogoDesign\LOGO.png" />
     <Content Include="Pictures\LogoDesign\Website Logo.jpg" />
