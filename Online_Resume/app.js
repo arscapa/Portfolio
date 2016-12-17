@@ -2,8 +2,7 @@
 
 $(document).ready(function () {
 
-
-
+    
 
     //preload charger_main images so that they're ready for hover event
 
@@ -61,13 +60,6 @@ $(document).ready(function () {
     $.ajaxSetup({
         cache: false
     });
-
-    var MyApp = {};  // Define globally scoped object for use with back button
-
-    // Create function to store window location of previous page for use with back button
-    MyApp.updateHistory = function() {
-        MyApp.lastPage = (window.location.hash == "") ? ' #content' : window.location.hash.substr(1, window.location.hash.length) + '.html #content'
-    };
 
 
     // Run Jquery scipts on dynamically loaded AJAX content
@@ -153,50 +145,27 @@ $(document).ready(function () {
                 $('#content').fadeIn('normal');
             };
             
-            // Store window location of previous page for use with back button
-            MyApp.updateHistory();
-          
-       
-            //update URL to reflect current page, reset scroll location so page doesn't jump
-            var yScroll = document.body.scrollTop;
-            window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
-            document.body.scrollTop = yScroll;
-            
 
             return false
         });
         
-        // Control browser back and forward button functionality
-        window.onpopstate = function () {
-            // Check if current URL is equal to current URL (indicates back button was hit) if so, load last page
-            if (MyApp.lastPage.substr(0, MyApp.lastPage.indexOf('.html')) == window.location.hash.substr(1)) {
-                $('#content').hide('fast', function () { loadContent(MyApp.lastPage); });
 
-                //update nav menu item on back button press
-                var navItem = (MyApp.lastPage == " #content") ? '#' : MyApp.lastPage.substr(0, MyApp.lastPage.indexOf(' '));
-                //remove active classes
-                $('li.active').removeClass('active');
-                $('span.nav_span a.active').removeClass('active');
-                // Find current nav li item and update to active
-                $('.nav_menu li').each(function () {
-                    if ($(this).find('a').attr('href') == navItem) {
-                        $(this).addClass('active');
-                        $(this).find('a').addClass('active');
-                    }
-                });
-             }
-            else {
-                return false
-            }
-            };
+        
 
-
+       
         // Back button functionality
         $('.back_button').click(function () {
-            $('#content').hide('fast', function () { loadContent(MyApp.lastPage); });
 
-            // Updates URL hash to current active navigation link href as back button is used on child pages of main navigation pages 
-            window.location.hash = $('.nav_menu li').find('a.active').attr('href').substr(0, $('.nav_menu li').find('a.active').attr('href').length - 5);
+            //Change Page Content
+            var toLoad = $('li.active').find('a').attr('href') + ' #content';
+            $('#content').hide('fast', loadContentFade);
+            function loadContentFade() {
+                $('#content').load(toLoad, '', showNewContentFade())
+            };
+            function showNewContentFade() {
+                $('#content').fadeIn('normal');
+            };
+
         });
 
 
@@ -258,36 +227,48 @@ $(document).ready(function () {
 
     //nav menu code to add active class label to selected button
     $('.nav_menu li').click(function () {
-        $(this).siblings().removeClass('active');
-        $('span.nav_span a.active').removeClass('active');
-        $(this).addClass('active');
-        $(this).find('a').addClass('active');
-
-        //Change Page Content
-        var toLoad = $(this).find('a').attr('href') + ' #content';
-
-        $('#content').hide('fast', function () { loadContent(toLoad); });
-        
-        // Store window location of previous page for use with back button
-        MyApp.updateHistory();
-     
-
-        //update URL to reflect current page, reset scroll location so page doesn't jump
         var yScroll = document.body.scrollTop;
         window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
         document.body.scrollTop = yScroll;
-      
+
+        return false
+    });
+
+
+    // Page load code
+    window.onpopstate = function () {
+        // load page code
+        var toLoad = (window.location.hash == "") ? ' #content' : window.location.hash.substr(1, window.location.hash.length) + '.html #content'
+        alert(toLoad);
+        $('#content').hide('fast', function () { loadContent(toLoad); });
+
+        // remove current active classes
+        $('li.active').removeClass('active');
+        $('span.nav_span a.active').removeClass('active');
+
+        //update nav item
+        var navItem = (toLoad == " #content") ? '#' : toLoad.substr(0, toLoad.indexOf(' '));
+        alert(navItem);
+
+        // Find current nav li item and update to active
+        $('.nav_menu li').each(function () {
+            if ($(this).find('a').attr('href') == navItem) {
+                $(this).addClass('active');
+                $(this).find('a').addClass('active');
+            }
+        });
+
         //get text of current selected nav link 
-        var txt = $('a[class=active]').text();    
+        var txt = $('a[class=active]').text();
 
         //Update banner text to reflect current page 
         $('#jumbotron_header').fadeOut(300, function () {
             document.getElementById('jumbotron_header').textContent = txt;
             $('#jumbotron_header').fadeIn(300)
         });
+    };
 
-        return false
-    });
+
 
     // Helper functions to load the new page content via AJAX call and then show new content
     function loadContent(page) {
