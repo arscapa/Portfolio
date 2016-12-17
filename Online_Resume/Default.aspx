@@ -121,7 +121,7 @@
 <img src="http://stackoverflow.com/users/flair/5117533.png?theme=dark" width="208" height="58" alt="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" class="vidIMG"/>
 </a>
                  
-                  <a href="https://github.com/arscapa"> <img src="Pictures/github.png" title="Github profile for Tony Scapardine" width="80" height="58" class="vidIMG"/></a>
+                  <a href="https://github.com/arscapa"> <img src="Pictures/Code_Samples/github.png" title="Github profile for Tony Scapardine" width="80" height="58" class="vidIMG"/></a>
                
                         
                         <br />
