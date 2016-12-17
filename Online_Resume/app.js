@@ -239,7 +239,6 @@ $(document).ready(function () {
     window.onpopstate = function () {
         // load page code
         var toLoad = (window.location.hash == "") ? ' #content' : window.location.hash.substr(1, window.location.hash.length) + '.html #content'
-        alert(toLoad);
         $('#content').hide('fast', function () { loadContent(toLoad); });
 
         // remove current active classes
@@ -248,7 +247,7 @@ $(document).ready(function () {
 
         //update nav item
         var navItem = (toLoad == " #content") ? '#' : toLoad.substr(0, toLoad.indexOf(' '));
-        alert(navItem);
+     
 
         // Find current nav li item and update to active
         $('.nav_menu li').each(function () {
