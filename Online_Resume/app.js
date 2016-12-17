@@ -28,6 +28,7 @@ $(document).ready(function () {
 
     preloader();
 
+
     //load fancybox
     $(".fancybox").click(function () {
         $(".fancybox").fancybox({
@@ -133,7 +134,7 @@ $(document).ready(function () {
         });
 
 
-        // Automotive image gallery loader code
+        // Automotive image gallery page loader code
         $('#image_gallery').click(function () {
             //Change Page Content
             var toLoad = $(this).find('a').attr('href') + ' #content';
@@ -144,8 +145,6 @@ $(document).ready(function () {
             function showNewContentFade() {
                 $('#content').fadeIn('normal');
             };
-            
-
             return false
         });
         
@@ -165,47 +164,10 @@ $(document).ready(function () {
             function showNewContentFade() {
                 $('#content').fadeIn('normal');
             };
-
         });
 
 
 
-    });
-    
-
-  
-    //collapse expand accordian
-    function close_accordion_section() {
-        $('.accordion .accordion-section-title').removeClass('active');
-        $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-    }
-
-    $('.accordion-section-title').click(function (e) {
-        // Grab current anchor value
-        var currentAttrValue = $(this).attr('href');
-
-        if ($(e.target).is('.active')) {
-            close_accordion_section();
-        } else {
-            close_accordion_section();
-
-            // Add active class to section title
-            $(this).addClass('active');
-            // Open up the hidden content panel
-            $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
-        }
-
-        e.preventDefault();
-    });
-    
-  
-
-    // Set interval for logo Carousel
-
-    $('.accordion #flag3').slideDown(function () {
-        $('#logoCarousel').carousel({
-            interval: 2000
-        })
     });
 
    
@@ -225,7 +187,7 @@ $(document).ready(function () {
 
    
 
-    //nav menu code to add active class label to selected button
+    // Update URL based on nav item clicked
     $('.nav_menu li').click(function () {
         var yScroll = document.body.scrollTop;
         window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
@@ -235,9 +197,9 @@ $(document).ready(function () {
     });
 
 
-    // Page load code
+    // Load page based on URL whenever popstate event fires
     window.onpopstate = function () {
-        // load page code
+        // load page 
         var toLoad = (window.location.hash == "") ? ' #content' : window.location.hash.substr(1, window.location.hash.length) + '.html #content'
         $('#content').hide('fast', function () { loadContent(toLoad); });
 
@@ -245,7 +207,7 @@ $(document).ready(function () {
         $('li.active').removeClass('active');
         $('span.nav_span a.active').removeClass('active');
 
-        //update nav item
+        // Get href of active navigation menu item
         var navItem = (toLoad == " #content") ? '#' : toLoad.substr(0, toLoad.indexOf(' '));
      
 
@@ -269,7 +231,7 @@ $(document).ready(function () {
 
 
 
-    // Helper functions to load the new page content via AJAX call and then show new content
+    // Helper functions to display new page content via AJAX call
     function loadContent(page) {
         $('#content').load(page, '', showNewContent())
     };
