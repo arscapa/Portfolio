@@ -37,13 +37,27 @@
            
      <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
               <div id="About_Me" class="active">
-    
- 
+
             <p>Hello! I'm a Chicago based web developer and programmer and I've created this site to showcase the various projects I've worked on over the years. My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
                 familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Business Information Systems in college. I currently work in the accounting field however my knowledge of programming has allowed me to greatly increase my productivity and create programs and utilize technology in order to optimize my work. Take a look around at some of the projects I've worked on over the years!
                 </p>
 
-            <h2>My Education</h2> 
+            <h2>Experience</h2>
+            <h4>Associate Staff Accountant </h4> 
+                <h4>Exelon Corporation</h4>
+                  <ul> 
+                    <li>Perform day-to-day activities associated with the monthly financial statement close process</li>
+                    <li>Represent my team in Technology Ambassador Program which looks to boost technical proficiency within company</li>
+                      </ul>
+                    <h4>Notable Achievements</h4>
+                  <ul> 
+                    <li>Implemented a number of process improvements which have streamlined the close process</li>
+                    <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors to close to zero. </li>
+                    <li>PeopleSoft Hyperion Reporting Certification Honor Roll</li>
+                </ul>
+               
+
+            <h2>Education</h2> 
                 <img id="headshot" src="Pictures/AboutPage/headshot.jpg" />
             <h4>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/AboutPage/ISU_Bird.jpg" class="img-circle" alt="ISU Redbird" id="ReggieRedbird"/></a></h4>
                 <p>Bachelor's of Science Accounting & Business Information Systems</p>
@@ -116,13 +130,7 @@
                 <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
                 <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
                 <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
-           <br />
-                    <a href="http://stackoverflow.com/users/5117533/tony-scap">
-<img src="http://stackoverflow.com/users/flair/5117533.png?theme=dark" width="208" height="58" alt="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Tony Scap at Stack Overflow, Q&amp;A for professional and enthusiast programmers" class="vidIMG"/>
-</a>
-                 
-                  <a href="https://github.com/arscapa"> <img src="Pictures/Code_Samples/github.png" title="Github profile for Tony Scapardine" width="80" height="58" class="vidIMG"/></a>
-               
+          
                         
                         <br />
                  <br />
