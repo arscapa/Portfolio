@@ -64,7 +64,7 @@
                 <p>Bachelor's of Science Accounting & Business Information Systems</p>
                 <p>GPA 3.48/4.0</p>
             
-                <h3>CPA Progress</h3>
+                <h4>CPA Progress</h4>
                 <ul class="CPA"> 
                     <li>AUD- Passed 8/13</li>
                     <li>FAR- Passed 11/13</li>
@@ -77,7 +77,7 @@
             
             <div id="trigger3"></div>
           
-      <h3>Competencies</h3>
+      <h4>Competencies</h4>
             
             
                  <ul class="skills">
@@ -109,7 +109,7 @@
                 </ul>
 
                              <br />
-                     <h3>Notable Coursework</h3>
+                     <h4>Notable Coursework</h4>
         
               <ul>
                 <li>Intermediate HTML</li>
