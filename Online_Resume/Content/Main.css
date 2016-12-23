@@ -204,7 +204,8 @@ img#headshot {
     -webkit-transition: opacity .5s;
     -moz-transition: opacity .5s;
     transition: opacity .5s;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .vidIMG:hover {
@@ -302,3 +303,26 @@ a:focus {
     margin:auto;
 }
 
+button.site_button {
+    color: #ffffff;
+    background-color: #181818;
+    width: 1083px;
+    border:none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0px;
+}
+
+button.site_button:hover {
+    opacity: .5;
+}
+
+button.site_button:focus {
+    outline: none;
+}
+
+.arrow:after {
+
+content: '\25BC';
+
+}
