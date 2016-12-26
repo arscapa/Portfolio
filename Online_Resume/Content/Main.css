@@ -338,3 +338,12 @@ button#lodging{
     background-color: rgb(19,37,147);
 }
 
+
+button#Auto{
+    background-color: rgb(255,255,255);
+}
+
+
+button#Auto .arrow{
+    color: red;
+}
