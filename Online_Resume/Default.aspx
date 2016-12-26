@@ -44,8 +44,8 @@
                 </p>
 
             <h2>Experience</h2>
+            <img src="Pictures/Exelon_logo.png" id="Exelon_logo"/>
             <h4>Associate Staff Accountant </h4> 
-                <h4>Exelon Corporation</h4>
                   <ul> 
                     <li>Perform day-to-day activities associated with the monthly financial statement close process</li>
                     <li>Represent my team in Technology Ambassador Program which looks to boost technical proficiency within company</li>

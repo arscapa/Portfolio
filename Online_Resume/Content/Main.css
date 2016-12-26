@@ -347,3 +347,7 @@ button#Auto{
 button#Auto .arrow{
     color: red;
 }
+
+img#Exelon_logo {
+    padding-bottom: 10px;
+}
