@@ -312,6 +312,7 @@ button.site_button {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 0px;
+    margin-bottom: 40px;
 }
 
 button.site_button:hover {
@@ -324,10 +325,16 @@ button.site_button:focus {
 
 .arrow:after {
 content: '\25B2';
-color: #6f6f6f;
+
 }
 
 
 .site_button.site_button.collapsed .arrow:after{
     content: '\25BC';
 }
+
+
+button#lodging{
+    background-color: rgb(19,37,147);
+}
+
