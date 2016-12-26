@@ -200,6 +200,7 @@ img#headshot {
 }
 
 .vidIMG {
+    width: 100%;
     opacity: 1;
     -webkit-transition: opacity .5s;
     -moz-transition: opacity .5s;
@@ -306,7 +307,7 @@ a:focus {
 button.site_button {
     color: #ffffff;
     background-color: #181818;
-    width: 1083px;
+    width: 100%;
     border:none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -322,13 +323,11 @@ button.site_button:focus {
 }
 
 .arrow:after {
-
 content: '\25B2';
-
+color: #6f6f6f;
 }
 
 
 .site_button.site_button.collapsed .arrow:after{
     content: '\25BC';
-
 }
