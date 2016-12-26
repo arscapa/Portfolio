@@ -323,6 +323,12 @@ button.site_button:focus {
 
 .arrow:after {
 
-content: '\25BC';
+content: '\25B2';
+
+}
+
+
+.site_button.site_button.collapsed .arrow:after{
+    content: '\25BC';
 
 }
