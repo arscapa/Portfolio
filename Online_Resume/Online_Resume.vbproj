@@ -252,6 +252,7 @@
     <Content Include="Pictures\Code_Samples\jsfiddle.jpg" />
     <Content Include="Pictures\Code_Samples\overflow.jpg" />
     <Content Include="Pictures\Exelon_logo.png" />
+    <Content Include="Pictures\linkedin2.png" />
     <Content Include="Pictures\Projects\auto.jpg" />
     <Content Include="Pictures\Lmap4.png" />
     <Content Include="Pictures\lofty_lodging.png" />
