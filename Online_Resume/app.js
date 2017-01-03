@@ -18,6 +18,7 @@ $(document).ready(function () {
         images[1] = "Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png";
         images[2] = "Pictures/AutomotiveResto/MainPics/74dodgeFender.png";
         images[3] = "Pictures/AutomotiveResto/MainPics/74dodgeInterior.png";
+        images[4] = "Pictures/AutomotiveResto/MainPics/74dodge.png";
 
         // start preloading
         for (var i = 0; i < images.length-1; i++) {
@@ -80,26 +81,26 @@ $(document).ready(function () {
         $('area.SelectEngine').hover(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeEngine.png');
 
-        })
+        });
 
         $('area.SelectSuspension').hover(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png');
 
-        })
+        });
 
         $('area.SelectBody').hover(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeFender.png');
 
-        })
+        });
 
         $('area.SelectInterior').hover(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeInterior.png');
-
-
-            $('#Charger_Main').mouseout(function () {
-                $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodge.png')
-            })
         });
+
+        $('#Charger_Main').mouseout(function () {
+            $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodge.png')
+        });
+        
 
         //image map resizer--> changes coordinates of image map when window is resized
         $('map').imageMapResize();
