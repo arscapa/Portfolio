@@ -235,6 +235,7 @@ a:focus {
 .page-width .content-container {
     background-image: url('../Pictures/Lmap4.png');
     max-width: 1406px;
+    min-width: 800px;
     border-radius: 10px;
     padding-right: 15px;
     padding-left: 15px;
@@ -355,3 +356,17 @@ img#Exelon_logo {
 .footer_logo{
     margin-top:4px;
 }
+
+#txt_overlay{
+    position: relative;
+    background:rgb(111,111,111);
+    color:white;
+    top: 350px;
+    left: 45%;
+    width: 200px;
+    opacity: .9;
+    border-radius:5px;
+    font-size: 28px;
+    padding:5px;
+}
+
