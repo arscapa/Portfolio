@@ -361,7 +361,7 @@ img#Exelon_logo {
     position: relative;
     background:rgb(111,111,111);
     color:white;
-    top: 350px;
+    top: -350px;
     left: 45%;
     width: 200px;
     opacity: .9;

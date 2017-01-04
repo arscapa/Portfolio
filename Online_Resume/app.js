@@ -76,28 +76,37 @@ $(document).ready(function () {
         };
 
 
+         //Charger Image gallery --> fade out text overlay
+        $('#Charger_Main').hover(function () {
+            $('#txt_overlay').fadeOut('fast');
+
+        }, function () {
+            $('#txt_overlay').fadeIn('fast');
+        });
+       
+
         //changes charger_main picture on interests page to highlighted section of car when hovering over it
 
-        $('area.SelectEngine').hover(function () {
+        $('area.SelectEngine').mouseenter(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeEngine.png');
 
         });
 
-        $('area.SelectSuspension').hover(function () {
+        $('area.SelectSuspension').mouseenter(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png');
 
         });
 
-        $('area.SelectBody').hover(function () {
+        $('area.SelectBody').mouseenter(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeFender.png');
 
         });
 
-        $('area.SelectInterior').hover(function () {
+        $('area.SelectInterior').mouseenter(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodgeInterior.png');
         });
 
-        $('#Charger_Main').mouseout(function () {
+        $('#Charger_Main').mouseleave(function () {
             $("#Charger_Main").attr('src', 'Pictures/AutomotiveResto/MainPics/74dodge.png')
         });
         
