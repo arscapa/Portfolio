@@ -358,15 +358,17 @@ img#Exelon_logo {
 }
 
 #txt_overlay{
-    position: relative;
+    position: absolute;
     background:rgb(111,111,111);
     color:white;
-    top: -350px;
     left: 45%;
-    width: 200px;
     opacity: .9;
     border-radius:5px;
     font-size: 28px;
+    top:1px;
     padding:5px;
 }
 
+.interactive_gallery{
+    position:relative;
+}
