@@ -369,6 +369,10 @@ img#Exelon_logo {
     padding:5px;
 }
 
-.interactive_gallery{
+div.Charger_Main_container{
     position:relative;
+    height: 585px;
+    width: 780px;
+    display:block;
+    margin:auto;
 }

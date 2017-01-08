@@ -77,7 +77,7 @@ $(document).ready(function () {
 
 
          //Charger Image gallery --> fade out text overlay
-        $('#Charger_Main').hover(function () {
+        $('.Charger_Main_container').hover(function () {
             $('#txt_overlay').fadeOut('fast');
 
         }, function () {

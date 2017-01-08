@@ -5,30 +5,32 @@
 </head>
 <body>
     <div id="content">
+    
+        <div class="container">
+            <div class="Charger_Main_container">
 
-       
+                <!--Image Maps for Charger Pic-->
+                <map name="map">
+                    <area shape="circle" coords="557, 485, 89" id="Suspension" class="SelectSuspension" />
+
+                    <area shape="circle" coords="263, 275, 95" id="Engine" class="SelectEngine" />
+
+                    <area shape="poly" coords="526, 207, 375, 337, 323, 351, 269, 387, 267, 420, 292, 424, 269, 457, 353, 488, 368, 491, 385, 584, 419, 584, 492, 508, 538, 371, 581, 332, 584, 385, 633, 330, 621, 224, 596, 203, 603, 192, 549, 191" id="Body" class="SelectBody" />
+
+                    <area shape="poly" coords="623, 174, 651, 147, 669, 112, 655, 89, 638, 68, 598, 78, 560, 82, 432, 76, 530, 192, 585, 187" id="Interior" class="SelectInterior" />
+                </map>
 
 
-        <!--Image Maps for Charger Pic-->
-        <map name="map">
-            <area shape="circle" coords="557, 485, 89" id="Suspension" class="SelectSuspension" />
+                <img src="Pictures/AutomotiveResto/MainPics/74dodge.PNG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main" />
 
-            <area shape="circle" coords="263, 275, 95" id="Engine" class="SelectEngine" />
+                <div id="txt_overlay">
+                    <span>Click section of car to see more</span>
+                </div>
 
-            <area shape="poly" coords="526, 207, 375, 337, 323, 351, 269, 387, 267, 420, 292, 424, 269, 457, 353, 488, 368, 491, 385, 584, 419, 584, 492, 508, 538, 371, 581, 332, 584, 385, 633, 330, 621, 224, 596, 203, 603, 192, 549, 191" id="Body" class="SelectBody" />
-
-            <area shape="poly" coords="623, 174, 651, 147, 669, 112, 655, 89, 638, 68, 598, 78, 560, 82, 432, 76, 530, 192, 585, 187" id="Interior" class="SelectInterior" />
-        </map>
-
-        <div class="interactive_gallery">
-
-        <img src="Pictures/AutomotiveResto/MainPics/74dodge.PNG" alt="'74 Dodge Charger" usemap="#map" id="Charger_Main"/>
-
-        <div id="txt_overlay">
-            <span>Click section of car to see more</span>
+            </div>
         </div>
 
-        </div>
+
         <!--Image Links for Suspension Lightbox Group-->
 
         <a href="Pictures/AutomotiveResto/Suspension/1.JPG" rel="lightbox[Suspension]" data-title=" "><span id="span1"></span></a>
