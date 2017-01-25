@@ -253,13 +253,13 @@
     <Content Include="Pictures\Code_Samples\overflow.jpg" />
     <Content Include="Pictures\Exelon_logo.png" />
     <Content Include="Pictures\linkedin2.png" />
+    <Content Include="Pictures\nav_menu.png" />
     <Content Include="Pictures\Projects\auto.jpg" />
     <Content Include="Pictures\Lmap4.png" />
     <Content Include="Pictures\lofty_lodging.png" />
     <Content Include="Pictures\LogoDesign\MXTT.png" />
     <Content Include="Pictures\LogoDesign\scapAuto.png" />
     <Content Include="Pictures\LogoDesign\scapAuto2.png" />
-    <Content Include="Pictures\L_navMenu.png" />
     <Content Include="Pictures\mxtracker.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodge.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeEngine.png" />

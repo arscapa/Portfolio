@@ -269,7 +269,7 @@ a:focus {
 .nav_menu {
     float:left;
     height: 542px;
-    background-image: url('../Pictures/L_navMenu.png');
+    background-image: url('../Pictures/nav_menu.png');
 }
 
 .nav_menu ul {
