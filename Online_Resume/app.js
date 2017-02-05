@@ -85,6 +85,7 @@ $(document).ready(function () {
         });
        
 
+
         //changes charger_main picture on interests page to highlighted section of car when hovering over it
 
         $('area.SelectEngine').mouseenter(function () {
