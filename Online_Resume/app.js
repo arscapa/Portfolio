@@ -14,11 +14,12 @@ $(document).ready(function () {
 
         // set image list
         var images = new Array();
-        images[0] = "Pictures/AutomotiveResto/MainPics/74dodgeEngine.png";
-        images[1] = "Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png";
+        images[0] = "Pictures/AutomotiveResto/MainPics/74dodge.png";
+        images[1] = "Pictures/AutomotiveResto/MainPics/74dodgeEngine.png";
         images[2] = "Pictures/AutomotiveResto/MainPics/74dodgeFender.png";
-        images[3] = "Pictures/AutomotiveResto/MainPics/74dodgeInterior.png";
-        images[4] = "Pictures/AutomotiveResto/MainPics/74dodge.png";
+        images[3] = "Pictures/AutomotiveResto/MainPics/74dodgeSuspension.png";
+        images[4] = "Pictures/AutomotiveResto/MainPics/74dodgeInterior.png";
+
 
         // start preloading
         for (var i = 0; i < images.length - 1; i++) {
