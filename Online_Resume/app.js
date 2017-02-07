@@ -10,7 +10,7 @@ $(document).ready(function () {
     function preloader() {
 
         // create object
-        var imageObj = new Image();
+        var imageObj = new Array();
 
         // set image list
         var images = new Array();
@@ -21,8 +21,9 @@ $(document).ready(function () {
         images[4] = "Pictures/AutomotiveResto/MainPics/74dodge.png";
 
         // start preloading
-        for (var i = 0; i < images.length-1; i++) {
-            imageObj.src = images[i];
+        for (var i = 0; i < images.length - 1; i++) {
+            imageObj[i] = new Image();
+            imageObj[i].src = images[i];
         }
 
     };
