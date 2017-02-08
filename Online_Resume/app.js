@@ -25,8 +25,6 @@ $(document).ready(function () {
         for (var i = 0; i < images.length; i++) {
             imageObj[i] = new Image();
             imageObj[i].src = images[i];
-
-            window.open(imageObj[i].src)
         }
 
     };
