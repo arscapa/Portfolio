@@ -31,6 +31,29 @@ $(document).ready(function () {
 
     preloader();
 
+    //page content preloader
+    function content_preloader() {
+        var pageObj = new Array();
+
+        // set page content list
+        var pages = new Array();
+        pages[0] = 'Code_Samples.html#content'
+        pages[1] = 'Image_Gallery.html#content'
+        pages[2] = 'Projects.html#content'
+        pages[3] = 'Websites.html#content'
+
+
+        // preload content
+        pages.forEach(function (page) {
+            var newDiv = document.createElement('div');
+            newDiv.setAttribute('class', 'preload_content');
+            newDiv.setAttribute('display', 'none');
+            $('.preload_content').load(page, alert("loaded " + page));
+        });
+    };
+
+    content_preloader();
+
 
     //load fancybox
     $(".fancybox").click(function () {
