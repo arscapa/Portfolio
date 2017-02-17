@@ -47,8 +47,8 @@ $(document).ready(function () {
         pages.forEach(function (page) {
             var newDiv = document.createElement('div');
             newDiv.setAttribute('class', 'preload_content');
-            newDiv.setAttribute('display', 'none');
-            $('.preload_content').load(page, alert("loaded " + page));
+            //newDiv.setAttribute('display', 'none');
+            $('.preload_content').load(page);
         });
     };
 
