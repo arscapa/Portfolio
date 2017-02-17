@@ -269,7 +269,7 @@ $(document).ready(function () {
 
     // Helper functions to display new page content via AJAX call
     function loadContent(page) {
-        $('#content').load(page, '', showNewContent())
+        $('#content').load(page, '', showNewContent)
     };
     function showNewContent() {
         $('#content').show('normal');

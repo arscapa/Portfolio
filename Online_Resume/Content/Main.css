@@ -236,6 +236,7 @@ a:focus {
     background-image: url('../Pictures/Lmap4.png');
     max-width: 1406px;
     min-width: 800px;
+    min-height: 1000px;
     border-radius: 10px;
     padding-right: 15px;
     padding-left: 15px;
