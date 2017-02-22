@@ -101,7 +101,7 @@
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
-                      <li class="skill_barINT" style="background-color:darkslateblue"">Photoshop
+                      <li class="skill_barINT" style="background-color:darkslateblue">Photoshop
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
