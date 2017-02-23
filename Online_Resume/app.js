@@ -234,7 +234,7 @@ $(document).ready(function () {
 
 
     // Load page based on URL whenever popstate event fires
-    window.onpopstate = function () {
+    window.onhashchange = function () {
         // load page 
         var toLoad = (window.location.hash == "") ? ' #content' : window.location.hash.substr(1, window.location.hash.length) + '.html #content'
         $('#content').hide('fast', function () { loadContent(toLoad); });
