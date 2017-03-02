@@ -354,6 +354,7 @@
     <Content Include="Scripts\lightbox\js\jquery-1.11.0.min.js" />
     <Content Include="Scripts\lightbox\js\lightbox.js" />
     <Content Include="Scripts\lightbox\js\lightbox.min.js" />
+    <Content Include="Scripts\Song_App.js" />
     <Content Include="Song_App.aspx" />
     <Content Include="Favicon\manifest.json" />
     <Content Include="Websites.html" />
