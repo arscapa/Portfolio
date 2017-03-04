@@ -20,11 +20,13 @@
     <div class="content">
   
         <div class="container">
+    
     <h3>Test your musical knowledge and see if you can guess the tracks of your favorite artists based on a small clip!</h3>
 
     <h1>Search for an Artist</h1>
     <p>Type an artist name and click on "Search". Then click "Play" to play 30 seconds of its first track.</p>
     
+      
         <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name"/>
       <br />
         <input type="submit" id="search" class="btn btn-primary" value="Search" />

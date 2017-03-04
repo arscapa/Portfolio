@@ -1,6 +1,7 @@
 ﻿$(document).ready(function () {
 
-    
+    var results = document.getElementById('results');
+
 
     var searchAlbums = function (query) {
         $.ajax({
@@ -10,7 +11,7 @@
                 type: 'album'
             },
             success: function (response) {
-                resultsPlaceholder.innerHTML = template(response);
+                console.log(response);
             }
         });
     };
@@ -18,8 +19,8 @@
 
 
 
-    document.getElementById('search-form').addEventListener('submit', function (e) {
-        e.preventDefault();
+    document.getElementById('search').addEventListener('click', function () {
+        alert('You have clicked the search button');
         searchAlbums(document.getElementById('query').value);
     }, false);
 
