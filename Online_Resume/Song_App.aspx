@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Song_App.aspx.vb" Inherits="Online_Resume.Portfolio" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <script src="Scripts/Song_App.js"></script>
    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
