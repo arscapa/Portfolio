@@ -5,19 +5,22 @@
     });
 
     var results = document.getElementById('results');
-    
+    var query = document.getElementById('query').value;
 
-    var searchAlbums = function (query) {
+    var searchArtists = function (query) {
         $.ajax({
             url: 'https://api.spotify.com/v1/search',
             async: true,
             data: {
                 q: query,
-                type: 'album'
+                type: 'artist'
             },
             success: function (response) {
-                console.log(response);
                 alert('query success');
+                results.innerHTML = JSON.stringify(response);
+                var artistURL = response.artists.items[0].href;
+                var artistName = resposne.artists.items[0].name;
+                alert(artistURL);
             },
             error: function (xhr, textStatus, errorThrown) {
                 alert('request failed->' + textStatus);
@@ -28,9 +31,10 @@
 
    
 
-    document.getElementById('search').addEventListener('click', function () {
+    document.getElementById('search').addEventListener('click', function (e) {
+        e.preventDefault();
         alert('You have clicked the search button');
-        searchAlbums(document.getElementById('query').value);
+        searchArtists(query);
     }, false);
 
 
