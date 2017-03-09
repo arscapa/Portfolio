@@ -16,14 +16,21 @@
             },
             success: function (response) {
                 alert('query success');
-                var artistID = response.artists.items[0].id;
-                var artistName = response.artists.items[0].name;
-                results.innerHTML = "Let's see how well you know " + artistName + "!" + '<br />';
-                callback(artistID)
+                
+                if (response.artists.items[0] == undefined) {
+                    results.innerHTML = "Sorry, we couldn't find " + query + " please try searching another artist."
+                }
+                else {
+                    console.log(response);
+                    var artistID = response.artists.items[0].id;
+                    var artistName = response.artists.items[0].name;
+                    results.innerHTML = "Let's see how well you know " + artistName + "!" + '<br />';
+                    callback(artistID)
+                }
             },
             error: function (xhr, textStatus, errorThrown) {
                 console.log('request failed->' + textStatus);
-                results.innerHTML = "Please search another artist ";
+                results.innerHTML = "Please enter an artist to search ";
             }
         });
     }; 
