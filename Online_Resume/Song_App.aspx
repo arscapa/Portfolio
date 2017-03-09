@@ -33,11 +33,12 @@
       <br />
       <input type="button" id="play" class="btn btn-primary" value="Play" />
       <br />
+      <br />
+
 
 
     <div id="results">
-        Eminem <br />
-        Artist ID: 7dGJo4pcD2V6oG8kP0tJRR
+        
     </div>
 
 

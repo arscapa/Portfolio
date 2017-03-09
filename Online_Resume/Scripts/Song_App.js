@@ -7,7 +7,7 @@
     var results = document.getElementById('results');
     var query = document.getElementById('query');
 
-    var searchArtists = function (query) {
+    var searchArtists = function (query, callback) {
         $.ajax({
             url: 'https://api.spotify.com/v1/search',
             data: {
@@ -18,11 +18,12 @@
                 alert('query success');
                 var artistID = response.artists.items[0].id;
                 var artistName = response.artists.items[0].name;
-                results.innerHTML += JSON.stringify(artistID) + '<br />';
-                results.innerHTML += JSON.stringify(artistName) + '<br />';
+                results.innerHTML = "Let's see how well you know " + artistName + "!" + '<br />';
+                callback(artistID)
             },
             error: function (xhr, textStatus, errorThrown) {
-                alert('request failed->' + textStatus);
+                console.log('request failed->' + textStatus);
+                results.innerHTML = "Please search another artist ";
             }
         });
     }; 
@@ -54,7 +55,7 @@
 
     document.getElementById('search').addEventListener('click', function (e) {
         e.preventDefault();
-        console.log(searchTopTracks(query.value));
+        console.log(searchArtists(query.value, searchTopTracks));
     }, false);
 
 
