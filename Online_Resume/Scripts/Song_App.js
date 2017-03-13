@@ -24,7 +24,7 @@
                     console.log(response);
                     var artistID = response.artists.items[0].id;
                     var artistName = response.artists.items[0].name;
-                    results.innerHTML = "Let's see how well you know " + artistName + "!" + " Make sure your speakers are on and push the play button to begin the game!" + '<br />';
+                    results.innerHTML = "<h3>" + "Let's see how well you know " + artistName + "!" + " Make sure your speakers are on and push the play button to begin the game!" + "</h3>" + '<br />';
                     callback(artistID, playGame)
                 }
             },
@@ -75,9 +75,9 @@
         });
 
         audioObject.addEventListener('ended', function () {
-            results.innerHTML = "Which song just played? " + "<br />" + "<br />";
+            results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
             optionsList.forEach(function (track) {
-                results.innerHTML += track.name + "<br />"
+                results.innerHTML += "<button type='button' class='btn btn-default btn-xs'>" + track.name + "</button>" +  "<br />"
             });
         });
 
