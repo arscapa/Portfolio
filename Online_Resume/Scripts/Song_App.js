@@ -51,13 +51,8 @@
                 var tracksReturned = [];
                 response.tracks.forEach(function (track) { tracksReturned.push(track) });
                 console.log(tracksReturned);
-                var possibleAnswers = [];
-
-                for (var i = 0; i < 4; i++) {
-                    var randomNum = Math.floor(Math.random() * tracksReturned.length)
-                    possibleAnswers.push(tracksReturned[randomNum]);
-                    tracksReturned.splice(randomNum, 1);
-                }
+                var possibleAnswers = selectRandom(tracksReturned, 4);
+              
                 possibleAnswers.forEach(function (track) {
                     results.innerHTML += '<br />' + track.name
                 });
@@ -70,8 +65,21 @@
     };
 
 
+    function selectRandom(list, maxNum) {
+        // Accepts a list for param1 and number for param2 and returns a random sublist with length equal to number for param2
+        var listSubmitted = list;
+        var subList = [];
+        var maxNum = (maxNum > list.length) ? list.length : maxNum;
+    
+        for (var i = 0; i < maxNum; i++) {
+            var randomNum = Math.floor(Math.random() * listSubmitted.length)
+            subList.push(listSubmitted[randomNum]);
+            listSubmitted.splice(randomNum, 1);
+        }
+        return subList;
+    };
 
-   
+  
 
     document.getElementById('search').addEventListener('click', function (e) {
         e.preventDefault();
