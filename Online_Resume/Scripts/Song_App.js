@@ -43,6 +43,7 @@
            
             success: function (response) {
                 alert('searchTopTracks query success');
+                $('#play').prop('disabled',false);
                
                 //response.tracks.forEach(function (track) {
                 //    results.innerHTML += '<br />' + track.name;

@@ -31,7 +31,7 @@
         <input type="submit" id="search" class="btn btn-primary" value="Search" />
       <br />
       <br />
-      <input type="button" id="play" class="btn btn-primary" value="Play" />
+      <input type="button" id="play" class="btn btn-primary" value="Play" disabled/>
       <br />
       <br />
 
