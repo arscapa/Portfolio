@@ -64,6 +64,13 @@
         });
     };
 
+    function playGame(optionsList) {
+        // Accepts array of objects containing artist's tracks and creates a game '
+        var answer = selectRandom(optionsList, 1);
+        console.log("The answer is " + answer.name);
+        audioObject = new Audio(answer.preview_url);
+        audioObject.play();
+    };
 
     function selectRandom(list, maxNum) {
         // Accepts a list for param1 and number for param2 and returns a random sublist with length equal to number for param2
