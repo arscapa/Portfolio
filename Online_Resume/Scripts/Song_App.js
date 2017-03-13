@@ -43,12 +43,25 @@
            
             success: function (response) {
                 alert('searchTopTracks query success');
-                console.log(response);
-                response.tracks.forEach(function (track) {
-                    results.innerHTML += '<br />' + track.name;
-                });
+               
+                //response.tracks.forEach(function (track) {
+                //    results.innerHTML += '<br />' + track.name;
+                //});
 
-                //results.innerHTML = response.tracks[0].name;
+                var tracksReturned = [];
+                response.tracks.forEach(function (track) { tracksReturned.push(track) });
+                console.log(tracksReturned);
+                var possibleAnswers = [];
+
+                for (var i = 0; i < 4; i++) {
+                    var randomNum = Math.floor(Math.random() * tracksReturned.length)
+                    possibleAnswers.push(tracksReturned[randomNum]);
+                    tracksReturned.splice(randomNum, 1);
+                }
+                possibleAnswers.forEach(function (track) {
+                    results.innerHTML += '<br />' + track.name
+                });
+             
             },
             error: function (xhr, textStatus, errorThrown) {
                 alert('request failed->' + textStatus);
