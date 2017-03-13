@@ -71,11 +71,21 @@
         console.log("The answer is " + answer.name);
         audioObject = new Audio(answer.preview_url);
         audioObject.play();
+
+        audioObject.addEventListener('ended', function () {
+            results.innerHTML = "Which song just played? " + "<br />" + "<br />";
+            optionsList.forEach(function (track) {
+                results.innerHTML += track.name + "<br />"
+            });
+        });
+
+
+
     };
 
     function selectRandom(list, maxNum) {
         // Accepts a list for param1 and number for param2 and returns a random sublist with length equal to number for param2
-        var listSubmitted = list;
+        var listSubmitted = list.slice(0);
         var subList = [];
         var maxNum = (maxNum > list.length) ? list.length : maxNum;
     
