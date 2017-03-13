@@ -24,8 +24,8 @@
                     console.log(response);
                     var artistID = response.artists.items[0].id;
                     var artistName = response.artists.items[0].name;
-                    results.innerHTML = "Let's see how well you know " + artistName + "!" + '<br />';
-                    callback(artistID)
+                    results.innerHTML = "Let's see how well you know " + artistName + "!" + " Make sure your speakers are on and push the play button to begin the game!" + '<br />';
+                    callback(artistID, playGame)
                 }
             },
             error: function (xhr, textStatus, errorThrown) {
@@ -36,7 +36,7 @@
     }; 
 
 
-    var searchTopTracks = function (artistID) {
+    var searchTopTracks = function (artistID, callback) {
         alert('Searching top tracks for ' + artistID)
         $.ajax({
             url: 'https://api.spotify.com/v1/artists/' + artistID + '/top-tracks?country=US',
@@ -56,7 +56,7 @@
                 possibleAnswers.forEach(function (track) {
                     results.innerHTML += '<br />' + track.name
                 });
-             
+                callback(possibleAnswers);
             },
             error: function (xhr, textStatus, errorThrown) {
                 alert('request failed->' + textStatus);
@@ -66,7 +66,8 @@
 
     function playGame(optionsList) {
         // Accepts array of objects containing artist's tracks and creates a game '
-        var answer = selectRandom(optionsList, 1);
+        var answer = selectRandom(optionsList, 1)[0];
+        console.log(answer);
         console.log("The answer is " + answer.name);
         audioObject = new Audio(answer.preview_url);
         audioObject.play();
