@@ -43,7 +43,7 @@
            
             success: function (response) {
                 alert('searchTopTracks query success');
-                $('#play').prop('disabled',false);
+                document.getElementById('play').disabled = false;
                
                 //response.tracks.forEach(function (track) {
                 //    results.innerHTML += '<br />' + track.name;
@@ -54,9 +54,6 @@
                 console.log(tracksReturned);
                 var possibleAnswers = selectRandom(tracksReturned, 4);
               
-                possibleAnswers.forEach(function (track) {
-                    results.innerHTML += '<br />' + track.name
-                });
                 callback(possibleAnswers);
             },
             error: function (xhr, textStatus, errorThrown) {
@@ -71,7 +68,11 @@
         console.log(answer);
         console.log("The answer is " + answer.name);
         audioObject = new Audio(answer.preview_url);
-        audioObject.play();
+
+        document.getElementById('play').addEventListener('click', function () {
+            this.disabled = true;
+            audioObject.play();
+        });
 
         audioObject.addEventListener('ended', function () {
             results.innerHTML = "Which song just played? " + "<br />" + "<br />";
