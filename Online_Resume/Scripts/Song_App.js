@@ -76,9 +76,16 @@
 
         audioObject.addEventListener('ended', function () {
             results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
+         
             optionsList.forEach(function (track) {
-                results.innerHTML += "<button type='button' class='btn btn-default btn-xs'>" + track.name + "</button>" +  "<br />"
+                results.innerHTML += "<button type='button' class='btn btn-default btn-xs'>" + track.name + "</button>" + "<br />" 
             });
+            var time = 0;
+            $('.btn.btn-default.btn-xs').each(function () {
+                $(this).delay(time).fadeIn(800);
+                time += 800;
+            });
+
         });
 
 
