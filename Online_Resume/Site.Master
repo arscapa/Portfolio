@@ -22,6 +22,7 @@
     <link href="Scripts/lightbox/css/lightbox.css" rel="stylesheet" />
     <link href="Scripts/fancybox/jquery.fancybox.css" rel="stylesheet" />
     <link href="Scripts/fancybox/jquery.fancybox-buttons.css" rel="stylesheet" />
+    <link href="Content/Song_App.css" rel="stylesheet" />
 
 </head>
 <body>

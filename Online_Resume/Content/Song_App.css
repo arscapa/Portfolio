@@ -1,0 +1,22 @@
+﻿body {
+}
+
+input.btn.btn-primary {
+    background-color: black;
+}
+
+button.btn.btn-default.btn-xs {
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(51,153, 255);
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+
+button.btn.btn-default.btn-xs:hover {
+    background-color: rgb(7,100,192);
+}
