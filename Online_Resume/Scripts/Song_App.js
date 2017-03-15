@@ -78,13 +78,27 @@
             results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
          
             optionsList.forEach(function (track) {
-                results.innerHTML += "<button type='button' class='btn btn-default btn-xs'>" + track.name + "</button>" + "<br />" 
+                results.innerHTML += "<button type='button' class='btn btn-default btn-xs answerOption'>" + track.name + "</button>" + "<br />" 
             });
             var time = 0;
             $('.btn.btn-default.btn-xs').each(function () {
                 $(this).delay(time).fadeIn(800);
                 time += 800;
             });
+
+           
+            var answerOptions = document.getElementsByClassName('answerOption');
+
+            for (var i = 0; i < answerOptions.length; i++) {
+                answerOptions[i].addEventListener('click', function (e) {
+                    e.preventDefault
+                    //checkAnswer(this.innerHTML, answer.name);
+                    console.log(this.innerHTML);
+                    console.log(answer.name);
+                    console.log(this.innerHTML == answer.name);
+                });
+            }
+
 
         });
 

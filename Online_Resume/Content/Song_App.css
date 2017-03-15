@@ -20,3 +20,7 @@ button.btn.btn-default.btn-xs {
 button.btn.btn-default.btn-xs:hover {
     background-color: rgb(7,100,192);
 }
+
+#results {
+    min-height: 295px;
+}
