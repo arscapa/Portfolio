@@ -92,15 +92,28 @@
             for (var i = 0; i < answerOptions.length; i++) {
                 answerOptions[i].addEventListener('click', function (e) {
                     e.preventDefault
-                    //checkAnswer(this.innerHTML, answer.name);
-                    console.log(this.innerHTML);
-                    console.log(answer.name);
-                    console.log(this.innerHTML == answer.name);
+                    checkAnswer(this.innerHTML, answer.name);
                 });
             }
 
 
         });
+
+
+        function checkAnswer(guess, answer) {
+            $('#results').fadeOut(400, function () {
+                if (guess == answer) {
+                    console.log("correct");
+                    $(this).html("<h2> &#10004; Correct! </h2>").fadeIn(400);
+                }
+                else {
+                    console.log("incorrect")
+                    $(this).html("<h2> Sorry, that's incorrect </h2>").fadeIn(400);
+                };
+
+
+            });
+        };
 
 
 
