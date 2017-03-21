@@ -5,7 +5,7 @@ input.btn.btn-primary {
     background-color: black;
 }
 
-button.btn.btn-default.btn-xs {
+button.answerOption {
     font-size: 20px;
     color: #fff;
     background-color: rgb(51,153, 255);
@@ -17,10 +17,10 @@ button.btn.btn-default.btn-xs {
 }
 
 
-button.btn.btn-default.btn-xs:hover {
+button.answerOption:hover {
     background-color: rgb(7,100,192);
 }
 
 #results {
-    min-height: 295px;
+    min-height: 295px; 
 }
