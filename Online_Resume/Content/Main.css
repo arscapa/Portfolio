@@ -70,7 +70,7 @@ textarea {
 }
 
 .page-width {
-    background-color: rgba(217,222,231,0.52);
+    background-color: rgb(220,226,234);
     padding-bottom: 0px;
 }
 
@@ -279,6 +279,15 @@ a:focus {
     padding-top: 80px;
     font-size: 22px;
 }
+
+.nav_menu li:not(.active) {
+    opacity:.70;
+}
+
+.nav_menu ul:hover {
+    opacity: 1;
+}
+
 
 .nav_menu li a{
         color: black;

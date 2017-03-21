@@ -19,6 +19,7 @@ button.answerOption {
 
 button.answerOption:hover {
     background-color: rgb(7,100,192);
+    color: #fff;
 }
 
 #results {

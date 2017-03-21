@@ -281,6 +281,16 @@ $(document).ready(function () {
 
 
    
+    $('.nav_menu').hover(function () {
+        $('.page-width').css('background-color', 'rgba(217,222,231,0.52')
+        $('.nav_menu li:not(.active)').css('opacity', '1');
+
+    }, function () {
+        $('.page-width').css('background-color', 'rgb(220, 226, 234)')
+        $('.nav_menu li:not(.active)').css('opacity', '.70');
+    });
+
+
 
 
 
