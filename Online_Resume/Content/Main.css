@@ -281,7 +281,7 @@ a:focus {
 }
 
 .nav_menu li:not(.active) {
-    opacity:.70;
+    opacity: .65;
 }
 
 .nav_menu ul:hover {

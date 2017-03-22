@@ -287,7 +287,7 @@ $(document).ready(function () {
 
     }, function () {
         $('.page-width').css('background-color', 'rgb(220, 226, 234)')
-        $('.nav_menu li:not(.active)').css('opacity', '.70');
+        $('.nav_menu li:not(.active)').css('opacity', '.65');
     });
 
 
