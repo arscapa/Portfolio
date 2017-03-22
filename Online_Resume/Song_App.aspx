@@ -20,8 +20,11 @@
   
         <div class="container">
     
+    <div id ="songApp_Header">
     <h3>Test your musical knowledge and see if you can guess the tracks of your favorite artists based on a small clip!</h3>
+    </div>
 
+          
     <h1>Search for an Artist</h1>      
         <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name"/>
       <br />
@@ -33,10 +36,6 @@
 
     </div>
    
-      <input type="button" id="play" class="btn btn-primary" value="Play" disabled/>
-   
-
-
 
 
             </div>

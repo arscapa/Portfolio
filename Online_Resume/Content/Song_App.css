@@ -23,5 +23,13 @@ button.answerOption:hover {
 }
 
 #results {
-    min-height: 295px; 
+    border: 1px solid transparent;
+    display: none;
+    padding-top: 5px;
+    margin-top: 20px;
+    min-height: 280px;
+}
+
+.checkMark {
+    color: green;
 }

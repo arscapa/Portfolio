@@ -15,7 +15,7 @@
                 type: 'artist'
             },
             success: function (response) {
-                alert('query success');
+                //alert('query success');
                 
                 if (response.artists.items[0] == undefined) {
                     results.innerHTML = "Sorry, we couldn't find " + query + " please try searching another artist."
@@ -24,7 +24,9 @@
                     console.log(response);
                     var artistID = response.artists.items[0].id;
                     var artistName = response.artists.items[0].name;
-                    results.innerHTML = "<h3>" + "Let's see how well you know " + artistName + "!" + " Make sure your speakers are on and push the play button to begin the game!" + "</h3>" + '<br />';
+                    results.innerHTML = "<h3>" + "Let's see how well you know " + artistName + "!"
+                        + " Make sure your speakers are on and push the play button to begin the game!" + "</h3>" + '<br />' 
+                       + '<input type="button" id="play" class="btn btn-primary" value="Play" />';
                     callback(artistID, playGame)
                 }
             },
@@ -37,18 +39,14 @@
 
 
     var searchTopTracks = function (artistID, callback) {
-        alert('Searching top tracks for ' + artistID)
+        //alert('Searching top tracks for ' + artistID)
         $.ajax({
             url: 'https://api.spotify.com/v1/artists/' + artistID + '/top-tracks?country=US',
            
             success: function (response) {
-                alert('searchTopTracks query success');
+                //alert('searchTopTracks query success');
                 document.getElementById('play').disabled = false;
                
-                //response.tracks.forEach(function (track) {
-                //    results.innerHTML += '<br />' + track.name;
-                //});
-
                 var tracksReturned = [];
                 response.tracks.forEach(function (track) { tracksReturned.push(track) });
                 console.log(tracksReturned);
@@ -57,7 +55,7 @@
                 callback(possibleAnswers);
             },
             error: function (xhr, textStatus, errorThrown) {
-                alert('request failed->' + textStatus);
+                //alert('request failed->' + textStatus);
             }
         });
     };
@@ -104,7 +102,7 @@
             $('#results').fadeOut(400, function () {
                 if (guess == answer) {
                     console.log("correct");
-                    $(this).html("<h2> &#10004; Correct! </h2>").fadeIn(400);
+                    $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400);
                 }
                 else {
                     console.log("incorrect")
@@ -137,7 +135,9 @@
 
     document.getElementById('search').addEventListener('click', function (e) {
         e.preventDefault();
-        console.log(searchArtists(query.value, searchTopTracks));
+        $('#songApp_Header').slideUp();
+        $('#results').fadeIn(800);
+        searchArtists(query.value, searchTopTracks);
     }, false);
 
 
