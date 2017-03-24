@@ -72,6 +72,10 @@
             audioObject.play();
         });
 
+        document.getElementById('search').addEventListener('click', function () {
+            audioObject.pause();
+        });
+
         audioObject.addEventListener('ended', function () {
             results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
          
@@ -106,7 +110,7 @@
                 }
                 else {
                     console.log("incorrect")
-                    $(this).html("<h2> Sorry, that's incorrect </h2>").fadeIn(400);
+                    $(this).html("<h2> Sorry, that's incorrect. Search a new artist to play again! </h2>").fadeIn(400);
                 };
 
 
@@ -137,6 +141,15 @@
         e.preventDefault();
         $('#songApp_Header').slideUp();
         $('#results').fadeIn(800);
+        $('#search_bar h1').animate({
+            fontSize: '25px'
+        });
+        $('#search_bar input').animate({
+            height: '25px',
+            paddingTop: '1px',
+            paddingBottom: '2px',
+        });
+
         searchArtists(query.value, searchTopTracks);
     }, false);
 

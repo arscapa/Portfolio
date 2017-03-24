@@ -24,13 +24,13 @@
     <h3>Test your musical knowledge and see if you can guess the tracks of your favorite artists based on a small clip!</h3>
     </div>
 
-          
+      <div id="search_bar">  
     <h1>Search for an Artist</h1>      
         <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name"/>
       <br />
         <input type="submit" id="search" class="btn btn-primary" value="Search" />
       <br />
-   
+     </div>
     
     <div id="results" class ="well well-lg">
 
