@@ -40,3 +40,8 @@ button.answerOption:hover {
     padding-bottom: 2px;
     margin-left: 42%;
 }
+
+
+#results .btn-group{
+    padding-bottom:20px;
+}

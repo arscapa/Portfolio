@@ -33,6 +33,7 @@
      </div>
     
     <div id="results" class ="well well-lg">
+        <input type="button" value="Difficult" />
 
     </div>
    

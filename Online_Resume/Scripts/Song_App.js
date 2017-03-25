@@ -24,7 +24,17 @@
                     console.log(response);
                     var artistID = response.artists.items[0].id;
                     var artistName = response.artists.items[0].name;
-                    results.innerHTML = "<h3>" + "Let's see how well you know " + artistName + "!"
+                    results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>"+
+  "<label class='btn btn-primary active'>"+
+    "<input type='radio' name='options' id='option1' autocomplete='off' checked> Easy" +
+  "</label>"+
+ " <label class='btn btn-primary'>"+
+    "<input type='radio' name='options' id='option2' autocomplete='off'> Medium"+
+  "</label>" +
+  "<label class='btn btn-primary'>" +
+    "<input type='radio' name='options' id='option3' autocomplete='off'> Difficult"+
+  "</label>" +
+"</div>" + "<h3> Let's see how well you know " + artistName + "!"
                         + " Make sure your speakers are on and push the play button to begin the game!" + "</h3>" + '<br />' 
                        + '<input type="button" id="play" class="btn btn-primary" value="&#9658; Play" />';
                     callback(artistID, playGame)
