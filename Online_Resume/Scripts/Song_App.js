@@ -26,7 +26,7 @@
                     var artistName = response.artists.items[0].name;
                     results.innerHTML = "<h3>" + "Let's see how well you know " + artistName + "!"
                         + " Make sure your speakers are on and push the play button to begin the game!" + "</h3>" + '<br />' 
-                       + '<input type="button" id="play" class="btn btn-primary" value="Play" />';
+                       + '<input type="button" id="play" class="btn btn-primary" value="&#9658; Play" />';
                     callback(artistID, playGame)
                 }
             },
@@ -152,7 +152,7 @@
 
 
 
-        $('#search_bar').hover(function () {
+        $('#search_bar').mouseenter(function () {
             $('#search_bar input').stop().animate({
                 height: '28px',
             });
@@ -160,16 +160,9 @@
                 fontSize: '28px'
             });
 
-        }, function () {
-            $('#search_bar input').stop().animate({
-                height: '25px',
-            });
-
-            $('#search_bar h1').stop().animate({
-                fontSize: '25px'
-            });
         });
 
+  
 
         searchArtists(query.value, searchTopTracks);
     }, false);

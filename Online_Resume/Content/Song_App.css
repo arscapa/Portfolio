@@ -31,5 +31,12 @@ button.answerOption:hover {
 }
 
 .checkMark {
-    color: green;
+    color: #14c31a;
+}
+
+#play {
+    background-color: #17c51C;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 42%;
 }
