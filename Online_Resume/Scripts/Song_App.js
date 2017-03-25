@@ -150,6 +150,27 @@
             paddingBottom: '2px',
         });
 
+
+
+        $('#search_bar').hover(function () {
+            $('#search_bar input').stop().animate({
+                height: '28px',
+            });
+            $('#search_bar h1').stop().animate({
+                fontSize: '28px'
+            });
+
+        }, function () {
+            $('#search_bar input').stop().animate({
+                height: '25px',
+            });
+
+            $('#search_bar h1').stop().animate({
+                fontSize: '25px'
+            });
+        });
+
+
         searchArtists(query.value, searchTopTracks);
     }, false);
 
