@@ -18,20 +18,21 @@
                 //alert('query success');
                 
                 if (response.artists.items[0] == undefined) {
-                    results.innerHTML = "Sorry, we couldn't find " + query + " please try searching another artist."
+                    results.innerHTML = "<div class='alert alert-danger role='alert'>" +
+                        "Sorry, we couldn't find " + query + " please try searching another artist." + "</div>"
                 }
                 else {
                     console.log(response);
                     var artistID = response.artists.items[0].id;
                     var artistName = response.artists.items[0].name;
                     results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>"+
-  "<label class='btn btn-primary active'>"+
+  "<label class='btn btn-primary active' id='easy'>"+
     "<input type='radio' name='options' id='option1' autocomplete='off' checked> Easy" +
   "</label>"+
- " <label class='btn btn-primary'>"+
+ " <label class='btn btn-primary' id='medium'>"+
     "<input type='radio' name='options' id='option2' autocomplete='off'> Medium"+
   "</label>" +
-  "<label class='btn btn-primary'>" +
+  "<label class='btn btn-primary' id='difficult'>" +
     "<input type='radio' name='options' id='option3' autocomplete='off'> Difficult"+
   "</label>" +
 "</div>" + "<h3> Let's see how well you know " + artistName + "!"
