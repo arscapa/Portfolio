@@ -80,8 +80,20 @@
 
         document.getElementById('play').addEventListener('click', function () {
             this.disabled = true;
-            var difficultyLevel = $('input:radio:checked').val();
-            console.log('The difficulty level selected is ' + difficultyLevel);
+            var difficultyLevel = $('input:radio:checked').val().toLowerCase();
+
+            switch (difficultyLevel) {
+                case 'easy':
+                    console.log('Running code for easy difficulty')
+                    break;
+                case 'medium':
+                    console.log('Running code for medium difficulty')
+                    break;
+                case 'hard':
+                    console.log('Running code for medium difficulty')
+                    break;
+            }
+
             audioObject.play();
         });
 
