@@ -27,16 +27,16 @@
                     var artistName = response.artists.items[0].name;
                     results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>"+
   "<label class='btn btn-primary active' id='easy'>"+
-    "<input type='radio' name='options' id='option1' autocomplete='off' checked> Easy" +
+    "<input type='radio' name='options' id='option1' autocomplete='off' value='easy' checked> Easy" +
   "</label>"+
  " <label class='btn btn-primary' id='medium'>"+
-    "<input type='radio' name='options' id='option2' autocomplete='off'> Medium"+
+    "<input type='radio' name='options' id='option2' autocomplete='off' value='medium'> Medium"+
   "</label>" +
   "<label class='btn btn-primary' id='difficult'>" +
-    "<input type='radio' name='options' id='option3' autocomplete='off'> Difficult"+
+    "<input type='radio' name='options' id='option3' autocomplete='off' value='difficult'> Difficult"+
   "</label>" +
-"</div>" + "<h3> Let's see how well you know " + artistName + "!"
-                        + " Make sure your speakers are on and push the play button to begin the game!" + "</h3>" + '<br />' 
+"</div>" + "<h4> Let's see how well you know " + artistName + "!"
+                        + " Make sure your speakers are on and push the play button to begin the game!" + "</h4>" + '<br />' 
                        + '<input type="button" id="play" class="btn btn-primary" value="&#9658; Play" />';
                     callback(artistID, playGame)
                 }
@@ -80,6 +80,8 @@
 
         document.getElementById('play').addEventListener('click', function () {
             this.disabled = true;
+            var difficultyLevel = $('input:radio:checked').val();
+            console.log('The difficulty level selected is ' + difficultyLevel);
             audioObject.play();
         });
 
