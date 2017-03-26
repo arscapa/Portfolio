@@ -77,7 +77,7 @@
         console.log(answer);
         console.log("The answer is " + answer.name);
         audioObject = new Audio(answer.preview_url);
-
+        var timer;
         document.getElementById('play').addEventListener('click', function () {
             this.disabled = true;
             var difficultyLevel = $('input:radio:checked').val().toLowerCase();
@@ -85,21 +85,39 @@
             switch (difficultyLevel) {
                 case 'easy':
                     console.log('Running code for easy difficulty')
+                    audioObject.play();
                     break;
                 case 'medium':
                     console.log('Running code for medium difficulty')
+                    audioObject.play();
+                    timer = setTimeout(function () {
+                        audioObject.pause();
+                        audioObject.currentTime = audioObject.duration;
+                    }, 5000)
+                    document.getElementById('search').addEventListener('click', function () {
+                        clearTimeout();
+                    });
                     break;
-                case 'hard':
-                    console.log('Running code for medium difficulty')
+                case 'difficult':
+                    console.log('Running code for hard difficulty')
+                    audioObject.play();
+                    timer = setTimeout(function () {
+                        audioObject.pause();
+                        audioObject.currentTime = audioObject.duration;
+                    }, 2000)
+                   
                     break;
             }
-
-            audioObject.play();
+       
         });
+
 
         document.getElementById('search').addEventListener('click', function () {
             audioObject.pause();
+            clearTimeout(timer);
         });
+
+        
 
         audioObject.addEventListener('ended', function () {
             results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
