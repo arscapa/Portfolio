@@ -57,6 +57,7 @@
             success: function (response) {
                 //alert('searchTopTracks query success');
                 document.getElementById('play').disabled = false;
+
                
                 var tracksReturned = [];
                 response.tracks.forEach(function (track) { tracksReturned.push(track) });
@@ -80,6 +81,9 @@
         var timer;
         document.getElementById('play').addEventListener('click', function () {
             this.disabled = true;
+
+        
+          
             var difficultyLevel = $('input:radio:checked').val().toLowerCase();
 
             switch (difficultyLevel) {
@@ -94,21 +98,17 @@
                         audioObject.pause();
                         audioObject.currentTime = audioObject.duration;
                     }, 5000)
-                    document.getElementById('search').addEventListener('click', function () {
-                        clearTimeout();
-                    });
                     break;
                 case 'difficult':
-                    console.log('Running code for hard difficulty')
+                    console.log('Running code for medium difficulty')
                     audioObject.play();
                     timer = setTimeout(function () {
                         audioObject.pause();
                         audioObject.currentTime = audioObject.duration;
                     }, 2000)
-                   
                     break;
-            }
-       
+
+            };
         });
 
 
