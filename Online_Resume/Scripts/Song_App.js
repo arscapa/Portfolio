@@ -26,14 +26,14 @@
                     var artistID = response.artists.items[0].id;
                     var artistName = response.artists.items[0].name;
                     results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>"+
-  "<label class='btn btn-primary active' id='easy'>"+
-    "<input type='radio' name='options' id='option1' autocomplete='off' value='easy' checked> Easy" +
+  "<label class='btn btn-primary difficultySetting' id='easy'>"+
+    "<input type='radio' name='options' id='option1' autocomplete='off' value='easy'> Easy" +
   "</label>"+
- " <label class='btn btn-primary' id='medium'>"+
-    "<input type='radio' name='options' id='option2' autocomplete='off' value='medium'> Medium"+
+ " <label class='btn btn-primary active difficultySetting' id='medium'>" +
+    "<input type='radio' name='options' id='option2' autocomplete='off' value='medium' checked> Medium" +
   "</label>" +
-  "<label class='btn btn-primary' id='difficult'>" +
-    "<input type='radio' name='options' id='option3' autocomplete='off' value='difficult'> Difficult"+
+  "<label class='btn btn-primary difficultySetting' id='difficult'>" +
+    "<input type='radio' name='options' id='option3' autocomplete='off' value='difficult'> Difficult" +
   "</label>" +
 "</div>" + "<h4> Let's see how well you know " + artistName + "!"
                         + " Make sure your speakers are on and push the play button to begin the game!" + "</h4>" + '<br />' 
@@ -81,10 +81,9 @@
         var timer;
         document.getElementById('play').addEventListener('click', function () {
             this.disabled = true;
-
-        
+            $('.difficultySetting').each(function () { $(this).attr('disabled', true)});
           
-            var difficultyLevel = $('input:radio:checked').val().toLowerCase();
+            var difficultyLevel = $('input:radio:checked').val();
 
             switch (difficultyLevel) {
                 case 'easy':
