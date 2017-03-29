@@ -136,32 +136,30 @@
             for (var i = 0; i < answerOptions.length; i++) {
                 answerOptions[i].addEventListener('click', function (e) {
                     e.preventDefault
-                    checkAnswer(this.innerHTML, answer.name);
+                    checkAnswer(this.innerHTML, answer);
                 });
             }
 
 
         });
-
-
-        function checkAnswer(guess, answer) {
-            $('#results').fadeOut(400, function () {
-                if (guess == answer) {
-                    console.log("correct");
-                    $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400);
-                }
-                else {
-                    console.log("incorrect")
-                    $(this).html("<h2> Sorry, that's incorrect. Search a new artist to play again! </h2>").fadeIn(400);
-                };
-
-
-            });
-        };
-
-
-
     };
+
+
+    function checkAnswer(guess, answer) {
+        $('#results').fadeOut(400, function () {
+            if (guess == answer.name) {
+                console.log("correct");
+                $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400);
+            }
+            else {
+                console.log("incorrect")
+                $(this).html("<h2> <span class = 'incorrectX'>X</span>  Sorry, that's incorrect. </h2><br/> The correct answer is " + "<span class='answerName'>"
+                    + answer.name + "</span>" + "<br/><br/>" + "Click the button below to hear the full clip").fadeIn(500);
+            };
+        });
+    };
+
+
 
     function selectRandom(list, maxNum) {
         // Accepts a list for param1 and number for param2 and returns a random sublist with length equal to number for param2
