@@ -154,7 +154,10 @@
             else {
                 console.log("incorrect")
                 $(this).html("<h2> <span class = 'incorrectX'>X</span>  Sorry, that's incorrect. </h2><br/> The correct answer is " + "<span class='answerName'>"
-                    + answer.name + "</span>" + "<br/><br/>" + "Click the button below to hear the full clip").fadeIn(500);
+                    + answer.name + "</span>" + "<br/><br/>").fadeIn(500, function () {
+                        $('#results').append('Click the button below to hear the full clip');
+                    }
+                    );
             };
         });
     };
