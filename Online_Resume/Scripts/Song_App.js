@@ -153,11 +153,13 @@
             }
             else {
                 console.log("incorrect")
-                $(this).html("<h2> <span class = 'incorrectX'>X</span>  Sorry, that's incorrect. </h2><br/> The correct answer is " + "<span class='answerName'>"
-                    + answer.name + "</span>" + "<br/><br/>").fadeIn(500, function () {
-                        $('#results').append('Click the button below to hear the full clip');
-                    }
-                    );
+                $(this).html("<h2> <span class = 'incorrectX'>X</span>  Sorry, that's incorrect. </h2><br/>").fadeIn(1000, function () {
+
+                    $('#results').append('<p> The correct answer is <span class="answerName">' + answer.name + '</span></p>').children(':last').hide().fadeIn(1000, function () {
+
+                        $('#results').append('<p>Click the button below to hear the full clip</p>').children(':last').hide().fadeIn(1000);
+                    });
+                });
             };
         });
     };

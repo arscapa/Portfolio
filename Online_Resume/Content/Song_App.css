@@ -67,3 +67,9 @@ label#medium {
 label#difficult {
    
 }
+
+span.incorrectX {
+    color:red;
+    font-weight:bold;
+    font-size: 35px;
+}
