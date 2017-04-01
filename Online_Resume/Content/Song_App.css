@@ -71,5 +71,6 @@ label#difficult {
 span.incorrectX {
     color:red;
     font-weight:bold;
-    font-size: 35px;
+    font-size: 100px;
+    padding-left: 45%;
 }
