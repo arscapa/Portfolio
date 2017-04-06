@@ -166,10 +166,22 @@
 
                         $('#results').append('<p>Click the button below to hear the full clip</p><p><input type="button" id="correctAnswerBtn" class="btn btn-primary" value="&#9658; Play" />').children(':last').hide().fadeIn(3000, function () {
                             var answerBtn = document.getElementById('correctAnswerBtn');
+                            var isPlaying = false;
+                            var answerAudio = new Audio(answer.preview_url);
+
                             answerBtn.addEventListener('click', function (e) {
                                 e.preventDefault;
-                                answerAudio = new Audio(answer.preview_url);
-                                answerAudio.play();
+                                console.log(isPlaying);
+                                if (!isPlaying) {
+                                    answerAudio.play();
+                                    isPlaying = true;
+                                    console.log(isPlaying);
+                                } else {
+                                    answerAudio.pause();
+                                    isPlaying = false;
+                                }
+
+                                
                             });
 
 
