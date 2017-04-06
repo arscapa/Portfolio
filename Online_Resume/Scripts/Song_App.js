@@ -37,7 +37,7 @@
   "</label>" +
 "</div>" + "<h4> Let's see how well you know " + artistName + "!"
                         + " Make sure your speakers are on and push the play button to begin the game!" + "</h4>" + '<br />' 
-                       + '<input type="button" id="play" class="btn btn-primary" value="&#9658; Play" />';
+                       + '<input type="button" id="play" class="btn btn-primary playBtn" value="&#9658; Play" />';
                     callback(artistID, playGame)
                 }
             },
@@ -164,7 +164,7 @@
 
                     $('#results').append('<p> The correct answer is <span class="answerName">' + answer.name + '</span></p>').children(':last').hide().fadeIn(1200, function () {
 
-                        $('#results').append('<p>Click the button below to hear the full clip</p><p><input type="button" id="correctAnswerBtn" class="btn btn-primary" value="&#9658; Play" />').children(':last').hide().fadeIn(3000, function () {
+                        $('#results').append('<p>Click the button below to hear the full clip</p><p><input type="button" id="correctAnswerBtn" class="btn btn-primary playBtn" value="&#9658; Play" />').children(':last').hide().fadeIn(1000, function () {
                             var answerBtn = document.getElementById('correctAnswerBtn');
                             var isPlaying = false;
                             var answerAudio = new Audio(answer.preview_url);

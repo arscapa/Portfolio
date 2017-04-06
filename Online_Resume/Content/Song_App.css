@@ -34,12 +34,6 @@ button.answerOption:hover {
     color: #14c31a;
 }
 
-#play {
-    background-color: #17c51C;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-left: 42%;
-}
 
 
 #results .btn-group{
@@ -73,4 +67,11 @@ span.incorrectX {
     font-weight:bold;
     font-size: 100px;
     padding-left: 45%;
+}
+
+input.btn.playBtn {
+    background-color: #17c51C;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 42%;
 }
