@@ -65,8 +65,17 @@ label#difficult {
 span.incorrectX {
     color:red;
     font-weight:bold;
+    line-height:95px;
     font-size: 100px;
     padding-left: 45%;
+}
+
+header.incorrectHeader {
+    font-size: 30px;
+    line-height: 95px;
+    display: inline;
+    padding-left:10px;
+    padding-bottom:20px;
 }
 
 input.btn.playBtn {

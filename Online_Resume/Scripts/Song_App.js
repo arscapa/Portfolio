@@ -156,11 +156,11 @@
                 //console.log("incorrect")
                 $(this).html("<span class = 'incorrectX'>X</span>").fadeIn(1000, function () {
                     $('span.incorrectX').animate({
-                        fontSize: '35px',
+                        fontSize: '38px',
                         paddingLeft : "0%",
                     }, 1000, function () { 
                     
-                    $('#results').append(" Sorry, that's incorrect.").children(':last').hide().fadeIn(1000, function () {
+                    $('#results').append("<header class='incorrectHeader'> Sorry, that's incorrect. </header>").children(':last').hide().fadeIn(1000, function () {
 
                     $('#results').append('<p> The correct answer is <span class="answerName">' + answer.name + '</span></p>').children(':last').hide().fadeIn(1200, function () {
 
@@ -168,6 +168,7 @@
                             var answerBtn = document.getElementById('correctAnswerBtn');
                             var isPlaying = false;
                             var answerAudio = new Audio(answer.preview_url);
+                            document.getElementById('search').addEventListener('click', function (e) { if (isPlaying) { answerAudio.pause(); } })
 
                             answerBtn.addEventListener('click', function (e) {
                                 e.preventDefault;
