@@ -173,14 +173,9 @@ $(document).ready(function () {
         // Automotive image gallery page loader code
         $('#image_gallery').click(function () {
             //Change Page Content
-            var toLoad = $(this).find('a').attr('href') + ' #content';
-            $('#content').hide('fast', loadContentFade);
-           function loadContentFade() {
-                $('#content').load(toLoad, '', showNewContentFade())
-            };
-            function showNewContentFade() {
-                $('#content').fadeIn('normal');
-            };
+            var yScroll = document.body.scrollTop;
+            window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
+            document.body.scrollTop = yScroll;
             return false
         });
         
