@@ -253,6 +253,17 @@ $(document).ready(function () {
                 $(this).addClass('active');
                 $(this).find('a').addClass('active');
             }
+        }).promise().done(function () {
+            if (!$('.nav_menu li.active').length) {
+                console.log("couldn't find li item");
+                //if current url hash doesn't match any nav_menu <li> href's then you are on a child page of Projects menu item, thus default active class to project <li>
+                $('.nav_menu li').each(function () { $(this).css('opacity', '.65') });
+                var projectsListNode = $('.nav_menu li:has(a[href="Projects.html"])');
+                projectsListNode.addClass('active');
+                projectsListNode.find('a').addClass('active');
+                projectsListNode.css('opacity', '1');
+            }
+
         });
 
         //get text of current selected nav link 
