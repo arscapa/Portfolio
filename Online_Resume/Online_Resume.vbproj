@@ -212,13 +212,6 @@
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Song_App.aspx.designer.vb">
-      <DependentUpon>Song_App.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Song_App.aspx.vb">
-      <DependentUpon>Song_App.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -269,6 +262,10 @@
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
     <Content Include="Pictures\Projects\excel.png" />
     <Content Include="Pictures\play_button2.png" />
+    <Content Include="Pictures\Projects\spotify-green.png" />
+    <Content Include="Pictures\Projects\spotify-top-image.png" />
+    <Content Include="Pictures\Projects\spotify.png" />
+    <Content Include="Pictures\Projects\spotify_web_API.png" />
     <Content Include="Pictures\scap_auto.png" />
     <Content Include="Pictures\Websites\Auto.jpg" />
     <Content Include="Pictures\Websites\Lodging.jpg" />
@@ -356,8 +353,8 @@
     <Content Include="Scripts\lightbox\js\lightbox.js" />
     <Content Include="Scripts\lightbox\js\lightbox.min.js" />
     <Content Include="Scripts\Song_App.js" />
-    <Content Include="Song_App.aspx" />
     <Content Include="Favicon\manifest.json" />
+    <Content Include="Song_App.html" />
     <Content Include="Websites.html" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

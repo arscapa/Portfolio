@@ -225,8 +225,13 @@ img#headshot {
       padding-left:30px;
   }
 
+  .media {
+      margin-top: 35px;
+  }
 
-
+  b, strong {
+    color: #2787e6;
+}
 
 a:focus {
     text-decoration: none;

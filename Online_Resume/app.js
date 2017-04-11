@@ -171,7 +171,7 @@ $(document).ready(function () {
 
 
         // Automotive image gallery page loader code
-        $('#image_gallery').click(function () {
+        $('.project_sample').click(function () {
             //Change Page Content
             var yScroll = document.body.scrollTop;
             window.location.hash = $(this).find('a').attr('href').substr(0, $(this).find('a').attr('href').length - 5);
@@ -249,7 +249,7 @@ $(document).ready(function () {
             }
         }).promise().done(function () {
             if (!$('.nav_menu li.active').length) {
-                console.log("couldn't find li item");
+            
                 //if current url hash doesn't match any nav_menu <li> href's then you are on a child page of Projects menu item, thus default active class to project <li>
                 $('.nav_menu li').each(function () { $(this).css('opacity', '.65') });
                 var projectsListNode = $('.nav_menu li:has(a[href="Projects.html"])');

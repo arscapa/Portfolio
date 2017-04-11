@@ -37,9 +37,12 @@
            
      <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
               <div id="About_Me" class="active">
-
-            <p> Hello! I'm a Chicago based web developer and programmer and I've created this site to showcase the various projects I've worked on over the years. My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
-                familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Business Information Systems in college. I currently work in the accounting field however my knowledge of programming has allowed me to greatly 
+            <h2>Anthony Scapardine, CPA</h2>
+            <p class="quote"><b>Chicago based CPA, web developer, programmer and jack-of-all trades</b></p>
+                
+                  <p> My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
+                familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Business Information Systems in college.
+                 I currently work in the accounting field however my knowledge of programming has allowed me to greatly 
                 increase my productivity and utilize technology in order to optimize my work. Take a look around at some of the projects I've worked on over the years!
                 </p>
 
@@ -63,17 +66,6 @@
             <h4>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/AboutPage/ISU_Bird.jpg" class="img-circle" alt="ISU Redbird" id="ReggieRedbird"/></a></h4>
                 <p>Bachelor's of Science Accounting & Business Information Systems</p>
                 <p>GPA 3.48/4.0</p>
-            
-                <h4>CPA Progress</h4>
-                <ul class="CPA"> 
-                    <li>AUD- Passed 8/13</li>
-                    <li>FAR- Passed 11/13</li>
-                    <li>BEC- Passed 1/14</li>
-                    <li>REG- Passed 11/14</li>
-                    <li>Ethics- Passed 12/14</li>
-                </ul>
-                <p>Certificate Number: 104266</p>
-           
             
             <div id="trigger3"></div>
           
