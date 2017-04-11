@@ -200,7 +200,6 @@ $(document).ready(function () {
 
 
     });
-
    
     //function to animate an element to wipe left
     function wipe_left (elem, width, height) {
@@ -256,8 +255,9 @@ $(document).ready(function () {
                 var projectsListNode = $('.nav_menu li:has(a[href="Projects.html"])');
                 projectsListNode.addClass('active');
                 projectsListNode.find('a').addClass('active');
-                projectsListNode.css('opacity', '1');
             }
+            $('.nav_menu li.active').css('opacity', '1');
+            $('.nav_menu li:not(.active)').css('opacity', '.65');
 
         });
 
