@@ -83,6 +83,10 @@
             audioObject = new Audio(answer.preview_url);
             var timer;
             document.getElementById('play').addEventListener('click', function () {
+
+
+                window.addEventListener('popstate', function () { audioObject.pause(); })
+
                 this.disabled = true;
                 $('.difficultySetting').each(function () { $(this).attr('disabled', true) });
 
@@ -110,6 +114,8 @@
                         }, 2000)
                         break;
 
+
+                        
                 };
             });
 
@@ -175,17 +181,18 @@
 
                                         answerBtn.addEventListener('click', function (e) {
                                             e.preventDefault;
-                                            console.log(isPlaying);
+                                            //console.log(isPlaying);
                                             if (!isPlaying) {
                                                 answerAudio.play();
                                                 isPlaying = true;
-                                                console.log(isPlaying);
+                                                //console.log(isPlaying);
                                             } else {
                                                 answerAudio.pause();
                                                 isPlaying = false;
                                             }
 
-
+                                          
+                                            window.addEventListener('popstate', function () { answerAudio.pause();})
                                         });
 
 

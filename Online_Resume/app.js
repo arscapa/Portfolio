@@ -269,6 +269,9 @@ $(document).ready(function () {
             document.getElementById('jumbotron_header').textContent = txt;
             $('#jumbotron_header').fadeIn(300)
         });
+
+
+
     };
 
 
