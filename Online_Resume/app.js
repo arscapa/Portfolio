@@ -257,7 +257,8 @@ $(document).ready(function () {
                 projectsListNode.find('a').addClass('active');
             }
             $('.nav_menu li.active').css('opacity', '1');
-            $('.nav_menu li:not(.active)').css('opacity', '.65');
+            var isHovered = $('.nav_menu').is(":hover");
+            if (!isHovered) { $('.nav_menu li:not(.active)').css('opacity', '.65'); } else { $('.nav_menu li:not(.active)').css('opacity', '1'); }
 
         });
 

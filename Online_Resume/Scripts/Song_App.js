@@ -2,6 +2,7 @@
 
     $(document).ajaxComplete(function () {
       
+    
 
         $.ajaxSetup({
             cache: false
@@ -25,7 +26,7 @@
                             "Sorry, we couldn't find " + query + " please try searching another artist." + "</div>"
                     }
                     else {
-                        console.log(response);
+                        //console.log(response);
                         var artistID = response.artists.items[0].id;
                         var artistName = response.artists.items[0].name;
                         results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>" +
@@ -64,7 +65,7 @@
 
                     var tracksReturned = [];
                     response.tracks.forEach(function (track) { tracksReturned.push(track) });
-                    console.log(tracksReturned);
+                    //console.log(tracksReturned);
                     var possibleAnswers = selectRandom(tracksReturned, 4);
 
                     callback(possibleAnswers);
@@ -78,8 +79,8 @@
         function playGame(optionsList) {
             // Accepts array of objects containing artist's tracks and creates a game '
             var answer = selectRandom(optionsList, 1)[0];
-            console.log(answer);
-            console.log("The answer is " + answer.name);
+            //console.log(answer);
+            //console.log("The answer is " + answer.name);
             audioObject = new Audio(answer.preview_url);
             var timer;
             document.getElementById('play').addEventListener('click', function () {
@@ -94,11 +95,11 @@
 
                 switch (difficultyLevel) {
                     case 'easy':
-                        console.log('Running code for easy difficulty')
+                       // console.log('Running code for easy difficulty')
                         audioObject.play();
                         break;
                     case 'medium':
-                        console.log('Running code for medium difficulty')
+                        //console.log('Running code for medium difficulty')
                         audioObject.play();
                         timer = setTimeout(function () {
                             audioObject.pause();
@@ -106,7 +107,7 @@
                         }, 5000)
                         break;
                     case 'difficult':
-                        console.log('Running code for medium difficulty')
+                       // console.log('Running code for medium difficulty')
                         audioObject.play();
                         timer = setTimeout(function () {
                             audioObject.pause();
@@ -158,7 +159,7 @@
         function checkAnswer(guess, answer) {
             $('#results').fadeOut(400, function () {
                 if (guess == answer.name) {
-                    console.log("correct");
+                    //console.log("correct");
                     $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400);
                 }
                 else {
