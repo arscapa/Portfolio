@@ -124,7 +124,7 @@ ul.CPA {
 
 p{
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .skill_level {
@@ -390,4 +390,9 @@ div.Charger_Main_container{
     width: 780px;
     display:block;
     margin:auto;
+}
+
+
+hr {
+    border-top: 1px solid rgba(119,119,119,0.54);
 }

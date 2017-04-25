@@ -37,6 +37,7 @@
            
      <%-- DIV Naming Convention = text of the navigation menu button but with spaces replaced by underscore--%>
               <div id="About_Me" class="active">
+            <hr />
             <h2>Anthony Scapardine, CPA</h2>
             <p class="quote"><b>Chicago based CPA, web developer, programmer and jack-of-all trades</b></p>
                 
@@ -45,10 +46,11 @@
                  I currently work in the accounting field however my knowledge of programming has allowed me to greatly 
                 increase my productivity and utilize technology in order to optimize my work. Take a look around at some of the projects I've worked on over the years!
                 </p>
-
+                  <hr />
+            
             <h2>Experience</h2>
             <img src="Pictures/Exelon_logo.png" id="Exelon_logo"/>
-            <h4>Associate Staff Accountant </h4> 
+            <h4>Staff Accountant </h4> 
                   <ul> 
                     <li>Perform day-to-day activities associated with the monthly financial statement close process</li>
                     <li>Represent my team in Technology Ambassador Program which looks to boost technical proficiency within company</li>
@@ -59,7 +61,7 @@
                     <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors to close to zero. </li>
                     <li>PeopleSoft Hyperion Reporting Certification Honor Roll</li>
                 </ul>
-               
+            
 
             <h2>Education</h2> 
                 <img id="headshot" src="Pictures/AboutPage/headshot.jpg" />
@@ -129,7 +131,7 @@
                  <br />
                       
 
-             
+      
          
 </div>
 
