@@ -2,7 +2,17 @@
 
 $(document).ready(function () {
 
+    $('hr').each(function () { $(this).css('width', '0px'); })
+
+    $('hr').each(function () {
+        $(this).animate({
+            width: '100%'
+        }, 2000);
+    });
+
     
+
+
 
     //preload charger_main images so that they're ready for hover event
 
