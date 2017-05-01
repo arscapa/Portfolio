@@ -75,21 +75,21 @@ $(document).ready(function () {
      
 
     //skill bar animation
-    function skillBarAnimate() {
+    function skillBarAnimate(speed) {
         $('.skill_barPRO').animate({
             width: '90%'
-        });
+        },speed);
 
         $('.skill_barADVANCED').animate({
             width: '80%'
-        });
+        },speed);
 
         $('.skill_barINT').animate({
             width: '65%'
-        });
+        },speed);
     };
 
-    skillBarAnimate();
+    skillBarAnimate(2000);
 
 
 
