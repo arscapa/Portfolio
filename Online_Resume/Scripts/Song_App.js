@@ -1,7 +1,45 @@
 ﻿$(document).ready(function () {
+    var searchEventLoaded = false;
 
     $(document).ajaxComplete(function () {
-      
+        if (window.location.href.indexOf('Song_App') > -1) {
+
+            if (!searchEventLoaded) {
+                searchEventLoaded = true;
+                document.getElementById('search').addEventListener('click', function (e) {
+                    console.log(searchEventLoaded);
+                    e.preventDefault();
+                    $('#songApp_Header').slideUp();
+                    $('#results').fadeIn(800);
+                    $('#search_bar h1').animate({
+                        fontSize: '25px'
+                    });
+                    $('#search_bar input').animate({
+                        height: '25px',
+                        paddingTop: '1px',
+                        paddingBottom: '2px',
+                    });
+
+
+                    $('#search_bar').mouseenter(function () {
+                        $('#search_bar input').stop().animate({
+                            height: '28px',
+                        });
+                        $('#search_bar h1').stop().animate({
+                            fontSize: '28px'
+                        });
+
+                    });
+
+
+
+                    searchArtists(query.value, searchTopTracks);
+                }, false);
+            };
+
+
+
+
 
             $.ajaxSetup({
                 cache: false
@@ -65,9 +103,9 @@
                         var tracksReturned = [];
                         response.tracks.forEach(function (track) { tracksReturned.push(track) });
                         //console.log(tracksReturned);
-                        var possibleAnswers = selectRandom(tracksReturned, 4);
+                        
 
-                        callback(possibleAnswers);
+                        callback(tracksReturned);
                     },
                     error: function (xhr, textStatus, errorThrown) {
                         //alert('request failed->' + textStatus);
@@ -77,9 +115,16 @@
 
             function playGame(optionsList) {
                 // Accepts array of objects containing artist's tracks and creates a game '
-                var answer = selectRandom(optionsList, 1)[0];
-                //console.log(answer);
+               
+                var possibleAnswers = selectRandom(optionsList, 4);
+                var answer = selectRandom(possibleAnswers, 1)[0];
+
+                //console.log("Options: ");
+                //console.log(optionsList);
+                //console.log("Possible answers: ");
+                //console.log(possibleAnswers);
                 //console.log("The answer is " + answer.name);
+
                 audioObject = new Audio(answer.preview_url);
                 var timer;
                 document.getElementById('play').addEventListener('click', function () {
@@ -106,7 +151,11 @@
                             }, 5000)
                             break;
                         case 'difficult':
-                            // console.log('Running code for medium difficulty')
+                            // console.log('Running code for hard difficulty')
+                            var minPopularityTrack = Math.min.apply(Math, possibleAnswers.map(function (track) { return track.popularity }));
+                            //console.log(minPopularityTrack);
+                            //console.log(possibleAnswers.find(function (track) { track.popularity == minPopularityTrack }));
+                            //console.log(answer);
                             audioObject.play();
                             timer = setTimeout(function () {
                                 audioObject.pause();
@@ -128,9 +177,11 @@
 
 
                 audioObject.addEventListener('ended', function () {
+                    console.log("Song ended");
+
                     results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
 
-                    optionsList.forEach(function (track) {
+                    possibleAnswers.forEach(function (track) {
                         results.innerHTML += "<button type='button' class='btn btn-default btn-xs answerOption'>" + track.name + "</button>" + "<br />"
                     });
                     var time = 0;
@@ -140,10 +191,10 @@
                     });
 
 
-                    var answerOptions = document.getElementsByClassName('answerOption');
+                    var answerOptionsBtn = document.getElementsByClassName('answerOption');
 
-                    for (var i = 0; i < answerOptions.length; i++) {
-                        answerOptions[i].addEventListener('click', function (e) {
+                    for (var i = 0; i < answerOptionsBtn.length; i++) {
+                        answerOptionsBtn[i].addEventListener('click', function (e) {
                             e.preventDefault
                             checkAnswer(this.innerHTML, answer);
                         });
@@ -225,44 +276,13 @@
             };
 
 
-            if (window.location.href.indexOf('Song_App') > -1) {
-            document.getElementById('search').addEventListener('click', function (e) {
-                e.preventDefault();
-                $('#songApp_Header').slideUp();
-                $('#results').fadeIn(800);
-                $('#search_bar h1').animate({
-                    fontSize: '25px'
-                });
-                $('#search_bar input').animate({
-                    height: '25px',
-                    paddingTop: '1px',
-                    paddingBottom: '2px',
-                });
+            
+           
 
 
 
-                $('#search_bar').mouseenter(function () {
-                    $('#search_bar input').stop().animate({
-                        height: '28px',
-                    });
-                    $('#search_bar h1').stop().animate({
-                        fontSize: '28px'
-                    });
-
-                });
-
-
-
-                searchArtists(query.value, searchTopTracks);
-            }, false);
 
             }
-
-
-
-
-
-
 
     });
 
