@@ -63,22 +63,10 @@
                                 "Sorry, we couldn't find " + query + " please try searching another artist." + "</div>"
                         }
                         else {
-                            //console.log(response);
+                            console.log(response);
                             var artistID = response.artists.items[0].id;
                             var artistName = response.artists.items[0].name;
-                            results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>" +
-          "<label class='btn btn-primary difficultySetting' id='easy'>" +
-            "<input type='radio' name='options' id='option1' autocomplete='off' value='easy'> Easy" +
-          "</label>" +
-         " <label class='btn btn-primary active difficultySetting' id='medium'>" +
-            "<input type='radio' name='options' id='option2' autocomplete='off' value='medium' checked> Medium" +
-          "</label>" +
-          "<label class='btn btn-primary difficultySetting' id='difficult'>" +
-            "<input type='radio' name='options' id='option3' autocomplete='off' value='difficult'> Difficult" +
-          "</label>" +
-        "</div>" + "<h4> Let's see how well you know " + artistName + "!"
-                                + " Make sure your speakers are on and push the play button to begin the game!" + "</h4>" + '<br />'
-                               + '<input type="button" id="play" class="btn btn-primary playBtn" value="&#9658; Play" />';
+         
                             callback(artistID, playGame)
                         }
                     },
@@ -93,19 +81,22 @@
             var searchTopTracks = function (artistID, callback) {
                 //alert('Searching top tracks for ' + artistID)
                 $.ajax({
+                
                     url: 'https://api.spotify.com/v1/artists/' + artistID + '/top-tracks?country=US',
 
                     success: function (response) {
                         //alert('searchTopTracks query success');
-                        document.getElementById('play').disabled = false;
 
 
                         var tracksReturned = [];
                         response.tracks.forEach(function (track) { tracksReturned.push(track) });
-                        //console.log(tracksReturned);
-                        
 
-                        callback(tracksReturned);
+                        tracksReturned.forEach(function (track) { track.played = false });
+                        console.log(tracksReturned);
+
+                        console.log("Artist ID: " + artistID)
+
+                        callback(artistID, tracksReturned);
                     },
                     error: function (xhr, textStatus, errorThrown) {
                         //alert('request failed->' + textStatus);
@@ -113,104 +104,158 @@
                 });
             };
 
-            function playGame(optionsList) {
+            function playGame(artistID, optionsList) {
                 // Accepts array of objects containing artist's tracks and creates a game '
-               
-                var possibleAnswers = selectRandom(optionsList, 4);
-                var answer = selectRandom(possibleAnswers, 1)[0];
 
-                //console.log("Options: ");
-                //console.log(optionsList);
-                //console.log("Possible answers: ");
-                //console.log(possibleAnswers);
-                //console.log("The answer is " + answer.name);
+                var artistName = optionsList[0].artists[0].name;
+            
+                var unplayedOptions = optionsList.filter(function (track) { return track.played == false || track.played == undefined});
 
-                audioObject = new Audio(answer.preview_url);
-                var timer;
-                document.getElementById('play').addEventListener('click', function () {
+                if (unplayedOptions.length < 4) {
+                    optionsList.forEach(function (track) { track.played = false });
+                    unplayedOptions = optionsList;
+                };
 
+                var availTracks = unplayedOptions.filter(function (track) { return track.preview_url !== null })
+                console.log("Available tracks = " + availTracks);
 
-                    window.addEventListener('popstate', function () { audioObject.pause(); })
+                if (availTracks.length < 4) {
+                    results.innerHTML = "<h3> I'm sorry, there are no previews available for this artist. Please search another artist </h>";
+                } else {
 
-                    this.disabled = true;
-                    $('.difficultySetting').each(function () { $(this).attr('disabled', true) });
+                    results.innerHTML = "<div class='btn-group' data-toggle='buttons'>" + "<h4>Difficulty Level</h4>" +
+    "<label class='btn btn-primary difficultySetting' id='easy'>" +
+    "<input type='radio' name='options' id='option1' autocomplete='off' value='easy'> Easy" +
+    "</label>" +
+    " <label class='btn btn-primary active difficultySetting' id='medium'>" +
+    "<input type='radio' name='options' id='option2' autocomplete='off' value='medium' checked> Medium" +
+    "</label>" +
+    "<label class='btn btn-primary difficultySetting' id='difficult'>" +
+    "<input type='radio' name='options' id='option3' autocomplete='off' value='difficult'> Difficult" +
+    "</label>" +
+    "</div>" + "<h4> Let's see how well you know " + artistName + "!"
+                        + " Make sure your speakers are on and push the play button to begin the game!" + "</h4>" + '<br />'
+                       + '<input type="button" id="play" class="btn btn-primary playBtn" value="&#9658; Play" />';
 
-                    var difficultyLevel = $('input:radio:checked').val();
+                    console.log("Unplayed options: " + "\n");
+                    availTracks.forEach(function (track) { console.log(track) });
 
-                    switch (difficultyLevel) {
-                        case 'easy':
-                            // console.log('Running code for easy difficulty')
-                            audioObject.play();
-                            break;
-                        case 'medium':
-                            //console.log('Running code for medium difficulty')
-                            audioObject.play();
-                            timer = setTimeout(function () {
-                                audioObject.pause();
-                                audioObject.currentTime = audioObject.duration;
-                            }, 5000)
-                            break;
-                        case 'difficult':
-                            // console.log('Running code for hard difficulty')
-                            var minPopularityTrack = Math.min.apply(Math, possibleAnswers.map(function (track) { return track.popularity }));
-                            //console.log(minPopularityTrack);
-                            //console.log(possibleAnswers.find(function (track) { track.popularity == minPopularityTrack }));
-                            //console.log(answer);
-                            audioObject.play();
-                            timer = setTimeout(function () {
-                                audioObject.pause();
-                                audioObject.currentTime = audioObject.duration;
-                            }, 2000)
-                            break;
+                    var possibleAnswers = selectRandom(availTracks, 4);
+                    var answer = selectRandom(possibleAnswers, 1)[0];
+
+                    audioObject = new Audio(answer.preview_url);
+                    var timer;
+                    document.getElementById('play').addEventListener('click', function () {
 
 
+                        window.addEventListener('popstate', function () { audioObject.pause(); })
 
-                    };
-                });
+                        this.disabled = true;
+                        $('.difficultySetting').each(function () { $(this).attr('disabled', true) });
 
+                        var difficultyLevel = $('input:radio:checked').val();
 
-                document.getElementById('search').addEventListener('click', function () {
-                    audioObject.pause();
-                    clearTimeout(timer);
-                });
+                        switch (difficultyLevel) {
+                            case 'easy':
+                                // console.log('Running code for easy difficulty')
+                                audioObject.play();
+                                break;
+                            case 'medium':
+                                //console.log('Running code for medium difficulty')
+                                audioObject.play();
+                                timer = setTimeout(function () {
+                                    audioObject.pause();
+                                    audioObject.currentTime = audioObject.duration;
+                                }, 5000)
+                                break;
+                            case 'difficult':
+                                // console.log('Running code for hard difficulty')
 
+                                console.log("Options popularity ratings" + "\n")
+                                possibleAnswers.forEach(function (track) { console.log(track.popularity) });
 
+                                possibleAnswers.sort(comparator("popularity"));
 
-                audioObject.addEventListener('ended', function () {
-                    console.log("Song ended");
+                                answer = possibleAnswers[0];
 
-                    results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
+                                console.log("The answer is " + answer.name)
+                                console.log(answer);
 
-                    possibleAnswers.forEach(function (track) {
-                        results.innerHTML += "<button type='button' class='btn btn-default btn-xs answerOption'>" + track.name + "</button>" + "<br />"
+                                audioObject.src = (answer.preview_url);
+
+                                audioObject.play();
+
+                                console.log(audioObject)
+
+                                timer = setTimeout(function () {
+                                    audioObject.pause();
+                                    audioObject.currentTime = audioObject.duration;
+                                }, 2000)
+
+                                console.log("Object current time " + audioObject.currentTime);
+                                console.log("Object duration " + audioObject.duration);
+                                break;
+                        };
                     });
-                    var time = 0;
-                    $('.btn.btn-default.btn-xs').each(function () {
-                        $(this).delay(time).fadeIn(800);
-                        time += 800;
+
+
+                    document.getElementById('search').addEventListener('click', function () {
+                        audioObject.pause();
+                        clearTimeout(timer);
+
                     });
 
 
-                    var answerOptionsBtn = document.getElementsByClassName('answerOption');
 
-                    for (var i = 0; i < answerOptionsBtn.length; i++) {
-                        answerOptionsBtn[i].addEventListener('click', function (e) {
-                            e.preventDefault
-                            checkAnswer(this.innerHTML, answer);
+                    audioObject.addEventListener('ended', function () {
+                        console.log("Song ended");
+
+                        optionsList.forEach(function (track) {
+                            if (track.preview_url == answer.preview_url) {
+                                track.played = true;
+                            }
                         });
-                    }
+
+                        optionsList.forEach(function (track) { console.log(track.name + " " + track.played + "\n") });
+
+                        results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
+
+                        possibleAnswers.forEach(function (track) {
+                            results.innerHTML += "<button type='button' class='btn btn-default btn-xs answerOption'>" + track.name + "</button>" + "<br />"
+                        });
+                        var time = 0;
+                        $('.btn.btn-default.btn-xs').each(function () {
+                            $(this).delay(time).fadeIn(800);
+                            time += 800;
+                        });
 
 
-                });
+                        var answerOptionsBtn = document.getElementsByClassName('answerOption');
 
+                        for (var i = 0; i < answerOptionsBtn.length; i++) {
+                            answerOptionsBtn[i].addEventListener('click', function (e) {
+                                e.preventDefault
+                                checkAnswer(this.innerHTML, answer, optionsList);
+                            });
+                        }
+
+
+                    });
+                };
             };
 
 
-            function checkAnswer(guess, answer) {
+            function checkAnswer(guess, answer, optionsList) {
                 $('#results').fadeOut(400, function () {
                     if (guess == answer.name) {
                         //console.log("correct");
-                        $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400);
+                        $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400, function () {
+                            $('#results').append('<input type="button" class="btn btn-primary play-again" value="Play Again"/>').children(':last').hide().fadeIn(1800, function (e) {
+                                //e.preventDefault;
+                                playGame(optionsList[0].artists[0].name,optionsList);
+                            })
+                        });
+
                     }
                     else {
                         //console.log("incorrect")
@@ -252,10 +297,10 @@
                                 });
                             });
                         });
-
-
-
                     };
+
+                    
+
                 });
             };
 
@@ -276,7 +321,11 @@
             };
 
 
-            
+
+            function comparator(property) {
+                return function (a, b) { return a[property] - b[property]; }
+            };
+
            
 
 
