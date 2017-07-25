@@ -7,7 +7,7 @@
             // Authenticate app
             window.location = "https://accounts.spotify.com/authorize?client_id=437ec62d47fa46a19a39c981164b2b92&response_type=token&show_dialog=false&redirect_uri=http%3A%2F%2Flocalhost%3A56515%2FDefault.aspx%23Song_App&_=1500949492646"
 
-
+             
             if (!searchEventLoaded) {
                 searchEventLoaded = true;
                 document.getElementById('search').addEventListener('click', function (e) {
