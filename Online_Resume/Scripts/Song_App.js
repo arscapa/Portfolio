@@ -3,9 +3,13 @@
 
     //Authenticate if user has been issued an access tokent
     if (window.location.href.indexOf('access_token') > -1) {
-        var token = window.location.hash;
+        var returnURL = window.location.hash;
+        console.log(returnURL);
+
+        //Parse token from URL
+        var token = returnURL.substr(returnURL.indexOf('access_token=') + 13, returnURL.indexOf('&')-14);
+        
         console.log(token);
-        console.log(typeof (token));
         window.location = "Default.aspx#Song_App"
     };
        
@@ -15,7 +19,16 @@
 
             //Authenticate if user logged in
             if (typeof token === 'undefined') {
-                window.location = "https://accounts.spotify.com/authorize?client_id=437ec62d47fa46a19a39c981164b2b92&response_type=token&show_dialog=false&redirect_uri=http%3A%2F%2Flocalhost%3A56515%2FDefault.aspx%23Song_App&_=1500949492646"
+
+                var clientID = "437ec62d47fa46a19a39c981164b2b92";
+                var responseType = "token";
+                var showDialog = false;
+                var redirectURI = encodeURIComponent("http://localhost:56515/Default.aspx#Song_App");
+
+
+                window.location = "https://accounts.spotify.com/authorize?client_id=" + clientID + "&response_type=" + responseType + "&show_dialog=" + showDialog + "&redirect_uri=" + redirectURI;
+
+
             } else {
 
                 console.log("Successfully logged in!");
