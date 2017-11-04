@@ -17,7 +17,7 @@
 
         if (window.location.href.indexOf('Song_App') > -1) {
 
-            //Authenticate if user logged in
+            //Authenticate user if user has not been issued token (Implicit Grant Flow)
             if (typeof token === 'undefined') {
 
                 var clientID = "437ec62d47fa46a19a39c981164b2b92";
@@ -71,7 +71,10 @@
 
 
                 $.ajaxSetup({
-                    cache: false
+                    cache: false,
+                    headers: {
+                        'Authorization': 'Bearer ' + token,
+                    },
                 });
 
                 var results = document.getElementById('results');
