@@ -253,7 +253,7 @@
                             results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
 
                             possibleAnswers.forEach(function (track) {
-                                results.innerHTML += "<button type='button' class='btn btn-default btn-xs answerOption'>" + track.name + "</button>" + "<br />"
+                                results.innerHTML += "<button type='button' class='btn btn-default btn-xs answerOption' id='" + track.id + "'>" + track.name + "</button>" + "<br />"
                             });
                             var time = 0;
                             $('.btn.btn-default.btn-xs').each(function () {
@@ -267,7 +267,7 @@
                             for (var i = 0; i < answerOptionsBtn.length; i++) {
                                 answerOptionsBtn[i].addEventListener('click', function (e) {
                                     e.preventDefault
-                                    checkAnswer(this.innerHTML, answer, optionsList);
+                                    checkAnswer(this.id, answer, optionsList);
                                 });
                             }
 
@@ -279,7 +279,7 @@
 
                 function checkAnswer(guess, answer, optionsList) {
                     $('#results').fadeOut(400, function () {
-                        if (guess == answer.name) {
+                        if (guess == answer.id) {
                             //console.log("correct");
                             $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400, function () {
                                 $('#results').append('<input type="button" class="btn btn-primary play-again" value="Play Again"/>').children(':last').hide().fadeIn(1800, function (e) {
