@@ -284,7 +284,8 @@
                             $(this).html("<h2> <span class='checkMark'> &#10004; </span> Correct! </h2>").fadeIn(400, function () {
                                 $('#results').append('<input type="button" class="btn btn-primary play-again" value="Play Again"/>').children(':last').hide().fadeIn(1800, function (e) {
                                     //e.preventDefault;
-                                    playGame(optionsList[0].artists[0].name, optionsList);
+                                    document.getElementsByClassName('play-again')[0].addEventListener('click', function () { playGame(optionsList[0].artists[0].name, optionsList); });
+                                    
                                 })
                             });
 
