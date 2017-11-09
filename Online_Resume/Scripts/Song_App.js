@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var searchEventLoaded = false;
+    var searchEventListenerLoaded = false;
 
     //Authenticate if user has been issued an access tokent
     if (window.location.href.indexOf('access_token') > -1) {
@@ -9,11 +9,14 @@
         //Parse token from URL
         var token = returnURL.substr(returnURL.indexOf('access_token=') + 13, returnURL.indexOf('&')-14);
         
-        console.log(token);
+       
         window.location = "Default.aspx#Song_App"
     };
        
     $(document).ajaxComplete(function () {
+
+        // If user navigates to another page of website, reset 'Loaded' variable to false 
+        if (window.location.href.indexOf('Song_App') == -1) { searchEventListenerLoaded = false };
 
         if (window.location.href.indexOf('Song_App') > -1) {
 
@@ -31,12 +34,13 @@
 
             } else {
 
-                console.log("Successfully logged in!");
+                //console.log('Event listener is assigned to click button ? : ' + searchEventListenerLoaded);
 
-                if (!searchEventLoaded) {
-                    searchEventLoaded = true;
+                // Assign event listener to search button click event, if...then conditional ensures new EventListner not assigned for every successive click
+                if (!searchEventListenerLoaded) {
+                    searchEventListenerLoaded = true;
                     document.getElementById('search').addEventListener('click', function (e) {
-                        console.log(searchEventLoaded);
+                        console.log("Assigning click event to search button");
                         e.preventDefault();
                         $('#songApp_Header').slideUp();
                         $('#results').fadeIn(800);
@@ -95,7 +99,7 @@
                                     "Sorry, we couldn't find " + query + " please try searching another artist." + "</div>"
                             }
                             else {
-                                console.log(response);
+                                //console.log(response);
                                 var artistID = response.artists.items[0].id;
                                 var artistName = response.artists.items[0].name;
 
@@ -103,7 +107,7 @@
                             }
                         },
                         error: function (xhr, textStatus, errorThrown) {
-                            console.log('request failed->' + textStatus);
+                            //console.log('request failed->' + textStatus);
                             results.innerHTML = "Please enter an artist to search ";
                         }
                     });
@@ -124,9 +128,9 @@
                             response.tracks.forEach(function (track) { tracksReturned.push(track) });
 
                             tracksReturned.forEach(function (track) { track.played = false });
-                            console.log(tracksReturned);
+                            //console.log(tracksReturned);
 
-                            console.log("Artist ID: " + artistID)
+                            //console.log("Artist ID: " + artistID)
 
                             callback(artistID, tracksReturned);
                         },
@@ -149,7 +153,7 @@
                     };
 
                     var availTracks = unplayedOptions.filter(function (track) { return track.preview_url !== null })
-                    console.log("Available tracks = " + availTracks);
+                    //console.log("Available tracks = " + availTracks);
 
                     if (availTracks.length < 4) {
                         results.innerHTML = "<h3> I'm sorry, there are no previews available for this artist. Please search another artist </h>";
@@ -169,8 +173,8 @@
                             + " Make sure your speakers are on and push the play button to begin the game!" + "</h4>" + '<br />'
                            + '<input type="button" id="play" class="btn btn-primary playBtn" value="&#9658; Play" />';
 
-                        console.log("Unplayed options: " + "\n");
-                        availTracks.forEach(function (track) { console.log(track) });
+                        //console.log("Unplayed options: " + "\n");
+                        //availTracks.forEach(function (track) { console.log(track) });
 
                         var possibleAnswers = selectRandom(availTracks, 4);
                         var answer = selectRandom(possibleAnswers, 1)[0];
@@ -203,29 +207,29 @@
                                 case 'difficult':
                                     // console.log('Running code for hard difficulty')
 
-                                    console.log("Options popularity ratings" + "\n")
-                                    possibleAnswers.forEach(function (track) { console.log(track.popularity) });
+                                    //console.log("Options popularity ratings" + "\n")
+                                   // possibleAnswers.forEach(function (track) { console.log(track.popularity) });
 
                                     possibleAnswers.sort(comparator("popularity"));
 
                                     answer = possibleAnswers[0];
 
-                                    console.log("The answer is " + answer.name)
-                                    console.log(answer);
+                                  //  console.log("The answer is " + answer.name)
+                                   // console.log(answer);
 
                                     audioObject.src = (answer.preview_url);
 
                                     audioObject.play();
 
-                                    console.log(audioObject)
+                                   // console.log(audioObject)
 
                                     timer = setTimeout(function () {
                                         audioObject.pause();
                                         audioObject.currentTime = audioObject.duration;
                                     }, 2000)
 
-                                    console.log("Object current time " + audioObject.currentTime);
-                                    console.log("Object duration " + audioObject.duration);
+                                   // console.log("Object current time " + audioObject.currentTime);
+                                   // console.log("Object duration " + audioObject.duration);
                                     break;
                             };
                         });
@@ -240,7 +244,7 @@
 
 
                         audioObject.addEventListener('ended', function () {
-                            console.log("Song ended");
+                            //console.log("Song ended");
 
                             optionsList.forEach(function (track) {
                                 if (track.preview_url == answer.preview_url) {
