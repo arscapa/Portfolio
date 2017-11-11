@@ -4,7 +4,7 @@
     //Authenticate if user has been issued an access tokent
     if (window.location.href.indexOf('access_token') > -1) {
         var returnURL = window.location.hash;
-        console.log(returnURL);
+        //console.log(returnURL);
 
         //Parse token from URL
         var token = returnURL.substr(returnURL.indexOf('access_token=') + 13, returnURL.indexOf('&')-14);
@@ -40,7 +40,7 @@
                 if (!searchEventListenerLoaded) {
                     searchEventListenerLoaded = true;
                     document.getElementById('search').addEventListener('click', function (e) {
-                        console.log("Assigning click event to search button");
+                        //console.log("Assigning click event to search button");
                         e.preventDefault();
                         $('#songApp_Header').slideUp();
                         $('#results').fadeIn(800);
@@ -252,7 +252,7 @@
                                 }
                             });
 
-                            optionsList.forEach(function (track) { console.log(track.name + " " + track.played + "\n") });
+                           // optionsList.forEach(function (track) { console.log(track.name + " " + track.played + "\n") });
 
                             results.innerHTML = "<h3>" + "Which song just played? " + "<h3>";
 
@@ -302,35 +302,38 @@
                                     paddingLeft: "0%",
                                 }, 1000, function () {
 
-                                    $('#results').append("<header class='incorrectHeader'> Sorry, that's incorrect. </header>").children(':last').hide().fadeIn(1000, function () {
+                                    $('#results').append("<header class='incorrectHeader'> Sorry, that's incorrect. </header><br>").children(':last').hide().fadeIn(1000, function () {
 
-                                        $('#results').append('<p> The correct answer is <span class="answerName">' + answer.name + '</span></p>').children(':last').hide().fadeIn(1200, function () {
-
-                                            $('#results').append('<p>Click the button below to hear the full clip</p><p><input type="button" id="correctAnswerBtn" class="btn btn-primary playBtn" value="&#9658; Play" />').children(':last').hide().fadeIn(1000, function () {
-                                                var answerBtn = document.getElementById('correctAnswerBtn');
-                                                var isPlaying = false;
-                                                var answerAudio = new Audio(answer.preview_url);
-                                                document.getElementById('search').addEventListener('click', function (e) { if (isPlaying) { answerAudio.pause(); } })
-
-                                                answerBtn.addEventListener('click', function (e) {
-                                                    e.preventDefault;
-                                                    //console.log(isPlaying);
-                                                    if (!isPlaying) {
-                                                        answerAudio.play();
-                                                        isPlaying = true;
-                                                        //console.log(isPlaying);
-                                                    } else {
-                                                        answerAudio.pause();
-                                                        isPlaying = false;
-                                                    }
-
-
-                                                    window.addEventListener('popstate', function () { answerAudio.pause(); })
-                                                });
-
-
-                                            });
+                                        $('#results').append('<input type="button" class="btn btn-primary play-again" value="Play Again"/>').children(':last').hide().fadeIn(1800, function (e) {
+                                            document.getElementsByClassName('play-again')[0].addEventListener('click', function () { playGame(optionsList[0].artists[0].name, optionsList); });
                                         });
+
+                                        //$('#results').append('<p> The correct answer is <span class="answerName">' + answer.name + '</span></p>').children(':last').hide().fadeIn(1200, function () {
+
+                                        //    $('#results').append('<p>Click the button below to hear the full clip</p><p><input type="button" id="correctAnswerBtn" class="btn btn-primary playBtn" value="&#9658; Play" />').children(':last').hide().fadeIn(1000, function () {
+                                        //        var answerBtn = document.getElementById('correctAnswerBtn');
+                                        //        var isPlaying = false;
+                                        //        var answerAudio = new Audio(answer.preview_url);
+                                        //        document.getElementById('search').addEventListener('click', function (e) { if (isPlaying) { answerAudio.pause(); } })
+
+                                        //        answerBtn.addEventListener('click', function (e) {
+                                        //            e.preventDefault;
+                                        //            //console.log(isPlaying);
+                                        //            if (!isPlaying) {
+                                        //                answerAudio.play();
+                                        //                isPlaying = true;
+                                        //                //console.log(isPlaying);
+                                        //            } else {
+                                        //                answerAudio.pause();
+                                        //                isPlaying = false;
+                                        //            }
+                                        //            window.addEventListener('popstate', function () { answerAudio.pause(); })
+                                        //        });
+                                        //    });
+                                        //});
+
+
+
                                     });
                                 });
                             });
