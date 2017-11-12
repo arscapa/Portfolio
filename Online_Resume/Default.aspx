@@ -42,9 +42,9 @@
             <p class="quote"><b>Chicago based CPA, web developer, programmer and jack-of-all trades</b></p>
                 
                   <p> My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
-                familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Business Information Systems in college.
-                 I currently work in the accounting field however my knowledge of programming has allowed me to greatly 
-                increase my productivity and utilize technology in order to optimize my work. Take a look around at some of the projects I've worked on over the years!
+                familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Information Systems in college.
+                 I began my career as a Staff Accountant with Exelon where my knowledge of programming has allowed me to utilize technology in order to drastically
+                      increase my productivity. I've since moved on to a Financial Systems Analyst position where I look to further my knowledge in the field. Take a look around at some of the projects I've worked on over the years!
                 </p>
                   <hr />
             

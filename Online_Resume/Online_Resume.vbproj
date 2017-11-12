@@ -262,6 +262,7 @@
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
     <Content Include="Pictures\Projects\excel.png" />
     <Content Include="Pictures\play_button2.png" />
+    <Content Include="Pictures\Projects\raspberry-pi-logo.png" />
     <Content Include="Pictures\Projects\spotify-green.png" />
     <Content Include="Pictures\Projects\spotify-top-image.png" />
     <Content Include="Pictures\Projects\spotify.png" />
