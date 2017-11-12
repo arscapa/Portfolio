@@ -48,6 +48,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0px;
+    width:100%;
 }
 
 .jumbotron .container {
@@ -151,7 +152,8 @@ img#headshot {
     padding-bottom: 20px;
     border-top: 1px solid gainsboro; 
     background-color: rgb(45,48,51);
-    color: rgb(111,111,111)
+    color: rgb(111,111,111);
+    width: 100%;
 }
 
 #footer p{
