@@ -8,7 +8,7 @@
             <div id="header_container">
         <h1 id="jumbotron_header">Welcome to my Site</h1>
             </div>
-        <p class="quote">"An investment in knowledge pays the best interest"</p>
+        <p class="quote">"Anything in life worth doing is worth overdoing"</p>
       </div>
      
     
@@ -50,7 +50,14 @@
             
             <h2>Experience</h2>
             <img src="Pictures/Exelon_logo.png" id="Exelon_logo"/>
-            <h4>Staff Accountant </h4> 
+            
+                  <h4><b>Financial Systems Analyst</b> </h4> 
+                  <ul> 
+                    <li>Document and perform configuration & implementation of system fixes, updates and enhancements</li>
+                    <li>Provide Treasury/Accounting application support & training</li>
+                    <li>Facilitate business process improvement through the use of technology</li>
+                      </ul>
+                    <h4><b>Staff Accountant</b> </h4> 
                   <ul> 
                     <li>Perform day-to-day activities associated with the monthly financial statement close process</li>
                     <li>Represent my team in Technology Ambassador Program which looks to boost technical proficiency within company</li>

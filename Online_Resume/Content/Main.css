@@ -405,3 +405,7 @@ hr {
     border: solid 1px;
     border-color: plum;
 }
+
+h4 b {
+    color:black;
+}
