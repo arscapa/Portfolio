@@ -51,18 +51,18 @@
             <h2>Experience</h2>
             <img src="Pictures/Exelon_logo.png" id="Exelon_logo"/>
             
-                  <h4><b>Financial Systems Analyst</b> </h4> 
+                  <h4> Financial Systems Analyst </h4> 
                   <ul> 
                     <li>Document and perform configuration & implementation of system fixes, updates and enhancements</li>
                     <li>Provide Treasury/Accounting application support & training</li>
                     <li>Facilitate business process improvement through the use of technology</li>
                       </ul>
-                    <h4><b>Staff Accountant</b> </h4> 
+                    <h4> Staff Accountant </h4> 
                   <ul> 
                     <li>Perform day-to-day activities associated with the monthly financial statement close process</li>
                     <li>Represent my team in Technology Ambassador Program which looks to boost technical proficiency within company</li>
                       </ul>
-                    <h4>Notable Achievements</h4>
+                    <h4><i> Notable Achievements </i></h4>
                   <ul> 
                     <li>Implemented a number of process improvements which have streamlined the close process</li>
                     <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors to close to zero. </li>
