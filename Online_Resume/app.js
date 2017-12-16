@@ -205,6 +205,9 @@ $(document).ready(function () {
             function showNewContentFade() {
                 $('#content').fadeIn('normal');
             };
+
+            console.log($('.nav_menu li').find('a.active').attr('href'));
+            window.location.hash = $('.nav_menu li').find('a.active').attr('href').substr(0, $('.nav_menu li').find('a.active').attr('href').length - 5);
         });
 
 
