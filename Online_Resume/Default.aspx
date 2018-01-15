@@ -39,7 +39,7 @@
               <div id="About_Me" class="active">
             <hr />
             <h2>Anthony Scapardine, CPA</h2>
-            <p class="quote"><b>Chicago based CPA, web developer, programmer and jack-of-all trades</b></p>
+            <p class="quote"><b>Chicago based CPA, developer, programmer and jack-of-all trades</b></p>
                 
                   <p> My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
                 familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Information Systems in college.
@@ -56,17 +56,13 @@
                     <li>Document and perform configuration & implementation of system fixes, updates and enhancements</li>
                     <li>Provide Treasury/Accounting application support & training</li>
                     <li>Facilitate business process improvement through the use of technology</li>
+                    <li>Assisted in a successfull post-merger integration cutover plan and provided post-implementation support</li>
                       </ul>
                     <h4> Staff Accountant </h4> 
                   <ul> 
-                    <li>Perform day-to-day activities associated with the monthly financial statement close process</li>
-                    <li>Represent my team in Technology Ambassador Program which looks to boost technical proficiency within company</li>
-                      </ul>
-                    <h4><i> Notable Achievements </i></h4>
-                  <ul> 
-                    <li>Implemented a number of process improvements which have streamlined the close process</li>
+                    <li>Implemented a number of process improvements related to the month-end close process which have reduced inherent risk and created efficiencies</li>
+                    <li>Participated in User Acceptance Testing (UAT) for systems integration and system conversion efforts in support of a $6.8 billion dollar merger</li>
                     <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors to close to zero. </li>
-                    <li>PeopleSoft Hyperion Reporting Certification Honor Roll</li>
                 </ul>
             
 
