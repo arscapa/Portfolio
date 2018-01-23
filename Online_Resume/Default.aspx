@@ -65,12 +65,7 @@
                     <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors to close to zero. </li>
                 </ul>
             
-
-            <h2>Education</h2> 
                 <img id="headshot" src="Pictures/AboutPage/headshot.jpg" />
-            <h4>Illinois State University <a href="http://ilstu.edu" target="_blank"><img src="Pictures/AboutPage/ISU_Bird.jpg" class="img-circle" alt="ISU Redbird" id="ReggieRedbird"/></a></h4>
-                <p>Bachelor's of Science Accounting & Business Information Systems</p>
-                <p>GPA 3.48/4.0</p>
             
             <div id="trigger3"></div>
           
@@ -98,7 +93,7 @@
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
-                      <li class="skill_barINT" style="background-color:darkslateblue">Photoshop
+                      <li class="skill_barINT" style="background-color:darkslateblue">SQL
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
