@@ -190,7 +190,11 @@ $(document).ready(function () {
         });
         
 
-        
+        // Load continuation page
+        $('button.continue').click(function () {
+            alert("Button clicked");
+            location.href+= "2" ;
+        })
 
        
         // Back button functionality
