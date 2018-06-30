@@ -120,7 +120,7 @@
               
            <br />
             
-                <p>Grab a copy of my <a href="Anthony_Scapardine_RESUME.docx">Resume</a> here  <a href="Anthony_Scapardine_RESUME.docx">
+                <p>Grab a copy of my <a href="RESUME.docx">Resume</a> here  <a href="RESUME.docx">
                 <img class="documentlogo" src="Pictures/WordLogo.png" height="25" width="25"/> </a>
                 <a href="#"><img class="documentlogo" src="Pictures/PDF-Icon.png" height="25" width="25" /></a></p>
           

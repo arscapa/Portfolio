@@ -23,6 +23,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -370,7 +372,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="ProjectFiles.zip" />
-    <Content Include="Anthony_Scapardine_RESUME.docx" />
+    <Content Include="RESUME.docx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\Main.css" />
     <Content Include="Pictures\Banner_Image6.png" />
