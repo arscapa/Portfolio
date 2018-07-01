@@ -41,10 +41,8 @@
             <h2>Anthony Scapardine, CPA</h2>
             <p class="quote"><b>Chicago based CPA, developer, programmer and jack-of-all trades</b></p>
                 
-                  <p> My love for web development all began back in grade school when I realized that by copying all of the HTML code on a web page I could mirror 
-                familiar web pages and edit the code. I took some web development classes in high school and this interest is what inspired me to add a second major of Information Systems in college.
-                 I began my career as a Staff Accountant with Exelon where my knowledge of programming has allowed me to utilize technology in order to drastically
-                      increase my productivity. I've since moved on to a Financial Systems Analyst position where I look to further my knowledge in the field. Take a look around at some of the projects I've worked on over the years!
+                  <p> Began my career as a Staff Accountant with Exelon where my knowledge of programming & systems has allowed me to utilize technology in order to drastically
+                      increase my productivity. I've since moved on to a Financial Systems Analyst position where I look to further my knowledge in the field. I'm currently working towards a Masters in Computer Science and outside of this I'm a big DIY'er and have a passion for the automotive industry. Take a look around at some of the projects I've worked on over the years!
                 </p>
                   <hr />
             
@@ -53,10 +51,11 @@
             
                   <h4> Financial Systems Analyst </h4> 
                   <ul> 
-                    <li>Document and perform configuration & implementation of system fixes, updates and enhancements</li>
+                    <li>Document and perform custom configuration & implementation of system fixes, updates and enhancements</li>
                     <li>Provide Treasury/Accounting application support & training</li>
                     <li>Facilitate business process improvement through the use of technology</li>
                     <li>Assisted in a successfull post-merger integration cutover plan and provided post-implementation support</li>
+                    <li>Construct SQL Queries to perform research and pull data from database</li>
                       </ul>
                     <h4> Staff Accountant </h4> 
                   <ul> 
@@ -69,24 +68,20 @@
             
             <div id="trigger3"></div>
           
-      <h4>Competencies</h4>
+      <h2>Competencies</h2>
             
             
                  <ul class="skills">
                     <li class="skill_barPRO" style="background-color:#FF5353">MICROSOFT EXCEL
                         <span class="skill_level">PRO </span>
                     </li>
-                    <li class="skill_barPRO" style="background-color:#1CDCFF">HTML
+                    <li class="skill_barPRO" style="background-color:#1CDCFF">HTML/CSS
                         <span class="skill_level">PRO</span>
                     </li>
                       <li class="skill_barPRO" style="background-color:#7CD14E">Javascript
                         <span class="skill_level">PRO</span>
                     </li>
                       <li class="skill_barADVANCED" style="background-color:#00008B">JQUERY
-                        <span class="skill_level">ADVANCED</span>
-                    </li>
-
-                    <li class="skill_barADVANCED" style="background-color:#C799FF">CSS
                         <span class="skill_level">ADVANCED</span>
                     </li>
                      <li class="skill_barINT" style="background-color:#990033">Python
@@ -96,17 +91,16 @@
                       <li class="skill_barINT" style="background-color:darkslateblue">SQL
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
-                     
-                   
                 </ul>
-
+                  -Certified Wallstreet Suite v7 Business Consultant
                              <br />
+                        <br />
                      <h4>Notable Coursework</h4>
         
               <ul>
                 <li>Intermediate HTML</li>
+                <li>Graduate Level Algorithms</li>
                 <li>Computer Programming for Business</li>
-                <li>Business Systems Analysis</li>
                  <li>Advanced Business Systems Analysis</li>
                 <li>Accounting Information Systems</li>
                 <li>Developing Business Application Systems</li>
