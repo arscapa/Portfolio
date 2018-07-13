@@ -262,6 +262,7 @@
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeFender.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeInterior.png" />
     <Content Include="Pictures\AutomotiveResto\MainPics\74dodgeSuspension.png" />
+    <Content Include="Pictures\Projects\Backup_Script.png" />
     <Content Include="Pictures\Projects\excel.png" />
     <Content Include="Pictures\play_button2.png" />
     <Content Include="Pictures\Projects\raspberry-pi-logo.png" />
