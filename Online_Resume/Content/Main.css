@@ -409,3 +409,60 @@ hr {
 h4 b {
     color:black;
 }
+
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+    padding-bottom: 300px;
+}
+    /* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back {
+    width: 100%;
+    
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+
+img.play_float_right {
+    float: right;
+    margin-right: 50%;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+img.play_float_right:hover {
+    opacity: .5;
+}
+
