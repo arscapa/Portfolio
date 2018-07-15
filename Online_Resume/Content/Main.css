@@ -216,11 +216,11 @@ img#headshot {
         opacity: .5;
 }
 
-    .playbtn:hover {
+ .playbtn:hover {
         background-image: url('../Pictures/play_button2.png');
          background-repeat : no-repeat;
          background-position: 30% 50%;
-    }
+}
 
 
   .media-body
@@ -414,7 +414,7 @@ h4 b {
 /* entire container, keeps perspective */
 .flip-container {
     perspective: 1000px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
     /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -465,4 +465,5 @@ img.play_float_right {
 img.play_float_right:hover {
     opacity: .5;
 }
+
 
