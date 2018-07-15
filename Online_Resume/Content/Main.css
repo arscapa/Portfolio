@@ -413,13 +413,18 @@ h4 b {
 
 /* entire container, keeps perspective */
 .flip-container {
-    perspective: 1000px;
-    padding-bottom: 350px;
+    position: relative;
+    padding-bottom: 300px;
+    margin-bottom: 50px;
 }
-    /* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-        transform: rotateY(180deg);
-    }
+
+.flip-container .flipper {
+    transform-origin: 100% 122.5px; /* half of height */
+}
+
+.flip-container:hover .flipper {
+    transform: rotateX(-180deg);
+}
 
 .flip-container, .front, .back {
     width: 100%;
@@ -445,12 +450,12 @@ h4 b {
 .front {
     z-index: 2;
     /* for firefox 31 */
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
 }
 
 /* back, initially hidden pane */
 .back {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 img.play_float_right {
