@@ -282,7 +282,7 @@ a:focus {
 }
 
 .nav_menu ul {
-    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="45" height="45"><circle fill="white" cx="5" cy="5" r="2"/></svg>');
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3 10 10" width="45" height="45"><circle fill="white" cx="5" cy="5" r="2"/></svg>');
     padding-left: 85px;
     padding-top: 80px;
     font-size: 22px;
@@ -414,8 +414,8 @@ h4 b {
 /* entire container, keeps perspective */
 .flip-container {
     position: relative;
-    padding-bottom: 300px;
-    margin-bottom: 50px;
+    padding-bottom: 25%;
+    margin-bottom: 5%;
 }
 
 .flip-container .flipper {
@@ -428,7 +428,6 @@ h4 b {
 
 .flip-container, .front, .back {
     width: 100%;
-    
 }
 
 /* flip speed goes here */

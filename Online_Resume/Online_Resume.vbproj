@@ -365,7 +365,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Include="My Project\PublishProfiles\TonyScap %283%29.pubxml" />
+    <None Include="My Project\PublishProfiles\Azure Site.pubxml" />
     <None Include="My Project\PublishProfiles\TonyScapardine.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
