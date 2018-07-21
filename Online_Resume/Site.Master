@@ -4,6 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+   
+
     <title>Tony's Online Portfolio</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -23,7 +25,7 @@
     <link href="Scripts/fancybox/jquery.fancybox.css" rel="stylesheet" />
     <link href="Scripts/fancybox/jquery.fancybox-buttons.css" rel="stylesheet" />
     <link href="Content/Song_App.css" rel="stylesheet" />
-
+   
 </head>
 <body>
     
