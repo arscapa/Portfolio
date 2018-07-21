@@ -392,10 +392,8 @@ img#Exelon_logo {
 
 div.Charger_Main_container{
     position:relative;
-    height: 585px;
-    width: 780px;
-    display:block;
-    margin:auto;
+    display: inline-block;
+    margin-left:20%;
 }
 
 
@@ -474,16 +472,21 @@ img.play_float_right:hover {
 }
 
 
+.back_button {
+    display: list-item;
+    margin-top: 20px;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px) {
     /* For tablets: */
     #Charger_Main {
-        width: 75%;
+        width: 585px;
     }
 
-    .Charger_Main_container {
-        width: 585px;
-        height: 438px;
-    }
 
     .back {
         font-size: 65%;
@@ -497,6 +500,10 @@ img.play_float_right:hover {
         left: 35%;
         font-size: 20px;
     }
+
+    div.Charger_Main_container {
+        margin-left: 10%;
+    }
 }
 
 
@@ -504,7 +511,7 @@ img.play_float_right:hover {
 @media screen and (max-width: 750px) {
     /* For mobile phones: */
     #Charger_Main {
-        width: 55%;
+        width: 390px;
     }
 
     .back {
