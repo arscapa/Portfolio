@@ -1,4 +1,5 @@
-﻿body {
+﻿
+body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -245,10 +246,8 @@ a:focus {
     max-width: 1406px;
     min-width: 800px;
     min-height: 1000px;
-    border-radius: 10px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto;
     float: none;
 }
 
@@ -271,21 +270,25 @@ a:focus {
 
 
 .page-background {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 207px;
+    margin-left: 207px;
 }
 
 .nav_menu {
     float:left;
-    height: 542px;
     background-image: url('../Pictures/nav_menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 .nav_menu ul {
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3 10 10" width="45" height="45"><circle fill="white" cx="5" cy="5" r="2"/></svg>');
-    padding-left: 85px;
-    padding-top: 80px;
-    font-size: 22px;
+    padding-left: 73px;
+    padding-bottom: 150px;
+    font-size: 1.5em;
 }
 
 .nav_menu li:not(.active) {
@@ -320,7 +323,6 @@ a:focus {
 
 #Charger_Main {
     display:block;
-    margin:auto;
 }
 
 button.site_button {
@@ -471,3 +473,22 @@ img.play_float_right:hover {
 }
 
 
+@media only screen and (max-width: 950px) {
+    /* For mobile phones: */
+    #Charger_Main {
+        width: 75%;
+    }
+
+    .back {
+        font-size: 65%;
+    }
+
+    .flip-container .flipper {
+        transform-origin: 100% 100.5px;
+    }
+
+    #txt_overlay {
+        left: 35%;
+        font-size: 20px;
+    }
+}
