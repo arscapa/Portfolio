@@ -282,6 +282,7 @@
 
 
                 function checkAnswer(guess, answer, optionsList) {
+                    document.getElementById("search").disabled = true;
                     $('#results').fadeOut(400, function () {
                         if (guess == answer.id) {
                             //console.log("correct");
@@ -289,13 +290,14 @@
                                 $('#results').append('<input type="button" class="btn btn-primary play-again" value="Play Again"/>').children(':last').hide().fadeIn(1800, function (e) {
                                     //e.preventDefault;
                                     document.getElementsByClassName('play-again')[0].addEventListener('click', function () { playGame(optionsList[0].artists[0].name, optionsList); });
-                                    
+                                    document.getElementById("search").disabled = false;
                                 })
                             });
 
                         }
                         else {
                             //console.log("incorrect")
+                            document.getElementById("search").disabled = true;
                             $(this).html("<span class = 'incorrectX'>X</span>").fadeIn(1000, function () {
                                 $('span.incorrectX').animate({
                                     fontSize: '38px',
@@ -307,7 +309,7 @@
                                         $('#results').append('<input type="button" class="btn btn-primary play-again" value="Play Again"/>').children(':last').hide().fadeIn(1800, function (e) {
                                             document.getElementsByClassName('play-again')[0].addEventListener('click', function () { playGame(optionsList[0].artists[0].name, optionsList); });
                                         });
-
+                                        document.getElementById("search").disabled = false;
                                         //$('#results').append('<p> The correct answer is <span class="answerName">' + answer.name + '</span></p>').children(':last').hide().fadeIn(1200, function () {
 
                                         //    $('#results').append('<p>Click the button below to hear the full clip</p><p><input type="button" id="correctAnswerBtn" class="btn btn-primary playBtn" value="&#9658; Play" />').children(':last').hide().fadeIn(1000, function () {
