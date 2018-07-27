@@ -393,7 +393,7 @@ img#Exelon_logo {
 div.Charger_Main_container{
     position:relative;
     display: inline-block;
-    margin-left:20%;
+    margin-left:17%;
 }
 
 
@@ -478,23 +478,12 @@ img.play_float_right:hover {
 }
 
 
-
-
-
-@media screen and (max-width: 1000px) {
-    /* For tablets: */
+@media screen and (max-width: 1430px) {
+    /* For smaller screens: */
     #Charger_Main {
-        width: 585px;
+        width: 650px;
     }
 
-
-    .back {
-        font-size: 65%;
-    }
-
-    .flip-container .flipper {
-        transform-origin: 100% 100.5px;
-    }
 
     #txt_overlay {
         left: 35%;
@@ -507,23 +496,56 @@ img.play_float_right:hover {
 }
 
 
-
-@media screen and (max-width: 750px) {
-    /* For mobile phones: */
-    #Charger_Main {
-        width: 390px;
-    }
+@media screen and (max-width: 1350px) {
+    /* For smaller screens: */
 
     .back {
-        font-size: 55%;
+        font-size: 65%;
     }
 
     .flip-container .flipper {
         transform-origin: 100% 100.5px;
     }
 
-    #txt_overlay {
-        left: 25%;
-        font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    /* For tablets: */
+    #Charger_Main {
+        width: 585px;
     }
+
+
+    #txt_overlay {
+        left: 35%;
+        font-size: 20px;
+    }
+
+    div.Charger_Main_container {
+        margin-left: 5%;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+        /* For mobile phones: */
+        #Charger_Main {
+            width: 390px;
+        }
+
+        .back {
+            font-size: 55%;
+        }
+
+        .flip-container .flipper {
+            transform-origin: 100% 100.5px;
+        }
+
+        #txt_overlay {
+            left: 25%;
+            font-size: 15px;
+        }
 }
