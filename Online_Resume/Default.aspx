@@ -61,7 +61,7 @@
                   <ul> 
                     <li>Implemented a number of process improvements related to the month-end close process which have reduced inherent risk and created efficiencies</li>
                     <li>Participated in User Acceptance Testing (UAT) for systems integration and system conversion efforts in support of a $6.8 billion dollar merger</li>
-                    <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors to close to zero. </li>
+                    <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors. </li>
                 </ul>
             
                 <img id="headshot" src="Pictures/AboutPage/headshot.jpg" />

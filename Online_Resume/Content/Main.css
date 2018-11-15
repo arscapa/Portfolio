@@ -403,8 +403,7 @@ hr {
 }
 
 #RaspiPic {
-    border: solid 1px;
-    border-color: plum;
+    border-radius:5px;
 }
 
 h4 b {

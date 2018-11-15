@@ -265,6 +265,9 @@
     <Content Include="Pictures\Projects\Backup_Script.png" />
     <Content Include="Pictures\Projects\excel.png" />
     <Content Include="Pictures\play_button2.png" />
+    <Content Include="Pictures\Projects\pi-3.jpg" />
+    <Content Include="Pictures\Projects\pi-3b.jpg" />
+    <Content Include="Pictures\Projects\pi.png" />
     <Content Include="Pictures\Projects\raspberry-pi-logo.png" />
     <Content Include="Pictures\Projects\spotify-green.png" />
     <Content Include="Pictures\Projects\spotify-top-image.png" />
