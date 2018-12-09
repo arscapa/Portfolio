@@ -78,13 +78,13 @@
                     <li class="skill_barPRO" style="background-color:#1CDCFF">HTML/CSS
                         <span class="skill_level">PRO</span>
                     </li>
-                      <li class="skill_barPRO" style="background-color:#7CD14E">Javascript
+                      <li class="skill_barPRO" style="background-color:#7CD14E">JAVASCRIPT/JQUERY
                         <span class="skill_level">PRO</span>
                     </li>
-                      <li class="skill_barADVANCED" style="background-color:#00008B">JQUERY
+                      <li class="skill_barADVANCED" style="background-color:#00008B">C++
                         <span class="skill_level">ADVANCED</span>
                     </li>
-                     <li class="skill_barINT" style="background-color:#990033">Python
+                     <li class="skill_barINT" style="background-color:#990033">PYTHON
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
