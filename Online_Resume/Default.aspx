@@ -99,7 +99,7 @@
         
               <ul>
                 <li>Intermediate HTML</li>
-                <li>Graduate Level Algorithms</li>
+                <li>Algorithms and Data Structures</li>
                 <li>Computer Programming for Business</li>
                  <li>Advanced Business Systems Analysis</li>
                 <li>Accounting Information Systems</li>
