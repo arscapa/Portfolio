@@ -39,10 +39,12 @@
               <div id="About_Me" class="active">
             <hr />
             <h2>Anthony Scapardine, CPA</h2>
-            <p class="quote"><b>Chicago based CPA, developer, programmer and jack-of-all trades</b></p>
+            <p class="quote"><b>Continuously striving to breakdown processes to develop innovative solutions and create efficiencies.</b></p>
                 
                   <p> Began my career as a Staff Accountant with Exelon where my knowledge of programming & systems has allowed me to utilize technology in order to drastically
-                      increase my productivity. I've since moved on to a Financial Systems Analyst position where I look to further my knowledge in the field. I'm currently working towards a Masters in Computer Science and outside of this I'm a big DIY'er and have a passion for the automotive industry. Take a look around at some of the projects I've worked on over the years!
+                      increase my productivity. I've since moved on to a position as a Financial Systems Analyst where I look to further my knowledge in the field. 
+                      I'm currently working towards obtaining a Masters Degree and in my free time I enjoy tackling DIY projects and consider myself a passionate gearhead. 
+                      Take a look around at some of the projects I've worked on over the years!
                 </p>
                   <hr />
             
@@ -51,19 +53,23 @@
             
                   <h4> Financial Systems Analyst </h4> 
                   <ul> 
-                    <li>Document and perform custom configuration & implementation of system fixes, updates and enhancements</li>
-                    <li>Provide Treasury/Accounting application support & training</li>
-                    <li>Facilitate business process improvement through the use of technology</li>
-                    <li>Assisted in a successfull post-merger integration cutover plan and provided post-implementation support</li>
-                    <li>Construct SQL Queries to perform research and pull data from database</li>
+                    <li>Automated through scripting a highly manual process saving an estimated 65 hrs. per year</li>
+                    <li>Implemented Money Pool related system configuration saving an estimated $4,400/yr.</li>
+                    <li>Won Q3 Employee Recognition Award & finished 2nd Place in Controllership Innovation Expo</li>
+                    <li>Serve as SME providing application support and training to Treasury and Cash Accounting</li>
                       </ul>
                     <h4> Staff Accountant </h4> 
                   <ul> 
-                    <li>Implemented a number of process improvements related to the month-end close process which have reduced inherent risk and created efficiencies</li>
-                    <li>Participated in User Acceptance Testing (UAT) for systems integration and system conversion efforts in support of a $6.8 billion dollar merger</li>
-                    <li>Standardized and improved spreadsheets used in monthly entries cutting preparation time in half and reducing spreadsheet related errors. </li>
+                    <li>Eliminated multiple monthly journal entries saving 10-20 hours a month of work</li>
+                    <li>Compiled and reviewed forecast and budget for several departments</li>
+                    <li>Lead monthly revenue and balance sheet review meetings</li>
                 </ul>
-            
+               <h4> Associate Staff Accountant </h4> 
+                  <ul> 
+                    <li>Processed monthly billing templates and cost allocations to business units</li>
+                    <li>Participated in UAT for systems integration in support of a $6.8 billion merger</li>
+                    <li>Perform variance analysis and fulfill ad hoc requests for internal and external sources</li>
+                </ul>
                 <img id="headshot" src="Pictures/AboutPage/headshot.jpg" />
             
             <div id="trigger3"></div>
@@ -92,11 +98,15 @@
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                 </ul>
-                  -Certified Wallstreet Suite v7 Business Consultant
-                             <br />
-                        <br />
-                     <h4>Notable Coursework</h4>
-        
+
+                  <h2>Certifications</h2>
+                <ul>
+                  <li>Certified Public Accountant</li>
+                  <li>Certified Wallstreet Suite v7 Business Consultant</li>
+                  <li>Azure Fundamentals Certification</li>
+                </ul>
+                      
+                     <h2>Notable Coursework</h2>
               <ul>
                 <li>Intermediate HTML</li>
                 <li>Algorithms and Data Structures</li>

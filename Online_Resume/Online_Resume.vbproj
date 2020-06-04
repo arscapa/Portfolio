@@ -370,13 +370,13 @@
     </None>
     <None Include="My Project\PublishProfiles\Azure Site.pubxml" />
     <None Include="My Project\PublishProfiles\TonyScapardine.pubxml" />
+    <Content Include="RESUME.docx" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="ProjectFiles.zip" />
-    <Content Include="RESUME.docx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\Main.css" />
     <Content Include="Pictures\Banner_Image6.png" />
