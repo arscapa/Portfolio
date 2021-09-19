@@ -60,7 +60,6 @@
                       </ul>
                     <h4> Staff Accountant </h4> 
                   <ul> 
-                    <li>Eliminated multiple monthly journal entries saving 10-20 hours a month of work</li>
                     <li>Compiled and reviewed forecast and budget for several departments</li>
                     <li>Lead monthly revenue and balance sheet review meetings</li>
                 </ul>
@@ -87,25 +86,35 @@
                       <li class="skill_barPRO" style="background-color:#7CD14E">JAVASCRIPT/JQUERY
                         <span class="skill_level">PRO</span>
                     </li>
-                      <li class="skill_barADVANCED" style="background-color:#00008B">C++
+                      <li class="skill_barADVANCED" style="background-color:#00008B">SQL
                         <span class="skill_level">ADVANCED</span>
                     </li>
                      <li class="skill_barINT" style="background-color:#990033">PYTHON
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                      
-                      <li class="skill_barINT" style="background-color:darkslateblue">SQL
+                      <li class="skill_barINT" style="background-color:darkslateblue">C++
                         <span class="skill_level">INTERMEDIATE</span>
                     </li>
                 </ul>
 
                   <h2>Certifications</h2>
-                <ul>
-                  <li>Certified Public Accountant</li>
-                  <li>Certified Wallstreet Suite v7 Business Consultant</li>
-                  <li>Azure Fundamentals Certification</li>
-                </ul>
-                      
+                   <img src="Pictures/Badges/CPA_Badge.png" title="Certified Public Accontant" width="100" height="100"/>
+                   <a href="https://www.credly.com/badges/d641e61e-d822-4118-9f24-969d65f535c4/linked_in_profile" target="_blank">
+                   <img src="Pictures/Badges/az900.png" title="Microsoft Azure Fundamentals (AZ900)" width="100" height="100"/></a>
+                   
+                  <a href="https://www.credly.com/badges/4a2ef83f-6648-4050-a01d-ef718d51f9f5/linked_in_profile" target="_blank">
+                  <img src="Pictures/Badges/az500.png" title="Microsoft Azure Security Engineer (AZ500)" /></a>
+
+
+                  <a href="https://www.credly.com/badges/db590d30-4be4-4800-9d62-6096c45ef375?source=linked_in_profile" target="_blank">
+                  <img src="Pictures/Badges/CompTIA_Security.png" title="CompTIA Security+" /></a>
+
+          
+                  <img src="Pictures/Badges/WSS.png" title="Certified Wallstreet Suite v7 Business Consultant" />                 
+                
+
+                
                      <h2>Notable Coursework</h2>
               <ul>
                 <li>Intermediate HTML</li>
