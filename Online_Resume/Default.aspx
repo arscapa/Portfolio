@@ -22,7 +22,7 @@
                 <li><span class ="nav_span"><a href="Websites.html">Websites</a></span></li>
                 <li><span class ="nav_span"><a href="Code_Samples.html">Code Samples</a></span></li>
             </ul>
-          
+           
         </div>
 <%--    //** END NAVIGATION MENU ***--%>
 
