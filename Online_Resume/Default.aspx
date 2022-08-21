@@ -111,6 +111,9 @@
                   <img src="Pictures/Badges/CompTIA_Security.png" title="CompTIA Security+" /></a>
 
           
+                  <a href="https://www.credly.com/earner/earned/badge/86d6c745-a483-4efd-9d74-bb6319aefadb" target="_blank">
+                  <img src="Pictures/Badges/network.png" title="CompTIA Network+" /></a>
+
                   <img src="Pictures/Badges/WSS.png" title="Certified Wallstreet Suite v7 Business Consultant" />                 
                 
 

@@ -249,6 +249,7 @@
     <Content Include="Image_Gallery.html" />
     <Content Include="Pictures\AboutPage\headshot.jpg" />
     <Content Include="Pictures\AboutPage\ISU_Bird.jpg" />
+    <Content Include="Pictures\Badges\network.png" />
     <Content Include="Pictures\Badges\Security.png" />
     <Content Include="Pictures\Badges\WSS.png" />
     <Content Include="Pictures\Code_Samples\jsfiddle.jpg" />
