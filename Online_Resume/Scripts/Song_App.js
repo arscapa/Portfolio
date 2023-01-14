@@ -7,7 +7,8 @@
         //console.log(returnURL);
 
         //Parse token from URL
-        var token = returnURL.substr(returnURL.indexOf('access_token=') + 13, returnURL.indexOf('&')-14);
+        var token = returnURL.substr(returnURL.indexOf('access_token=') + 13, returnURL.indexOf('&') - 14);
+       // console.log(token);
         
        
         window.location = "Default.aspx#Song_App"
@@ -23,14 +24,14 @@
             //Authenticate user if user has not been issued token (Implicit Grant Flow)
             if (typeof token === 'undefined') {
 
-                var clientID = "437ec62d47fa46a19a39c981164b2b92";
+                var clientID = "3952c1f351bc4a0088540aa5689ec8b1";
                 var responseType = "token";
                 var showDialog = false;
                 var redirectURI = encodeURIComponent("http://localhost:56515/Default.aspx#Song_App");
 
 
                 window.location = "https://accounts.spotify.com/authorize?client_id=" + clientID + "&response_type=" + responseType + "&show_dialog=" + showDialog + "&redirect_uri=" + redirectURI;
-
+               // console.log(window.location);
 
             } else {
 
@@ -107,7 +108,7 @@
                             }
                         },
                         error: function (xhr, textStatus, errorThrown) {
-                            //console.log('request failed->' + textStatus);
+                            console.log('request failed->' + textStatus);
                             results.innerHTML = "Please enter an artist to search ";
                         }
                     });
